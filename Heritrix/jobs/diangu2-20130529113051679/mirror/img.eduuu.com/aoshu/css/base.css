@@ -1,0 +1,100 @@
+/* 公共奥数站基础样式 [20130421 11:35:26] */
+@charset "gb2312";
+/* CSS Document */
+
+/*-----------------------------------------初始化样式------------------------------------------*/
+body,html{padding:0; margin:0 auto; background-color:#FFF;}
+img{ border:none;}
+h1,h2,h3,h4,h5,h6,hr,blockquote,form,ul,ol,li,p,pre,dl,dt,dd,fieldset,legend,button,input,textarea,th,td{ padding:0; margin:0;}
+ul,ol,li{ list-style:none;}
+sup{ vertical-align:text-top;}
+sub{ vertical-align:text-bottom;}
+legend { color:#000;}
+fieldset{ border:0;} 
+button,input,select,textarea { font-size:100%;}
+table{ border-collapse:collapse; border-spacing:0;}
+.clear{ clear:both; line-height:0px; font-size:0px;}
+.clearfix:after{ content:".";display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block;overflow:hidden;}
+.left{ float:left; _display:inline;}
+.right{ float:right;}
+.hr_10{ clear:both; height:10px; overflow:hidden; font-size:1px; line-height:1px;}
+
+/*------------------------------------------字体样式-------------------------------------------*/
+body,button,input,select,textarea{ font-family:"宋体"; color:#000; font-size:12px;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+address,cite,dfn,em,var{ font-style:normal }
+code,kbd,pre,samp{ font-family:courier new, courier, monospace;}
+small{ font-size:12px;}
+a{ color:#000; text-decoration:none;}
+a:hover{ color:#c00; text-decoration:underline;}
+
+/*-----------------------------------------全局元素布局----------------------------------------*/
+.topMargin5{ margin-top:5px;}
+.topMargin10{ margin-top:10px;}
+.topMargin15{ margin-top:15px;}
+.topMargin20{ margin-top:20px;}
+.leftMargin5{ margin-left:5px;}
+.leftMargin9{ margin-left:9px;}
+.leftMargin10{ margin-left:10px;}
+.botMargin15{ margin-bottom:15px;}
+.topPadding4{ padding-top:4px;} 
+.wrapper{ width:950px; margin:0 auto;}
+.borderSer{ border:1px solid #E3E3E3;}
+
+/*公共链接样式*/
+a.white:link,a.white:visited{ color:#fff;}
+a.white:hover{ color:#fff;}
+a.white:active{ color:#fff;}
+a.red:link,a.red:visited{ color:#c00;}
+a.red:hover{ color:#c00;}
+a.red:active{ color:#c00;}
+.greeQ a:link,.greeQ a:visited{ color:#348B16;}
+.greeQ a:hover{ color:#348B16;}
+.greeQ a:active{ color:#348B16;}
+a.greeS:link,a.greeS:visited{ color:#176100;}
+a.greeS:hover{ color:#176100;}
+a.greeS:active{ color:#176100;}
+
+/*服务中心*/
+.tabTitSer{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/service_tit.gif) repeat-x; height:24px; line-height:24px; font-size:14px; padding-left:10px; width:938px;}
+.tabTitSer li{ float:left; padding:0 10px; border-left:1px solid #EAEAEA; cursor:pointer;}
+.tabTitSer li.onSer{ background:#fff; font-weight:bold;}
+.tabTitSer li.last{ border-right:1px solid #EAEAEA;}
+.serInfo{ display:none;}
+.serPy{ padding:10px;}
+
+.fl_tit{ background:url(http://img.eduuu.com/edu/images/friendlinkbg.gif) repeat-x; height:24px; border-right:1px solid #D2DBDD;}
+.fl_tit h2{ background:url(http://img.eduuu.com/edu/images/friendlink_tit.gif) repeat-x; height:23px; border:1px solid #1A5189; border-bottom:none; width:70px; text-align:center; color:#fff; line-height:23px;}
+.fl_cont{ border:1px solid #D2DBDD; padding:10px; line-height:20px; word-spacing:5px;}
+.fl_cont img{ width:88px; height:30px; margin:0 22px 8px;}
+.fl_cont a.disNone{ display:none;}
+
+.xq_tel{ text-align:center; padding:15px 0 20px 0}
+.xql{ float:left; width:382px; padding-left:16px}
+.xqc{ float:left; width:251px; padding-left:16px}
+.xqr{ float:left; width:250px; padding-left:16px; padding-bottom:5px}
+.xq_main li{ float:left; display:block; width:125px;line-height:23px;}
+.xq_main .xq_tit{  background:url(http://img.eduuu.com/jiajiao/images/erping/xq-tit.gif) no-repeat left; color:#fff; font-weight:bold; padding:4px 11px 2px 4px;line-height:18px;float:none;width:auto;}
+.xq_main .xqr li{line-height:23px;}
+
+.serBsc{ width:290px; float:left; padding:15px 0 0 20px;}
+.serBsc dt{ background:url(http://img.eduuu.com/jiajiao/images/erping/xq-tit.gif) no-repeat; height:19px; line-height:19px;margin-bottom:5px;}
+.serBsc dt span{ width:64px; text-align:center; color:#fff; display:block;}
+.serBsc dd{ line-height:24px; min-height:84px; _height:84px;}
+
+#kbdy{ padding-top:14px; height:29px;}
+#kbdy .kbdybox{ width:640px; _width:675px; position:relative; margin:0 auto;}
+*+html #kbdy .kbdybox{ width:675px;}
+#kbdy em{ background:url(http://img.eduuu.com/edu/new_images/kbdy_icon.gif) no-repeat 0 45%; text-indent:15px; display:block; color:#1F376D; line-height:19px; float:left; margin-right:5px;}
+#kbdy form{ float:left; padding-top:2px;}
+*+html #kbdy form{ padding-top:0;}
+#kbdy input{ vertical-align:middle; margin:-3px 5px 0;}
+#kbdy img{ position:absolute; top:0px; right:0; _top:0px; display:block;}
+*+html #kbdy img{ top:-2px;}
+#kbdy .kbdy_input{ width:168px; height:17px;border:1px solid #D2DBDD;}
+
+#footer{ text-align:center; line-height:22px; border-top:1px solid #E8E8E8; padding-top:10px;}
+/*返回顶部*/
+*html,*htmlbody/*修正IE6振动bug*/{background-image:url(about:blank);background-attachment:fixed;}
+#back-to-top{ background:url(http://img.eduuu.com/website/gaokao/images/contList/btn_back.gif) no-repeat 50% 0; width:30px; height:91px; position:fixed; bottom:102px; display:block; line-height:999px; overflow:hidden; cursor:pointer; left:50%; margin-left:475px;_position:absolute;_right:auto;_left:expression(eval(document.documentElement.scrollLeft+705));_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||100)));}

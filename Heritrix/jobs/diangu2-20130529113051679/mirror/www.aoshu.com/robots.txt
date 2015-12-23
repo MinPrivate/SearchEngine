@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /%E5%A5%A5%E6%95%B0/
+Disallow: /°ÂÊý/
+Disallow: /test/
+Disallow: /beiyong/
+Disallow: /tnwhz/
+Disallow: /zxcs/
+Disallow: /website/

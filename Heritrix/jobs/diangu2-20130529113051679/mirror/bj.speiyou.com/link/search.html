@@ -1,0 +1,221 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title></title>
+<link href='http://img.eduuu.com/aoshu/css/base.css' type='text/css' rel='stylesheet' />
+<link href='http://img.eduuu.com/aoshu/css/index_layout.css' type='text/css' rel='stylesheet' />
+<script src="/js/jquery1.6.js" language="javascript"></script>
+<script language="javascript">
+function myfocus(){
+	var tname = $('#baomingTeacherName').val()
+	if(tname == '老师姓名'){
+		$('#baomingTeacherName').attr('value','');
+	}
+}
+function myblur(){
+	var tname = $('#baomingTeacherName').val()
+	if(tname==''){
+		$('#baomingTeacherName').attr('value','老师姓名');
+	}
+}
+function trim(){
+	return this.replace(/\s+$|^\s+/g,"");
+}
+function submitBaomingSearch() {
+	var baomingGradeInfo   = $('select[name="baomingGradeSelect"]').attr('value');
+	var baomingSubjectInfo = $('select[name="baomingSubjectSelect"]').attr('value');
+	var baomingAreaInfo    = $('select[name="baomingAreaSelect"]').attr('value');
+	var baomingTeacherInfo = $('input[name="baomingTeacherName"]').attr('value');
+	var baomingLevelInfo   = $('select[name="baomingLevelSelect"]').attr('value');
+	var baomingTermInfo    = $('select[name="baomingTermSelect"]').attr('value');
+	if(baomingTeacherInfo == '老师姓名'){
+		baomingTeacherInfo = '';
+	}
+	if((baomingGradeInfo == "") && (baomingTeacherInfo == '')){
+		alert("请选择年级");
+		return false;
+	}
+	if($('select[name="baomingGradeSelectExt"]') && (baomingGradeInfo == '111')){
+		var baomingGradeInfo = $('select[name="baomingGradeSelectExt"]').attr('value');
+	}
+	if(baomingSubjectInfo){
+	} else {
+		baomingSubjectInfo = '';
+	}
+	if(baomingTeacherInfo != ''){
+		var baomingSearchUrl = "http://bj.speiyou.com/teachers/search/tname:"+baomingTeacherInfo;
+	}else{
+		var baomingSearchUrl = "http://bj.speiyou.com/search/index/term:" + baomingTermInfo + "/grade:" + baomingGradeInfo + "/subject:" + baomingSubjectInfo + "/area:" + baomingAreaInfo + "/level:" + baomingLevelInfo + "/tname:" + baomingTeacherInfo + "/status:";
+	}
+	window.open(baomingSearchUrl);
+}
+function getchild(id, val){
+	if(id != "" && val == '111'){
+		var string  = '<option value="ff80808127f671e40127f67ff5ff002c">剑少一级</option>';
+		string += '<option value="ff80808127f671e40127f67d9f900020">剑少二级</option>';
+		string += '<option value="ff80808127f671e40127f67e77100025">剑少三级</option>';
+		string += '<option value="ff8080813dc59bc8013dd3ddc09119e3">新概念一册</option>';
+		string += '<option value="ff8080813dc59bc8013dd3dde73519e5">新概念二册</option>';
+		string += '<option value="ff80808127fabe0c0127fae69bc1004a">考试类</option>';
+		$("#baomingSubjectSelect").attr("name", id+"Ext");
+		$("#baomingLevelSelect").hide();
+		$("#baomingSubjectSelect").html(string);
+	} else {
+		if($('select[name="baomingGradeSelectExt"]')){
+			$("#baomingGradeSelectExt").remove();
+			var string  = '<option value="" >请选择科目</option>';
+			string += '<option value="ff80808127d77caa0127d7e10f1c00c4" >数学</option>';
+			string += '<option value="ff80808127d77caa0127d7e13be500c6" >语文</option>';
+			string += '<option value="ff80808127d77caa0127d7e164bd00c8" >英语</option>';
+			string += '<option value="ff80808127d77caa0127d7e199bc00cb" >物理</option>';
+			string += '<option value="ff80808127d77caa0127d7e1e29c00ce" >化学</option>';
+			string += '<option value="ff80808127d77caa0127d7e2117700d0" >生物</option>';
+			string += '<option value="ff8080812d70435f012d873901e90257" >数英</option>';
+			$("#baomingSubjectSelect").show();
+			$("#baomingLevelSelect").show();
+			$("#baomingSubjectSelect").html(string);
+		}
+	}
+}
+function getlevel(grade, subject){
+		var string  = '<option value="" >请选择班次</option>';
+		//如果是英语
+		if(grade <= 3 && subject == 'ff80808127d77caa0127d7e164bd00c8'){
+			string += '<option value="5" >剑少</option>';
+			string += '<option value="7" >考试</option>';
+			string += '<option value="8" >其它</option>';
+		} else if((grade == 4 || grade == 5 )&& subject == 'ff80808127d77caa0127d7e164bd00c8'){
+			string += '<option value="6" >新概念</option>';
+			string += '<option value="7" >考试</option>';
+			string += '<option value="8" >其它</option>';
+		} else if(grade >= 6 && subject == 'ff80808127d77caa0127d7e164bd00c8'){
+			string += '<option value="1" >基础</option>';
+			string += '<option value="2" >提高</option>';
+			string += '<option value="3" >尖子</option>';
+			string += '<option value="4" >目标</option>';
+			string += '<option value="5" >剑少</option>';
+			string += '<option value="6" >新概念</option>';
+			string += '<option value="7" >考试</option>';
+			string += '<option value="8" >其它</option>';
+		} else if(grade != '' && subject == ''){
+			if($grade <= 3){
+				string += '<option value="1" >基础</option>';
+				string += '<option value="2" >提高</option>';
+				string += '<option value="3" >尖子</option>';
+				string += '<option value="5" >剑少</option>';
+				string += '<option value="8" >其它</option>';
+			}
+			if(grade == 4 || grade == 5){
+				string += '<option value="1" >基础</option>';
+				string += '<option value="2" >提高</option>';
+				string += '<option value="3" >尖子</option>';
+				string += '<option value="5" >剑少</option>';
+				string += '<option value="6" >新概念</option>';
+				string += '<option value="8" >其它</option>';
+			}
+			if(grade >= 6){
+				string += '<option value="1" >基础</option>';
+				string += '<option value="2" >提高</option>';
+				string += '<option value="3" >尖子</option>';
+				string += '<option value="4" >目标</option>';
+				string += '<option value="8" >其它</option>';
+			}
+			//如果是数学
+		} else if(grade != '' && subject == 'ff80808127d77caa0127d7e10f1c00c4'){
+			string += '<option value="1" >基础</option>';
+			string += '<option value="2" >提高</option>';
+			string += '<option value="3" >尖子</option>';
+			string += '<option value="8" >其它</option>';
+			string += '<option value="9" >竞赛</option>';
+		} else {
+			string += '<option value="1" >基础</option>';
+			string += '<option value="2" >提高</option>';
+			string += '<option value="3" >尖子</option>';
+			string += '<option value="4" >目标</option>';
+			string += '<option value="8" >其它</option>';
+		}
+		$("#baomingLevelSelect").html(string);
+}
+</script>
+</head>
+<body>
+<div id="searchbox2" class="wrapper">
+	<!--课程查询-->
+    <ul>
+    	<li class="name">课程查询</li>
+        <li>&nbsp;
+			<select name="baomingTermSelect" id="baomingTermSelect">
+			<option value="2">&nbsp;暑期班&nbsp;</option>
+				<option value="4">&nbsp;寒假班&nbsp;</option>
+				<option value="1">&nbsp;春季班&nbsp;</option>
+				<option value="3">&nbsp;秋季班&nbsp;</option>
+			  	<option value="5">&nbsp;短期班&nbsp;</option>
+			  	<option value="6">&nbsp;活动类&nbsp;</option>
+				<option value="ff8080812eb4e425012ebd619d0f0a49" >&nbsp;考试类&nbsp;</option>
+				<option  value="7">&nbsp;春暑班&nbsp;</option>
+        		<option  value="8">&nbsp;秋寒班&nbsp;</option>
+            </select>
+        </li>
+        <li>&nbsp;
+			<select name="baomingGradeSelect" id="baomingGradeSelect" onchange="javascript:getchild(this.id, this.value);">
+			  	<option value="">请选择年级</option>
+			  	<option value="1">小学一年级</option>
+			  	<option value="2">小学二年级</option>
+			  	<option value="3">小学三年级</option>
+			  	<option value="4">小学四年级</option>
+			  	<option value="5">小学五年级</option>
+			  	<option value="6">小学六年级</option>
+			    <option value="111" style="color:#e60000">乐加乐小学英语专区</option>
+                <option value="7">初中一年级</option>
+                <option value="8">初中二年级</option>
+                <option value="9">初中三年级</option>
+                <option value="10">高中一年级</option>
+                <option value="11">高中二年级</option>
+                <option value="12">高中三年级</option>
+            </select>
+        </li>
+        <li>&nbsp;
+        <select name="baomingSubjectSelect" id="baomingSubjectSelect" onchange="javascript:getlevel($('#baomingGradeSelect').val(),this.value);">
+        <option value="">请选择学科</option>
+        <option value="ff80808127d77caa0127d7e10f1c00c4">数学</option>
+        <option value="ff80808127d77caa0127d7e164bd00c8">英语</option>
+        <option value="ff80808127d77caa0127d7e13be500c6">语文</option>
+        <option value="ff80808127d77caa0127d7e199bc00cb">物理</option>
+        <option value="ff80808127d77caa0127d7e1e29c00ce">化学</option>
+        <option value="ff80808127d77caa0127d7e2117700d0">生物</option>
+		<option value="ff8080812d70435f012d873901e90257">数英</option>
+        </select>
+        </li>
+        <li id="t4">&nbsp;
+        <select name="baomingAreaSelect" id="baomingAreaSelect">
+            <option value="">请选择区域</option>
+			<option value="52b38a2c22ce6c7f0122cf80b7290534">石景山区</option>
+			<option value="52b38a2c22ce6c7f0122cf7f9bab0531">海淀区-北三环</option>
+			<option value="52b38a2c22ce6c7f0122cf807f7a0533">海淀区-万柳</option>
+			<option value="52b38a2c22cf94dd0122cfad0c3800d4">海淀区-公主坟</option>
+			<option value="52b38a2c22ce6c7f0122cf81884b054b">海淀区-上地</option>
+			<option value="52b38a2c22cf94dd0122cfb0910200ec">海淀区-白石桥</option>
+			<option value="52b38a2c22ce6c7f0122cf80423c0532">海淀区-中关村</option>
+			<option value="52b38a2c22cf94dd0122cfb0f5b600f6">朝阳区-亚运村</option>
+			<option value="52b38a2c22cf94dd0122cfb00bce00ea">朝阳区-朝阳门</option>
+			<option value="52b38a2c22cf94dd0122cfb0517500eb">西城区</option>
+			<option value="52b38a2c22cf94dd0122cfb1e89b00f7">宣武、朝阳、丰台</option>
+			<option value="ff8080812fc298b5012fd98a3eac3d43">房山区</option>
+			<option value="ff8080812fc298b5012fd98a6bef3d44">丰台区</option>
+			<option value="ff8080812fc298b5012fd98a944c3d46">大兴区</option>
+			<option value="ff8080812fc298b5012fd98ab3e63d47">通州区</option>
+			<option value="402881602408200401243d4b69d67964">其他地区</option>
+        </select>
+		</li>
+        <li>&nbsp;
+        <select name="baomingLevelSelect" id="baomingLevelSelect">
+        <option value="">请选择班次</option>
+        </select>
+        </li>
+        <li>&nbsp;老师姓名：<input type="text" class="inputbox2" id="baomingTeacherName" name="baomingTeacherName" value="老师姓名" onfocus="myfocus();" onblur="myblur();" ></li>
+        <li><input type="image" class="btn_search" src="http://img.eduuu.com/aoshu/index/images/btn_search.gif" onclick="submitBaomingSearch();"></li>
+    </ul>
+</div>
+</body>
+</html>

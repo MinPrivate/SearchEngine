@@ -1,0 +1,80 @@
+/* 新版基础样式 [20120703 14:43:02] */
+@charset "gb2312";
+/* CSS Document */
+
+/*-----------------------------------------初始化样式------------------------------------------*/
+body,html{ padding:0; margin:0 auto; background-color:#fff; line-height:24px;}
+img{ border:none; display:block;}
+h1,h2,h3,h4,h5,h6,hr,blockquote,form,ul,ol,li,p,pre,dl,dt,dd,fieldset,legend,button,input,textarea,th,td{ padding:0; margin:0;}
+ul,ol,li{ list-style:none;}
+sup{ vertical-align:text-top;}
+sub{ vertical-align:text-bottom;}
+legend { color:#000;}
+fieldset{ border:0;} 
+em,i{ font-style:normal;}
+button,input,select,textarea { font-size:100%;}
+table{ border-collapse:collapse; border-spacing:0;}
+.clear{ clear:both; line-height:0px; font-size:0px;}
+.clearfix:after{ content:".";display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block;overflow:hidden;}
+.left{ float:left; _display:inline;}
+.right{ float:right;}
+.hr_10{ clear:both; height:10px; overflow:hidden; font-size:1px; line-height:1px;}
+
+/*------------------------------------------字体样式-------------------------------------------*/
+body,button,input,select,textarea{ font-family:"宋体"; color:#000; font-size:12px;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+address,cite,dfn,em,var{ font-style:normal }
+code,kbd,pre,samp{ font-family:courier new, courier, monospace;}
+small{ font-size:12px;}
+.bold{ font-weight:bold;}
+.ft14{ font-size:14px;}
+.ft16{ font-size:16px;}
+a{ color:#000; text-decoration:none;}
+a:hover{ color:#CC0000; text-decoration:underline;}
+a.red:link,a.red:visited{ color:#B70B00;}
+a.red:hover{ color:#B70B00;}
+a.red:active{ color:#B70B00;}
+a.white:link,a.white:visited{ color:#fff;}
+a.white:hover{ color:#fff;}
+a.white:active{ color:#fff;}
+ 
+/*-----------------------------------------全局元素布局----------------------------------------*/
+.topMargin5{ margin-top:5px;}
+.topMargin10{ margin-top:10px;}
+.topMargin15{ margin-top:15px;}
+.topMargin20{ margin-top:20px;}
+.leftMargin5{ margin-left:5px;}
+.leftMargin10{ margin-left:10px;}
+.bottomMargin5{ margin-bottom:5px;}
+.bottomMargin10{ margin-bottom:10px;}
+.rightMargin10{ margin-right:15px;}
+.wrapper{ width:950px;margin:0 auto;}
+.center{ text-align:center;}
+
+/*头部样式*/
+
+/*服务中心*/
+/*part_d*/
+.part_d{ border:1px solid #E5E5E5; width:948px; margin:0 auto;}
+.part_d .hd{ background:url( http://img.eduuu.com/zhongkao/images/title_bg.gif) repeat-x; height:24px; line-height:24px; padding-left:10px; font-weight:normal;}
+.part_d .hd a{color:#333;font-size:12px;font-weight:bold}
+.part_d_inner{ padding:10px;}
+/*友情链接*/
+.fl_tit{ background:url(http://img.eduuu.com/edu/images/friendlinkbg.gif) repeat-x; height:24px; border-right:1px solid #D2DBDD;}
+.fl_tit h2{ background:url(http://img.eduuu.com/edu/images/friendlink_tit.gif) repeat-x; height:23px; border:1px solid #1A5189; border-bottom:none; width:70px; text-align:center; color:#fff; line-height:23px;}
+.fl_cont{ border:1px solid #D2DBDD; padding:10px; line-height:20px; word-spacing:5px;}
+.fl_cont a.disNone{ display:none;}
+/*尾部样式*/
+#kbdy{ padding:10px 0 5px 0; height:29px;}
+#kbdy .kbdybox{ width:640px; _width:675px; position:relative; margin:0 auto;}
+*+html #kbdy .kbdybox{ width:675px;}
+#kbdy em{ background:url(http://img.eduuu.com/edu/new_images/kbdy_icon.gif) no-repeat 0 45%; text-indent:15px; display:block; color:#1F376D; line-height:19px; float:left; margin:5px 5px 0 0; *margin:3px 5px 0 0;  _margin:5px 5px 0 0;}
+#kbdy form{ float:left; padding-top:2px;}
+*+html #kbdy form{ padding-top:0;}
+#kbdy input{ vertical-align:middle; margin:-3px 5px 0;}
+#kbdy img{ position:absolute; top:4px; right:0;   _top:0px; display:block;}
+*+html #kbdy img{ top:1px;}
+#kbdy .kbdy_input{ width:168px; height:17px;border:1px solid #D2DBDD;}
+
+#footer{ text-align:center; line-height:22px; border-top:1px solid #E8E8E8; padding-top:10px;}

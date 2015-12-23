@@ -1,0 +1,121 @@
+  <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /><title>家教网_智康1对1</title>
+<link href="/css/main.css"  type='text/css' rel='stylesheet' />
+</head>
+ 
+<body>
+  <!--body开始-->
+    <script type="text/javascript" src="/js/jquery-1.3.2.min.js"></script>
+<script type="text/javascript">
+function submitJiabaobanSearch()
+{
+	var kemu = $('#kemu').val();
+	var nianji = $('#nianji').val();
+	var xuequ = $('#xuequ').val();
+	var teachername = $('#teachername').val();
+	var jiabaobanSearchUrl = "/searchs/search/tuiguang:/kemu:" + kemu + "/nianji:" + nianji + "/xuequ:" + xuequ + "/teachername:" + teachername;
+	window.open(jiabaobanSearchUrl);
+}
+</script> 
+<div class="search2_bar">
+  <ul>
+    <li><strong>课程搜索：</strong></li>
+    <li>
+		 <select name="kemu" id="kemu" style="width:100px;">
+	      	<option value="" >请选择学科</option>
+	      		      	<option value="2" >英语</option>
+	      		      	<option value="3" >物理</option>
+	      		      	<option value="4" >化学</option>
+	      		      	<option value="5" >语文</option>
+	      		      	<option value="1613" >数学</option>
+	      		      	<option value="1988" >生物</option>
+	      		      	<option value="2354" >历史</option>
+	      		      	<option value="2355" >地理</option>
+	      		      	<option value="2356" >政治</option>
+	      		      </select>
+    </li>
+    <li>
+      <select name="nianji" id="nianji" style="width:120px;">
+	  		<option value="" >请选择年级</option>
+	      	<option value="1" >小学一年级</option>
+	      	<option value="2" >小学二年级</option>
+	      	<option value="3" >小学三年级</option>
+	      	<option value="4" >小学四年级</option>
+	      	<option value="5" >小学五年级</option>
+	      	<option value="6" >小学六年级</option>
+	      	<option value="7" >初中一年级</option>
+	      	<option value="8" >初中二年级</option>
+	      	<option value="9" >初中三年级</option>
+	      	<option value="10" >高中一年级</option>
+	      	<option value="11" >高中二年级</option>
+	      	<option value="12" >高中三年级</option>
+	    </select>
+    </li>
+    <li>
+      <select name="xuequ" id="xuequ" style="width:120px;">
+	  　		<option value="" >请选择校区</option>
+	      		      	<option value="c1aa6e9e-400f-11e0-9f72-e41f1361"> 白石桥</option>
+	      		      	<option value="c1b001ce-400f-11e0-9f72-e41f1361"> 大屯</option>
+	      		      	<option value="c1b2fa8c-400f-11e0-9f72-e41f1361"> 志新桥</option>
+	      		      	<option value="c1b5949a-400f-11e0-9f72-e41f1361"> 玉泉路</option>
+	      		      	<option value="c1bb0524-400f-11e0-9f72-e41f1361"> 昌平</option>
+	      		      	<option value="c1bde208-400f-11e0-9f72-e41f1361"> 上地</option>
+	      		      	<option value="c1c33f32-400f-11e0-9f72-e41f1361"> 和平门</option>
+	      		      	<option value="c1c65ee2-400f-11e0-9f72-e41f1361"> 平安里</option>
+	      		      	<option value="ff8080812865f0a2012871d6a7930c5a"> 公主坟</option>
+	      		      	<option value="ff8080812865f0a2012871ee86540d79"> 天行建</option>
+	      		      	<option value="ff8080812865f0a2012871efcf7b0d85"> 公主坟南</option>
+	      		      	<option value="ff8080812865f0a2012871f121a80d9c"> 大钟寺</option>
+	      		      	<option value="ff8080812865f0a2012871f1d5ce0da3"> 人大</option>
+	      		      	<option value="ff8080812865f0a2012871f381900daf"> 回龙观</option>
+	      		      	<option value="ff8080812865f0a2012871f4628f0db6"> 北大</option>
+	      		      	<option value="ff8080812865f0a2012871f59aa80dc9"> 世纪城</option>
+	      		      	<option value="ff8080812865f0a2012871f660800dd5"> 中关村</option>
+	      		      	<option value="ff8080812865f0a2012871f73e650de5"> 东四十条</option>
+	      		      	<option value="ff8080812865f0a2012871f827ca0ded"> 团结湖</option>
+	      		      	<option value="ff8080812865f0a2012871f8d8250dfb"> 方庄</option>
+	      		      	<option value="ff8080812865f0a2012871f9798c0e03"> 广渠门</option>
+	      		      	<option value="ff8080812865f0a2012871fa24c40e0a"> 亚运村</option>
+	      		      	<option value="ff8080812865f0a2012871fb3b2e0e19"> 和平里</option>
+	      		      	<option value="ff8080812865f0a2012871fc0da90e27"> 望京</option>
+	      		      	<option value="ff808081288616ea01288a12880c049f"> 劲松</option>
+	      		      	<option value="ff8080812b5f6294012b89a10fac7939"> 阜成门</option>
+	      		      	<option value="ff8080812db83e39012db8dc29b60017"> 石景山</option>
+	      		      	<option value="ff8080812ec40287012ec845d88f0a58"> 广安门</option>
+	      		      	<option value="ff808081304de377013087c2103e1756"> 永定路</option>
+	      		      	<option value="ff808081304de37701308cee43e52326"> 东高地</option>
+	      		      	<option value="ff80808130c6ff1f0130cb990e671df0"> 九棵树</option>
+	      		      	<option value="ff80808130e5ea9b0130eecae28c41b3"> 大兴</option>
+	      		      	<option value="ff80808130e5ea9b0130f31a39ae581b"> 航天桥</option>
+	      		      	<option value="ff8080813104cb650131096574e71fa0"> 清河</option>
+	      		      	<option value="ff8080813104cb650131189574c40ad6"> 顺义</option>
+	      		      	<option value="ff808081312ee89f013141be40f80b1a"> 白纸坊</option>
+	      		      	<option value="ff808081312ee89f013141e559d30c8a"> 马家堡</option>
+	      		      	<option value="ff808081314cec3a0131513aaf0f227e"> 万柳</option>
+	      		      	<option value="ff808081321cb1790132377b97ad3593"> 牛街</option>
+	      		      	<option value="ff808081321cb2a5013248f5b3416fdc"> 远大路</option>
+	      		      	<option value="ff8080813249bffa013261aa8221223d"> 灯市口</option>
+	      		      	<option value="ff80808132f55bf20132fad20d870e56"> 金顶街</option>
+	      		      	<option value="ff80808132f55bf201330b6f2d7f42cb"> 十里堡</option>
+	      		      	<option value="ff808081338887140133a0dab2a00497"> 六道口</option>
+	      		      	<option value="ff80808133daf50b0133eeabc8c10e9e"> 良乡</option>
+	      		      	<option value="ff80808135e83a1c0135f500b488256e"> 西直门北</option>
+	      		      	<option value="ff8080813b3237ee013b4065a7c65089"> 鑫和平门</option>
+	      		    </select>
+    </li>
+    <li style="width:108px; padding-top:7px;">
+      <input name="teachername" id="teachername"  type="text" class="input" style="width:100px; height:17px;" value="请输入老师姓名" onfocus="this.value = ''" onblur="if(this.value == ''){this.value='请输入老师姓名';}" onkeydown="javascript:if(event.keyCode==13){ return submitJiabaobanSearch(); }"/>
+
+    </li>
+    <li style="width:80px; padding-top:8px;">
+      <a href="javascript:void(0)" onclick="javascript:submitJiabaobanSearch();"><img src="/img/search-04.jpg" width="74" height="22" /></a> 
+      </li>
+  </ul>
+</div>
+	<div style="clear:both"></div>
+	<!--body结束-->
+</body>
+</html>
+

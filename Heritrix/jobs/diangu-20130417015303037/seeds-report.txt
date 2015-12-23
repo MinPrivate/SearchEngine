@@ -1,0 +1,3 @@
+[code] [status] [seed] [redirect]
+200 CRAWLED http://www.confucianism.com.cn/
+200 CRAWLED http://www.confucianism.com.cn/index.html

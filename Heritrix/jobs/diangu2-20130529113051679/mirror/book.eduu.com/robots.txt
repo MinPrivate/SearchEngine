@@ -1,0 +1,8 @@
+<html>
+<head>
+<title>404 Not Found</title>
+</head><body>
+<style>td,th{font-family: Courier New, Arial;font-size:11px;}table{text-align:left;width:98%;border:0;border-collapse:collapse;margin-bottom:5px;table-layout:fixed;word-wrap:break-word;background:#FFF;}table th{border:1px solid #000;background:#CCC;padding: 2px;}table td {border:1px solid #000;background:#FFFCCC;padding: 2px;}tr.bg th {background:#D5EAEA;}tr.bg td {background:#FFFFFF;}</style>
+<table><tr class='bg'><th width='65'>OutType:</th><td>Message</td></tr><tr><th>#1:</th><td>Not Found Object: robots.txt</td></tr></table>
+</body>
+</html>

@@ -1,0 +1,27 @@
+User-agent: Baiduspider
+Disallow: /User_UploadFiles/
+Disallow: /40421.htm
+Disallow: /mall/
+Disallow: /zhengxing/
+Disallow: /40411.aspx
+Disallow: /books/
+Disallow: /*.axd$
+
+User-agent: googlespider
+Disallow: /mall/
+Disallow: /zhengxing/
+Disallow: /4041.htm
+Disallow: /4041.aspx
+Disallow: /*.axd$
+
+User-agent: *
+sitemap:http://www.banzhu.com/sitemap.xml
+Disallow: /*.aspx?*
+Disallow: /*.shtml
+Disallow: /mall/
+Disallow: /40422.htm
+Disallow: /40421.aspx
+Disallow: /*.axd$
+Disallow: /zhengxing/
+Disallow: /ajax/statis.ashx
+Disallow: /Home/BIZ/

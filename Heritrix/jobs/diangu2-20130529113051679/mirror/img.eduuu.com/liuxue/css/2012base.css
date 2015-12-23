@@ -1,0 +1,126 @@
+/* 新版公共样式 [20120929 11:06:05] */
+@charset "gb2312";
+/* CSS Document */
+
+/*-----------------------------------------初始化样式------------------------------------------*/
+body,html{ padding:0; margin:0 auto; background-color:#fff;}
+img{ border:none;}
+h1,h2,h3,h4,h5,h6,hr,blockquote,form,ul,ol,li,p,pre,dl,dt,dd,fieldset,legend,button,input,textarea,th,td{ padding:0; margin:0;}
+ul,ol,li{ list-style:none;}
+sup{ vertical-align:text-top;}
+sub{ vertical-align:text-bottom;}
+legend { color:#000;}
+fieldset{ border:0;} 
+button,input,select,textarea { font-size:100%;}
+table{ border-collapse:collapse; border-spacing:0;}
+.clear{ clear:both; line-height:0px; font-size:0px;}
+.clearfix:after{ content:".";display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block;overflow:hidden;}
+.left{ float:left; _display:inline;}
+.right{ float:right;}
+.hr_10{ clear:both; height:10px; overflow:hidden; font-size:1px; line-height:1px;}
+
+/*------------------------------------------字体样式-------------------------------------------*/
+body,button,input,select,textarea{ font-family:"宋体"; color:#000; font-size:12px;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+address,cite,dfn,em,var{ font-style:normal }
+code,kbd,pre,samp{ font-family:courier new, courier, monospace;}
+small{ font-size:12px;}
+.bold{ font-weight:bold;}
+.ft14{ font-size:14px;}
+.ft16{ font-size:16px;}
+.blue{ color:#013F66;}
+a:link,a:visited{ color:#000; text-decoration:none;}
+a:hover{ color:#CC0000; text-decoration:underline;}
+a:active{ color:#000; text-decoration:none;}
+a.red:link,a.red:visited{ color:#B70B00;}
+a.red:hover{ color:#B70B00;}
+a.red:active{ color:#B70B00;}
+a.write:link,a.write:visited{ color:#fff;}
+a.write:hover{ color:#fff;}
+a.write:active{ color:#fff;}
+a.lan:link,a.lan:visited{ color:#1F5593;}
+a.lan:hover{ color:#1F5593;}
+a.lan:active{ color:#1F5593;}
+ 
+/*-----------------------------------------全局元素布局----------------------------------------*/
+.topMargin5{ margin-top:5px;}
+.topMargin10{ margin-top:10px;}
+.topMargin15{ margin-top:15px;}
+.topMargin20{ margin-top:20px;}
+.topMargin25{ margin-top:25px;}
+.leftMargin5{ margin-left:5px;}
+.leftMargin10{ margin-left:10px;}
+.wrapper{ width:950px; margin:0 auto;}
+.center{ text-align:center;}
+.pic img{ display:block; padding:2px; border:1px solid #ddd;}
+.newslist li{ background:url(http://img.eduuu.com/liuxue/images/icon.gif) no-repeat 0 9px; line-height:24px; padding-left:8px; font-size:12px;}
+.newslist14 li{ background:url(http://img.eduuu.com/liuxue/images/icon.gif) no-repeat 0 9px; line-height:24px; padding-left:8px; font-size:14px;}
+
+/*友情链接*/
+#flink h2{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_titG.png) repeat-x; height:34px; line-height:34px; padding:0 13px; font-size:14px;}
+#flink h2 span{ float:right; font-weight:normal;}
+.flink-con{ border:1px solid #DCDCDC; border-top:none; font-size:12px; line-height:28px; padding:10px 12px 5px; zoom:1; overflow:hidden;}
+.flink-con li{ width:102px; float:left;}
+
+/*底部快报订阅样式*/
+#kbdy{ text-align:center; padding:14px 0 5px 0; height:29px;}
+#kbdy .kbdybox{ width:650px; margin:0 auto; position:relative;}
+#kbdy em{ background:url(http://img.eduuu.com/edu/new_images/kbdy_icon.gif) no-repeat 0 3px; text-indent:15px; display:inline-block; color:#1F376D; float:left; line-height:18px;margin-right:5px;}
+#kbdy form{ float:left;}
+#kbdy form img{ position:absolute; top:0; _top:2px;}
+#kbdy input{ vertical-align:middle;}
+#kbdy .kbdy_input{ width:168px;height:17px;border:1px solid #D2DBDD;margin-right:5px;}
+
+/*尾部样式*/
+.fl_tit{ background:url(http://img.eduuu.com/edu/images/friendlinkbg.gif) repeat-x; height:24px; border-right:1px solid #D2DBDD; overflow:hidden;}
+.fl_tit h2{ background:url(http://img.eduuu.com/edu/images/friendlink_tit.gif) repeat-x; height:23px; border:1px solid #1A5189; border-bottom:none; width:70px; text-align:center; color:#fff; line-height:23px;}
+.fl_cont{ border:1px solid #D2DBDD; padding:10px; line-height:20px;}
+#footer{ text-align:center; line-height:22px; border-top:1px solid #E8E8E8; padding-top:10px;}
+
+h1 a:link,h2 a:link, h1 a:visited,h2 a:visited{ color:#099;}
+.lx_t span a:link, .lx_t span a:visited{ color:#fff;}
+.ll_tr span a:link,.ll_tr span a:visited{ color:#099;}
+.btnEdu a:link,.btnEdu a:visited{ color:#fff;}
+
+/*公共副导航样式2012-08-14*/
+.subNav{ background:url(http://img.eduuu.com/liuxue/images/2012second/subNav.gif) no-repeat; height:60px; overflow:hidden;}
+.subUp{ padding:13px; height:34px; width:924px; overflow:hidden; background:url(http://img.eduuu.com/liuxue/images/2012second/logo_all.png) no-repeat 13px 13px;}
+.subUp li{ float:left; line-height: 24px;}
+.subUp li a{ padding-top:16px; display:block;}
+.wid24{ width:24px;}.wid36{ width:36px;}.wid48{ width:48px;}
+.lm12{ margin-left:12px;}.lm13{ margin-left:13px;}.lm15{ margin-left:15px;}.lm19{ margin-left:19px;}.lm24{ margin-left:24px;}.lm25{ margin-left:25px;}.lm26{ margin-left:26px;}
+.subDown{ height:51px; background:url(http://img.eduuu.com/liuxue/images/2012second/subNavdown.gif) no-repeat;}
+.subDown dt{ float:left; width:160px; height:50px; text-indent:-999px; margin:0 16px 0 1px; overflow:hidden; _display:inline; _margin-right:10px;}
+.subDown dd{ width:773px; float:left; padding:5px 0; height:40px; overflow:hidden;}.subDown dd em{ padding:0 10px;}.subDown dd.si em{ padding:0 8px;}.subDown dt.san{ width:185px;}.subDown dt.life{ width:214px;}.subDown dd.san{ width:748px;}
+.aus{ background:url(http://img.eduuu.com/liuxue/images/2012second/aus.gif) no-repeat;}
+.deu{ background:url(http://img.eduuu.com/liuxue/images/2012second/deu.gif) no-repeat;}
+.fra{ background:url(http://img.eduuu.com/liuxue/images/2012second/fra.gif) no-repeat;}
+.hkg{ background:url(http://img.eduuu.com/liuxue/images/2012second/hkg.gif) no-repeat;}
+.jpn{ background:url(http://img.eduuu.com/liuxue/images/2012second/jpn.gif) no-repeat;}
+.kor{ background:url(http://img.eduuu.com/liuxue/images/2012second/kor.gif) no-repeat;}
+.nld{ background:url(http://img.eduuu.com/liuxue/images/2012second/nld.gif) no-repeat;}
+.sui{ background:url(http://img.eduuu.com/liuxue/images/2012second/sui.gif) no-repeat;}
+.uk{ background:url(http://img.eduuu.com/liuxue/images/2012second/uk.gif) no-repeat;}
+.usa{ background:url(http://img.eduuu.com/liuxue/images/2012second/usa.gif) no-repeat;}
+.can{ background:url(http://img.eduuu.com/liuxue/images/2012second/can.gif) no-repeat;}
+.esp{ background:url(http://img.eduuu.com/liuxue/images/2012second/esp.gif) no-repeat;}
+.irl{ background:url(http://img.eduuu.com/liuxue/images/2012second/irl.gif) no-repeat;}
+.ita{ background:url(http://img.eduuu.com/liuxue/images/2012second/ita.gif) no-repeat;}
+.nzl{ background:url(http://img.eduuu.com/liuxue/images/2012second/nzl.gif) no-repeat;}
+.rus{ background:url(http://img.eduuu.com/liuxue/images/2012second/rus.gif) no-repeat;}
+.sgp{ background:url(http://img.eduuu.com/liuxue/images/2012second/sgp.gif) no-repeat;}
+.ukr{ background:url(http://img.eduuu.com/liuxue/images/2012second/logo_wkl.gif) no-repeat;}
+.mys{ background:url(http://img.eduuu.com/liuxue/images/2012second/mys.gif) no-repeat;}
+.asia{ background:url(http://img.eduuu.com/liuxue/images/2012second/asia_life.gif) no-repeat;}
+.euro{ background:url(http://img.eduuu.com/liuxue/images/2012second/euro_life.gif) no-repeat;}
+.auslife{ background:url(http://img.eduuu.com/liuxue/images/2012second/aus_life.gif) no-repeat;}.subDown dd.life{ width:719px;}
+.usalife{ background:url(http://img.eduuu.com/liuxue/images/2012second/usa_life.gif) no-repeat;}
+.uklife{ background:url(http://img.eduuu.com/liuxue/images/2012second/uk_life.gif) no-repeat;}
+.deulife{ background:url(http://img.eduuu.com/liuxue/images/2012second/deu_life.gif) no-repeat;}
+.fralife{ background:url(http://img.eduuu.com/liuxue/images/2012second/fra_life.gif) no-repeat;}
+.canlife{ background:url(http://img.eduuu.com/liuxue/images/2012second/can_life.gif) no-repeat;}.subDown dt.canlife{ width:235px;}.subDown dd.ja{ width:698px;}.subDown dd.ja em{ padding:0 7px;}
+
+.subDown dd .my{ margin-left:56px;}.subDown dd .my em{ padding:0 15px 0 10px;}
+#zb{ padding:0 10px 0 0; margin-left:-1px;}
+.subNav_hw .subUp{ background:url(http://img.eduuu.com/liuxue/images/2012second/logo_all2.png) no-repeat 13px 13px;}

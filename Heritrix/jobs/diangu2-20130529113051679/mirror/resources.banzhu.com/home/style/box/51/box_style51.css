@@ -1,0 +1,62 @@
+﻿.box_style_51 {border-top:2px #006FA3 solid; }
+.box_style_51 .b_head {height:24px;background:#006FA3;border-bottom:1px #039FE5 solid;}
+.box_style_51 .bh_scene_l{background:url(/home/style/box/51/51_bhl.gif) no-repeat; float:left;width:142px;height:24px;}
+.box_style_51 .bh_scene_c{ height:24px;width:90%; float:left;}
+.box_style_51 .bh_tit {position:absolute; left:22px;top:4px;line-height:18px;}
+.box_style_51 .bh_tit H3 { margin-left:10px;font-size:12px;;font-weight:bold;white-space:nowrap;color:#ffffff;}
+.box_style_51 .bh_tit A:link {color:#EFEFEF; text-decoration:none;}
+.box_style_51 .bh_tit A:visited {color:#EFEFEF;text-decoration:none;}
+.box_style_51 .bh_tit A:hover {color:#ffffff; text-decoration:underline;}
+.box_style_51 .bh_tit A:active {color:#EFEFEF;}
+.box_style_51 .b_set {position:absolute;top:6px;right:6px;}
+.box_style_51 .b_body {position:relative;overflow:hidden; background:#1A1A1A; color:#EFEFEF}
+.box_style_51 .bb_content {position:relative;overflow:hidden;padding:10px 12px 10px;background:#008BCA;}
+
+/*文章模块颜色*/
+.box_style_51 .Article_Column_List_Box_TD{color:Black;}
+.box_style_51 .article_1 .article_titlesLI{background:url(/home/style/content/article/1/headline_ico01.png) no-repeat 0px 10px;}
+.box_style_51 .article_1 .article_titlesLI2{background:url(/home/style/content/article/1/headline_ico01.png) no-repeat 0px 10px;}
+.box_style_51 .article_1 .article_titlesLI a{color:Black;}
+.box_style_51 .article_1 .article_titlesLI a:hover{color:#999;}
+.box_style_51 .article_1 .article_titlesLI h4 a{color:Black;}
+.box_style_51 .article_1 .article_titlesLI h4 a:hover{color:#999;}
+.box_style_51 .article_1 .article_titlesLI2 h4 a{color:Black;}
+.box_style_51 .article_1 .article_titlesLI2 h4 a:hover{color:#999;}
+.box_style_51 .article_1 .article_titlesLI span{color:#00517a;}
+.box_style_51 .article_1 .article_titlesLI2 span{color:#00517a;}
+.box_style_51 .article_2 .article_briefsLI H4 a{color:Black;text-decoration:none;}
+.box_style_51 .article_2 .article_briefsLI H4 A:link {text-decoration:none;}
+.box_style_51 .article_2 .article_briefsLI H4 A:visited {text-decoration:none;}
+.box_style_51 .article_2 .article_briefsLI H4 A:hover {text-decoration:underline;color:#999;}
+.box_style_51 .article_2 .article_briefsLI2 H4 a{color:Black;text-decoration:none;}
+.box_style_51 .article_2 .article_briefsLI2 H4 A:link {text-decoration:none;}
+.box_style_51 .article_2 .article_briefsLI2 H4 A:visited {text-decoration:none;}
+.box_style_51 .article_2 .article_briefsLI2 H4 A:hover {text-decoration:underline;color:#999;}
+.box_style_51 .article_2 .article_briefsLI IMG{border:1px #bbb solid;}
+.box_style_51 .article_2 .article_briefsLI2 IMG{border:1px #bbb solid;}
+.box_style_51 .article_4 .pic_words_warp{border-bottom:1px #ccc dashed;}
+.box_style_51 .article_4 .pic_words_warp img{border:1px solid #bbb;}
+.box_style_51 .article_4 .pic_words_warp h5{}
+.box_style_51 .article_4 .pic_words_warp h5 a{color:#000;}
+.box_style_51 .article_4 .pic_words_warp p{color:#888;}
+
+/*产品模块颜色*/
+.box_style_51 .Product_Column_List_Box_TD H3 {color:Black;}
+.box_style_51 .article_titles .article_titlesLI h4 span a{color:Black;}
+.box_style_51 .article_titles .article_titlesLI2 h4 span a{color:Black;}
+.box_style_51 .article_titles .article_titlesLI h4 a{color:#fff;}
+.box_style_51 .article_titles .article_titlesLI2 h4 a{color:#fff;}
+.box_style_51 .products .productsLI {}
+.box_style_51 .products .p_pic {}
+.box_style_51 .products .p_pic IMG {border:1px solid #bbb;}
+.box_style_51 .products .p_name {}
+.box_style_51 .products .p_name a{color:#000;}
+.box_style_51 .products .p_price {}
+.box_style_51 .products .p_price span{color:#ff0000;}
+.box_style_51 .products .pagenum {padding-top:2em;}
+
+/*图片模块颜色*/
+.box_style_51 .pictures1 .picturesLI {}
+.box_style_51 .pictures1 .picturesLI H5 a{color:Black;}
+.box_style_51 .pictures1 .picturesLI .pl_img {}
+.box_style_51 .pictures1 .picturesLI .pl_img IMG {border:1px solid #bbb;}

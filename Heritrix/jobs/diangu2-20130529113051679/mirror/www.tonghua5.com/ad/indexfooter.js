@@ -1,0 +1,22 @@
+document.writeln("<div class=\"share-box\" style=\"top: 155px;\">");
+document.writeln("<div class=\"share-box-top\">分享到<\/div>");
+document.writeln("<div class=\"share-box-inner\">");
+document.writeln("<!-- Baidu Button BEGIN -->");
+document.writeln("<div id=\"bdshare\" class=\"bdshare_t bds_tools_32 get-codes-bdshare\">");
+document.writeln("<a class=\"bds_qzone\"><\/a>");
+document.writeln("<a class=\"bds_tsina\"><\/a>");
+document.writeln("<a class=\"bds_tqq\"><\/a>");
+document.writeln("<a class=\"bds_renren\"><\/a>");
+document.writeln("<span class=\"bds_more\">更多<\/span>");
+document.writeln("<a class=\"shareCount\"><\/a>");
+document.writeln("<\/div>");
+document.writeln("<script type=\"text\/javascript\" id=\"bdshare_js\" data=\"type=tools&uid=11357\" ><\/script>");
+document.writeln("<script type=\"text\/javascript\" id=\"bdshell_js\"><\/script>");
+document.writeln("<script type=\"text\/javascript\">");
+document.writeln("	document.getElementById(\"bdshell_js\").src = \"http:\/\/bdimg.share.baidu.com\/static\/js\/shell_v2.js?cdnversion=\" + new Date().getHours();");
+document.writeln("<\/script>");
+document.writeln("<!-- Baidu Button END -->");
+document.writeln("<\/div>");
+document.writeln("<div class=\"share-box-bottom\"><\/div>");
+document.writeln("<\/div>");
+document.writeln("<div style=\"display:none\"><script src=\"http:\/\/www.tonghua5.com\/backgroundmusic.js\" language=\"javascript\"><\/script><\/div>")

@@ -1,0 +1,236 @@
+/*全站通用css*/
+html{height:100%;}
+body {font-size:12px; color:#333; font-family:'宋体'; background:url(../tonghua5images/bg_1-3.jpg) top center no-repeat #fff;text-align:center;}
+ul li{ list-style-type:none;}
+h1 { font-weight:bold; font-size:16px; font-family:"宋体", "微软雅黑"; font-weight:bold;}
+div,form,img,ul,ol,dl,dt,dd {margin:0; padding:0; border:0; }
+li {float:left; overflow:hidden;}
+p { margin: 0px 0 12px 0 ;}
+A:link {COLOR: #333333; TEXT-DECORATION: none; }
+A:visited {COLOR: #333333; TEXT-DECORATION: none;}
+A:active {COLOR: #333333; TEXT-DECORATION: none;}
+A:hover {COLOR: #333333;TEXT-DECORATION: underline;}
+.FL{float:left; display:inline; overflow:hidden;}	
+.FR{float:right; display:inline; overflow:hidden;}
+.clear{clear:both; overflow:hidden;}
+/*header*/
+.head_index{
+	height:97px;
+	width:960px;
+	margin:0 auto;
+	background:url(../tonghua5images/menu-bg.gif) 230px -210px no-repeat;
+}
+.head{
+	height:97px;
+	width:960px;
+	margin:0 auto;
+}
+.logo{
+	height:60px;
+	width:220px;
+	padding:16px 0 0 0;
+	background:url(../tonghua5images/logo.png) 0 16px no-repeat;
+}
+.logo a{
+	height:60px;
+	width:220px;
+	overflow:hidden;
+	line-height:60px;
+	text-indent:999em;
+	display:inline-block;
+}
+.hd_info{
+	width:75px;
+	height:70px;
+	line-height:20px;
+	text-align:right;
+	padding:16px 15px 0 0;
+}
+.hd_info li{
+	width:75px;
+	color:#04508c;
+}
+.hd_info li a{
+	color:#04508c;
+}
+.hd_info li a:hover{
+	color:#fff;
+}
+.menu{
+	height:78px;
+	width:998px;
+	margin:0 auto;
+	background:url(../tonghua5images/bg_4.jpg) repeat-x;
+}
+.nav,.nav ul{
+	background:url(../tonghua5images/bg_2.jpg) no-repeat;
+}
+.nav{
+	height:42px;
+	width:998px;
+	position:relative;
+	background-position:0 -94px;
+}
+.nav ul{
+	height:42px;
+	width:988px;
+	padding:0 0 0 10px;
+	background-position:918px 0px;
+}
+.nav ul li{
+	float:left;
+	padding:14px 0 0 24px;
+	background:url(../tonghua5images/bg_3.png) -87px 15px no-repeat;
+}
+.nav ul li a{
+	color:#04508c;
+}
+.nav ul li a:hover{
+	color:#f9514c;
+}
+.sub{
+	height:26px;
+	width:960px;
+	margin:10px auto 0 auto;
+	background:url(../tonghua5images/bg_2.jpg) 0 -42px no-repeat #0085cb;
+}
+.search{
+	height:20px;
+	width:202px;
+	padding:3px 0 0 35px;
+	background:url(../tonghua5images/bg_5.gif) 35px 3px no-repeat;
+}
+.search-keyword{
+	height:18px;
+	width:145px;
+	font-size:12px;
+	line-height:18px;
+	color:#91c2d5;
+	padding:1px 1px 1px 4px;
+	border:none;
+	background:none;
+}
+.search-submit{
+	height:20px;
+	width:48px;
+	text-align:center;
+	color:#895500;
+	line-height:20px;
+	font-size:12px;
+	margin-left:4px;
+	padding:0;
+	border:none;
+	background:none;
+}
+.tag{
+	height:26px;
+	width:710px;
+	color:#fff;
+	line-height:26px;
+	background:url(../tonghua5images/bg_2.jpg) 630px -68px no-repeat;
+}
+.tag span{
+	float:right;
+	font-weight:bold;
+	padding-right:10px;
+}
+.tag a{
+	color:#fff;
+}
+.menu_ico1,.menu_ico2{
+	position:absolute;
+	z-index:10;
+	background:url(../tonghua5images/bg_3.png) no-repeat;
+}
+/*main1*/
+.tonghua5main1 {width:952px; height:329px; margin:0 auto 5px auto;_margin:0 0 15px 8px;/*ie6*/ font-size:14px; overflow:hidden; background:url(../tonghua5images/pic-22.png) no-repeat;}
+/*童话热榜*/
+.rementonghua { width:362px;}
+.rementonghuabiaoti {text-align:left; color:#fc3223; font-size:16px; font-family:"宋体", "微软雅黑"; font-weight:bold; width:150px; margin:56px 0 15px 60px;}
+.rementonghualiebiao { width:362px; }
+.rementonghualiebiao ul { list-style:none; margin:0 0 0 25px;}
+.rementonghualiebiao ul li { float:left; width:143px; line-height:28px; background:url(../tonghua5images/pic-25.gif) no-repeat 0 10px; padding-left:15px; margin-right:10px;}
+.rementonghualiebiao ul li a{width:135px; float:left; font-size:14px; text-align:left; white-space:nowrap; text-overflow:ellipsis;}
+/*最新童话故事*/
+.zuixingushibiaoti {text-align:left;color:#138fdf; font-size:16px; font-family:"宋体", "微软雅黑"; font-weight:bold; width:150px; margin:56px 0 15px 60px;}
+.zuixingushiliebiao { width:362px; }
+.zuixingushiliebiao ul { list-style:none; margin:0 0 0 25px;}
+.zuixingushiliebiao ul li { float:left; width:143px; line-height:28px; background:url(../tonghua5images/pic-24.gif) no-repeat 0 10px; padding-left:15px; margin-right:10px;_margin-right:0px;/*ie6*/}
+.zuixingushiliebiao ul li a{width:135px; float:left; font-size:14px; text-align:left; white-space:nowrap; text-overflow:ellipsis;}
+/*一周推荐童话故事*/
+.tuijiangushi {width:220px;_width:210px;/*ie6*/}
+.tuijiangushibiaoti {text-align:left;color:#318603; font-size:16px; font-family:"宋体", "微软雅黑"; font-weight:bold; width:150px; margin:56px 0 15px 60px;}
+.tuijiangushiliebiao ul { list-style:none; margin:0 0 0 25px;_margin:0 0 0 20px;/*ie6*/}
+.tuijiangushiliebiao ul li { float:left; width:150px; line-height:28px; background:url(../tonghua5images/pic-26.gif) no-repeat 0 10px; padding-left:15px; margin-right:10px;_margin-right:5px;/*ie6*/}
+.tuijiangushiliebiao ul li a{width:114px; float:left; font-size:14px; text-align:left; white-space:nowrap; text-overflow:ellipsis;}
+/*童话故事首页第二栏*/
+.tonghua5main2 {width:952px; margin:0 auto 5px auto;_margin:0 0 15px 8px;/*ie6*/ font-size:14px; overflow:hidden;}
+/*童话故事首页左边分类*/
+.tonghua5-left { width:722px; margin:0 auto 10px auto;_margin:0 5px 0 1px;/*ie6*/}
+.thfl { background:url(../tonghua5images/pic-16.jpg) repeat-y; width:722px;}
+.fl-di { background:url(../tonghua5images/pic-15.jpg) no-repeat; width:722px; padding-top:10px;}
+.fl-list { width:220px; margin:20px 0 0 20px;_margin:20px 0 0 15px;/*ie6.0*/}
+.fl-list ul { list-style:none; margin-left:6px;}
+.fl-list ul li { line-height:25px; background:url(../tonghua5images/pic-25.gif) no-repeat 0 10px; padding-left:10px; }
+.fl-list ul li a{width:200px; float:left; font-size:14px; white-space:nowrap; text-align:left; text-overflow:ellipsis;}
+.fl-bt {width:149px; font-weight:bold; color:#f5436f; line-height:20px; font-size:16px; font-family:"宋体", "微软雅黑"; text-align:left; font-weight:bold;margin-left:15px;}
+.fl-wb { float:left;}
+/*首页第三栏右边*/
+.tonghua5-right { width:225px; float:right; color:#cfeffe;_margin-left:-5px;/*ie6*/display:inline;}
+/*故事专题*/
+.gushizhuanti { background:url(../tonghua5images/pic-19.jpg) no-repeat; width:227px; height:52px;/* float:left;*/ color:#FFF;}
+.zhuantizi {float:left; font-size:16px; font-weight:bold; margin:5px 0 0px 45px;padding-top:26px;}
+.zhuantibeijing { background:url(../tonghua5images/pic-18.jpg) repeat-y; width:202px; float:left; padding-left:25px; color:#000;}
+.zhuantibeijing ul { list-style:none; margin:15px 0 15px 0;}
+.zhuantibeijing ul li { line-height:28px;}
+.zhuantibeijing ul li span{ float:right; font-size:12px; color:#999; padding-right:20px;}
+.zhuantidibu { float:left;}
+.ztdiv { width:170px; float:left;}
+.ztdiv ul { list-style:none;}
+.ztdiv ul li { float:left; width:85px; font-size:14px; line-height:30px;}
+/*一月热榜*/
+.yiyuerebang {background:url(../tonghua5images/pic-20.jpg) no-repeat; width:227px; height:32px; float:left; color:#FFF;}
+.jiacu {float:left; font-size:16px; font-weight:bold; margin:5px 0 0 45px;}
+.yyrbdiv { background:url(../tonghua5images/pic-18.jpg) repeat-y; width:202px; float:left; padding-left:25px; color:#000;}
+.yyrbdiv ul { list-style:none; margin:15px 0 15px 0;}
+.yyrbdiv ul li { float:left; width:150px; line-height:28px; background:url(../tonghua5images/pic-26.gif) no-repeat 0 10px; padding-left:15px; margin-right:10px;_margin-right:5px;/*ie6*/}
+.yyrbdiv ul li a{width:114px; float:left; font-size:14px; text-align:left; white-space:nowrap; text-overflow:ellipsis;}
+.yiyuerebangdibu { float:left; _float:right;/*ie6.0*/}
+/*底部红线*/
+.hongx {font-size:0px; height:4px;_height:4px;/*ie6.0*/ width:960px; background-color:#ee5e80; margin:0 auto;_margin:10px 0 0 10px;/*ie6.0*/}
+/*友情链接专用*/
+.flink{
+	width:960px;
+	margin:0 auto 5px auto;
+}
+.f5{
+	width:100%;
+	overflow:hidden;
+	clear:both;
+	padding-bottom:10px;
+	height:105px;
+}
+.f5 li{
+	float:left;
+	line-height:24px;
+	padding-left:10px;
+	white-space:nowrap;
+}
+.f5 li strong{
+	font-size:14px;
+	font-weight:bold;
+	color:#0087ce;
+	list-style:none;
+	display:block;
+	white-space: nowrap;
+}
+.f5 li a{
+	color:#666666;
+	float:left;
+	padding-left:10px;
+}
+/* footer */
+.footer{ width:960px;overflow:hidden; margin:0 auto;text-align:center; padding-top:5px;line-height:25px; color:#666666; background:url(../tonghua5images/footer_beijing.jpg) bottom no-repeat; height:80px;}
+.footer a{color:#666666}
+/*--------百度分享1---------*/
+.share-box .share-box-top,.share-box-bottom,.share-box .bds_tools_32 a.shareCount{background:url(../tonghua5images/share_bg.png) no-repeat!important;}.share-box{position:fixed;_position:absolute;left:50%;margin-left:490px;width:63px;}.share-box-fixed{position:fixed;top:80px;}.share-box-top{height:30px;background-position:0 0;text-indent:-9999em;overflow:hidden;}.share-box .share-box-bottom{height:5px;font:0/0 arial;background-position:0 -35px!important;}.share-box-inner{padding-bottom:10px;border-left:1px solid #e9f3f8;border-right:1px solid #e9f3f8;overflow:hidden;zoom:1;background:#f5f8fd;}.share-box #bdshare a,.share-box .bds_tools_32 span.bds_more{_display:inline;margin:4px 0 0 10px;font-family:arial!important;}.share-box .bds_tools_32 a.shareCount,.share-box .bds_tools_32 a.shareCount:hover{padding:4px 0 0 0;margin:2px 0 0 5px!important;width:50px;height:31px;background-position:0 -45px!important;line-height:31px;text-align:center;color:#fff!important;text-decoration:none;}.share-box .shareCount{display:none;}

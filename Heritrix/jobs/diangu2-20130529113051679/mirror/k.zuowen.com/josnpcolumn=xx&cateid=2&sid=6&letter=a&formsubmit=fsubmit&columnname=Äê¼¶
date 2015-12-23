@@ -1,0 +1,10 @@
+document.writeln("<select name=\"abigclass\" id=\"scharea\" class=\"select120\">");
+document.writeln("<option value=\"100\">Äê¼¶</option>");
+document.writeln("<option value=\"a5\">一年级</option>");
+document.writeln("<option value=\"a6\">二年级</option>");
+document.writeln("<option value=\"a7\">三年级</option>");
+document.writeln("<option value=\"a8\">四年级</option>");
+document.writeln("<option value=\"a9\">五年级</option>");
+document.writeln("<option value=\"a10\">六年级</option>");
+document.writeln("</select>");
+document.writeln('<input name="column" type="hidden" value="xx" />');

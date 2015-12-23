@@ -1,0 +1,13 @@
+Crawl Name: diangu
+Crawl Status: Finished - Ended by operator
+Duration Time: 3h52m52s381ms
+Total Seeds Crawled: 2
+Total Seeds not Crawled: 0
+Total Hosts Crawled: 1
+Total Documents Crawled: 4218
+Documents Crawled Successfully: 4218
+Novel Documents Crawled: 4218
+Processed docs/sec: 0.3
+Bandwidth in Kbytes/sec: 5
+Total Raw Data Size in Bytes: 83694655 (80 MB) 
+Novel Bytes: 83694655 (80 MB) 

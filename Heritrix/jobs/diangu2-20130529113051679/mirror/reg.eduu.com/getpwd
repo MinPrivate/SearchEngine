@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>E度通行证</title>
+<link href="http://imgs.eduu.com/css/base.css" rel="stylesheet" type="text/css" />
+<link href="http://imgs.eduu.com/css/login_style.css" rel="stylesheet" type="text/css" />
+<link href="http://imgs.eduu.com/css/user_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://imgs.eduu.com/js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="http://imgs.eduu.com/js/jquery.fend.js"></script>
+<script type="text/javascript" src="http://imgs.eduu.com/dialog/jquery.artDialog.js?skin=default"></script>
+<!--[if IE 6]>
+    <script type="text/javascript" src="http://img.eduuu.com/website/public_js/DD_belatedPNG.js" ></script>
+    <script type="text/javascript">
+    DD_belatedPNG.fix('.cloud');
+    DD_belatedPNG.fix('.logo');
+    </script>
+<![endif]-->
+</head>
+<body>
+<div class="main cloud">
+    <div class="wrapper">
+        <h1 class="logo"><a href="http://www.eduu.com/" target="_blank"></a></h1>
+        <div class="content">
+            <!--<div class="corn"><img src="http://imgs.eduu.com/images/cornCon_t.gif" width="950" height="8" /></div>
+            <div class="conBox">-->
+<h2 class="titleZcDl">密码找回</h2>
+<div class="forgetCon">
+<h1><span>&gt; 还没有e度帐号？<a href="http://reg.eduu.com/register/" class="blue">立即注册</a></span>登录时遇到问题了？</h1>
+<form method="post" onsubmit="return authEmail();" >
+<p class="forgetCho"><input type="radio" name="for_pass" checked="" id="for_pass1" onclick="clickType();" value="1"/>&nbsp;&nbsp;我忘记了密码</p>
+ <div id="for_password" style="display:;">
+    <ul>
+                    <li id="login_ts" class=""></li>
+                <li class="hui ft12">需要重置密码，请输入您登录e度时所用的用户名。</li>
+        <li><label style="vertical-align: middle; height:28px; padding-top:5px;">用户名：</label><label style=" vertical-align: middle; height:28px;"><input name="uname" id="uname" type="text" value="" class="loginInputBg loginInputBg_l" /></label></li>
+        <li>
+        <label style="vertical-align: middle; height:28px; padding-top:5px;">验证码：</label><label style=" vertical-align: middle; height:28px;"><input name="locheck" id="locheck" type="text" class="loginInputBg loginInputBg_s" />&nbsp;</label>
+        <label><img src="http://reg.eduu.com/register/ckCode" align="absmiddle" id="ckcode" /> 
+        <a href="JavaScript:void(0);" onclick="return FD.fm.setImg('#ckcode');" class="blue">换一张</a></label>
+        </li>
+        <li id="authBut"><button type="submit" class="btnBlue">确定</button>&nbsp;&nbsp;<button type="button" class="btnBlue" onclick="FD.ut.goUrl('http://reg.eduu.com/');return false;">取消</button></li>
+    </ul>
+</div>
+<p class="forgetCho"><input type="radio" checked="" name="for_pass" id="for_pass2" onclick="clickType();" value="2"/>&nbsp;&nbsp;我忘记了用户名</p>
+ <div id="for_user" style="display:none;">
+    <ul>
+                    <li id="login_email" class=""></li>
+                <li class="hui ft12">需要重置密码，请输入您登录e度时所用的邮箱地址。</li>
+        <li>邮箱地址：<input name="email" id="email" type="text" value="" class="loginInputBg loginInputBg_l" /></li>
+        <li>验 证 码：<input name="locheck_email" id="locheck_email" type="text" class="loginInputBg loginInputBg_s" />&nbsp;<img src="http://reg.eduu.com/register/ckCode" align="absmiddle" id="ckcode_email" /> <a href="JavaScript:void(0);" onclick="return FD.fm.setImg('#ckcode_email');" class="blue">换一张</a></li>
+        <li id="authBut_email"><button type="submit" class="btnBlue">确定</button>&nbsp;&nbsp;<button type="button" class="btnBlue" onclick="FD.ut.goUrl('http://reg.eduu.com/');return false;">取消</button></li>
+    </ul>
+</div>
+<p class="forgetCho"><input type="radio" name="for_pass" id="for_pass3" checked="" onclick="clickType();" value="3"/>&nbsp;&nbsp;我在登录时遇到其他问题</p>
+ <div id="for_other" style="display:none;">
+    <ul class="ft12">
+        <li>&gt; <a href="http://help.eduu.com/e/20111025/4ea67131a823e.shtml" class="blue" target="_blank">忘记密码，并无法使用邮箱找回？</a></li>
+        <li>&gt; <a href="http://help.eduu.com/e/20120330/4f7562d317a84.shtml" class="blue" target="_blank">我记得用户名和密码，但无法登录</a></li>
+        <li>&gt; <a href="http://help.eduu.com/e/20120416/4f8bb2fedb0c2.shtml" class="blue" target="_blank">绑定的QQ账号无法登录了？</a></li>
+        <li>&gt; <a href="http://help.eduu.com/help/suggesting/" class="blue" target="_blank">我遇到其他问题</a></li>
+    </ul>
+</div>
+</form>
+</div>
+<script type="text/javascript">
+function authEmail(){
+    var type=$("input[type='radio']:checked").val();
+    if(type==1){
+        if ($('#uname').val().length<=0){
+            $("#login_ts").attr('class','login_ts3').html("<span>用户名不能为空</span>");
+            $('#uname').focus();
+            return false;
+        }
+        if ($('#locheck').val().length<=0){
+            $("#login_ts").attr('class','login_ts3').html("<span>验证码不能为空</span>");
+            $('#locheck').focus();
+            return false;
+        }
+        $('#authBut').html('正在发送验证信请稍候...');
+    }else if(type==2){
+        if ($('#email').val().length<=0){
+            $("#login_email").attr('class','login_email1').html("<span>邮箱地址不能为空</span>");
+            $('#email').focus();
+            return false;
+        }
+        
+        if (/^[\w-]+@([\w-]+\.)+[a-zA-Z]+$/.test($('#email').val())==false){
+            $("#login_email").attr('class','login_email1').html("<span>邮箱格式不正确</span>");
+            $('#locheck_email').focus();
+            return false;
+        }
+        
+        if ($('#locheck_email').val().length<=0){
+            //alert('验证码不能为空');
+            $("#login_email").attr('class','login_email1').html("<span>验证码不能为空</span>");
+            $('#locheck_email').focus();
+            return false;
+        }
+        $('#authBut_email').html('正在发送验证信请稍候...');
+    }
+}
+
+//初始点击事件
+function clickType(){
+    var type=$("input[type='radio']:checked").val(); 
+    if(type==1){
+        $('#email').attr("value",'');
+        $('#locheck_email').attr("value",'');
+        $("#login_email").attr('class','login_email11').html("");
+        $("#error_m").removeAttr('class','login_email1').html("");
+        
+        $('#for_password').show();
+        $('#for_user').hide();
+        $('#for_other').hide();
+    }else if(type==2){
+        $('#uname').attr("value",'');
+        $('#locheck').attr("value",'');
+        $("#login_ts").attr('class','login_ts33').html("");
+        $("#error_s").removeAttr('class','login_ts3').html("");
+        $('#for_password').hide();
+        $('#for_user').show();
+        $('#for_other').hide();
+    }else if(type==3){
+        $('#email').attr("value",'');
+        $('#locheck_email').attr("value",'');
+        $("#login_email").attr('class','login_email11').html("");
+        $("#error_m").removeAttr('class','login_email1').html("");
+        $("#error_s").removeAttr('class','login_ts3').html("");
+        $('#uname').attr("value",'');
+        $('#locheck').attr("value",'');
+        $("#login_ts").attr('class','login_ts33').html("");
+        $('#for_password').hide();
+        $('#for_user').hide();
+        $('#for_other').show();
+    }else{
+        $('#for_password').show();
+        $('#for_user').hide();
+        $('#for_other').hide();
+    }
+       
+}
+
+$(function(){
+    if(0==2){
+        $("#for_pass2").attr("checked","checked");
+        $('#for_password').hide();
+        $('#for_user').show();
+        $('#for_other').hide();
+    }else if(0==3){
+        $("#for_pass3").attr("checked","checked");
+    }else{
+        $("#for_pass1").attr("checked","checked");
+    }
+});
+</script>
+<!--            </div>
+            <div class="corn"><img src="http://imgs.eduu.com/images/cornCon_b.gif" width="950" height="9" /></div>-->
+        </div>
+        <div class="hr_10"></div>
+        <div class="clearfix" id="footer">
+            <div class="left"><p>e度空间 京ICP备09042963号</p><p>北京市公安局海淀分局备案编号 1101081950</p><p>客服邮箱---service@eduu.com</p></div>
+            <div class="right">
+            <a href="http://home.eduu.com/verify/" target="_blank" class="blue">认证合作</a>  |  
+            <a href="http://help.eduu.com/" target="_blank" class="blue">帮助中心</a>  |  
+            <a href="http://www.xueersi.org/" target="_blank" class="blue">关于我们</a>  |  
+            <a href="http://www.eduu.com/include/hezuo.html" target="_blank" class="blue">联系合作</a>  |  
+            <a href="http://www.eduu.com/z/yqlj/index.html" target="_blank" class="blue">友情链接</a>  |  
+            <a href="http://www.eduu.com/include/site_map.html" target="_blank" class="blue">网站地图</a>  |  
+            <a href="http://www.eduu.com/include/fuwu.html" target="_blank" class="blue">服务条款</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div style="display:none;">
+<script src="http://img.eduuu.com/edu/js/ggc_test.js?v=20111226" type="text/javascript" type="text/javascript"></script> 
+<script src="http://s50.cnzz.com/stat.php?id=1997329&web_id=1997329" type="text/javascript" type="text/javascript"></script> 
+<script src="http://s14.cnzz.com/stat.php?id=2252450&web_id=2252450" type="text/javascript" language="JavaScript"></script> 
+</div>
+</body>
+</html>

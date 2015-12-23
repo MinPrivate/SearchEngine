@@ -1,0 +1,6 @@
+document.writeln("<select name=\"bbigclass\" id=\"scharea\" class=\"select120\">");
+document.writeln("<option value=\"100\">×÷ÎÄÀàÐÍ</option>");
+document.writeln("<option value=\"b656\">满分</option>");
+document.writeln("<option value=\"b655\">零分</option>");
+document.writeln("</select>");
+document.writeln('<input name="column" type="hidden" value="ks" />');

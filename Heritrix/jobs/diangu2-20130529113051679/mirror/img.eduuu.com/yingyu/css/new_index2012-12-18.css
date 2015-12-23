@@ -1,0 +1,269 @@
+/* 新版首页样式 [20130520 13:53:22] */
+@charset "gb2312";
+/* CSS Document */
+/*公共链接样式*/
+a:link,a:visited{ color:#000;}
+a:hover{ color:#c00;}
+a:active{ color:#000;}
+.col444,.col444 a:link,.col444 a:visited{ color:#444;}
+.col444 a:hover{ color:#c00;}
+.col444 a:active{ color:#444;}
+.col666,.col666 a:link,.col666 a:visited{ color:#666;}
+.col666 a:hover{ color:#c00;}
+.col666 a:active{ color:#666;}
+.red,.red a:link,.red a:visited,.red a:hover,.red a:active{ color:#c20201;}
+.white,.white a:link,.white a:visited,.white a:hover,.white a:active{ color:#fff;}
+
+.listIcon1 li{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/listIcon1.gif) no-repeat 0 45%; line-height:24px; padding-left:8px;}
+.listIcon1 .noIcon{ background:none;}
+.listIcon2 li{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/listIcon2.gif) no-repeat 0 45%; line-height:24px; padding-left:8px;}
+.borderG{ border:1px solid #E3E3E3;}
+.info{ padding:10px 10px 5px; zoom:1; overflow:hidden;}
+.info img{ display:block;}
+.borDot{ border-top:1px dotted #ddd; padding-top:10px; margin-top:10px;}
+.topMargin22{ margin-top:11px;}
+.divNone{ display:none;}
+/*编辑推荐*/
+.ppNav{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/pp_bg.gif) repeat-x; height:80px; overflow:hidden; border:1px solid #ddd; border-top:none; position:relative; width:948px;}
+.ppNav dt img{ display:block; width:66px; height:57px; overflow:hidden; float:left; padding:12px 10px;}
+.ppNav dd{ float:left; width:860px; height:60px; padding:10px 0; overflow:hidden;}
+.ppNav li{ float:left; padding:7px 0; height:46px; overflow:hidden; width:140px; margin:0 1px;}
+.ppNav li img{ display:block; border-right:1px solid #ddd; width:130px; height:46px; overflow:hidden; padding-right:7px;}
+.ppNav li.last img{ border-right:none;}
+.ppNav .ppNavOn p{ position:absolute; top:5px; left:85px; width:860px; display:block;}
+.ppNav .ppNavOn p img{ width:860px; height:70px; display:block; cursor:pointer; margin:0; border-right:none; padding:0;}
+.ppNav dd p{ display:none;}
+.ppNav .ppNavOn p{ position:absolute; left:85px; top:5px; width:860px; display:block;}
+.ppNav .ppNavOn p img{ display:block; width:860px; height:70px; cursor:pointer; margin:0;}
+/*首屏*/
+.mainL{ width:290px; float:left;}
+.mainR{ width:650px; float:right;}
+.yyuM{ width:350px; padding:0 15px; float:left; line-height:24px; font-size:14px;}
+.yyuR{ width:260px; float:right;}
+.widBox310{ width:310px; float:left; _display:inline;}
+.titleH{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/titlebg_h.gif) repeat-x; height:35px; line-height:35px; font-size:14px; padding:0 10px;}
+.titleH span{ float:right; font-size:12px; color:#c00; font-weight:normal;}
+.titleH em{ padding-left:25px; display:inline-block;}
+.focusPhoto{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/focusbg.jpg) no-repeat; width:254px; height:181px; padding:7px; overflow:hidden; margin-bottom:5px;}
+
+.titleIconWx{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/title_icon1.gif) no-repeat 0 45%;}
+.titleIconPy{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/title_icon5.gif) no-repeat 0 45%;}
+.titleIconZk{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/title_icon3.gif) no-repeat 0 45%;}
+.zkCon{ padding:10px;}
+.pyMess{ height:24px; line-height:22px;}
+.pyMess li{ float:left; margin:0 11px; _display:inline;}
+.pyMess li.last{ padding-right:0;}
+.bcSelect{ position:relative;z-index:10;}
+.bcSelect table{ width:100%;}
+.bcSelect dd td{ border-bottom:1px dotted #ddd; border-right:1px dotted #ddd; text-align:center;}
+.bcSelect dd td.borNone{ border-right:none;}
+.bcSelect dd td.botNone{ border-bottom:none;}
+.bcSelect dt{ position:relative; width:81px; padding:0 8px; height:18px; line-height:18px; color:#C00; border:1px solid #e3e3e3; background-color:#f8f8f8; text-align:center;}
+.bcSelect i{ border-width:4px; border-style:solid; border-color:#c20201 #fff #fff; width:0; height:0; line-height:0; font-size:0; margin-left:5px; position:absolute; display:block; right:10px; top:8px; -moz-transition: all 0.2s ease-in-out 0s; -webkit-transition: all 0.2s ease-in-out 0s; -o-transition: all 0.2s ease-in-out 0s;}
+.bcSelect dd{ display:block; border:1px solid #e3e3e3; background:#fff; box-shadow:1px 2px 2px 0 #ddd; width:260px; position:absolute; z-index:10; left:0; top:18px; padding:10px; display:none; font-size:12px;}
+.bcSelect dd th{ font-weight:normal; width:50px; text-align:left; color:#6141bc;}
+.bcSelect dd td{ padding-right:10px;}
+.bcSelect dd a{ display:inline-block; line-height:24px; color:#666;}
+.bcSelectOn dt{ border:1px solid #e3e3e3; border-bottom:none; background:#fff; z-index:20; box-shadow:1px -1px 2px 0 #ddd;}
+.bcSelectOn dd{ display:block;}
+.bcSelectOn i{-moz-transform: rotate(180deg);-webkit-transform: rotate(180deg);-o-transform: rotate(180deg); -moz-transform-origin:50% 30%; -webkit-transform-origin:50% 30%; -o-transform-origin:50% 30%;}
+.bcSelect dd b{ color:#c20201; font-weight:normal;}
+.bcSelect table th{ width:45px; margin-right:5px; float:left;}
+.hotRd{ padding:8px 10px 8px;}
+.hotRd dt{ float:left; width:94px; height:69px; margin-right:10px; overflow:hidden;}
+.hotRd dt img{ display:block; width:90px; height:65px; padding:1px; border:1px solid #ddd; overflow:hidden;}
+.hotRd dd{ width:162px; float:left; line-height:22px;}
+.hotRd dd p,.e_video dd p{ font-size:12px; color:#666;}
+/*中间*/
+.news{ width:380px; float:left; font-size:14px;}
+.newsFirst{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/mainM.jpg) no-repeat; text-align:center; padding-top:15px; width:380px; position:relative;}
+.newsFirst h1,.newsFirst h2{ font-size:18px; font-family:"微软雅黑"; margin-bottom:3px; font-weight:normal;}
+.newsFirst p{ font-size:12px;}
+.newsList{ padding:10px 0 0; zoom:1; overflow:hidden;}
+.titleLine{ border-bottom:1px solid #ca1e2e; line-height:32px; height:32px;}
+.titleLine span{ float:right; font-size:12px; font-weight:normal; padding-right:15px;}
+.titleLine em{ border-bottom:2px solid #ca1e2e; display:inline-block; line-height:31px; background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/listIcon3.gif) no-repeat 15px 45%; padding:0 10px 0 30px;}
+.titleLine2{ border-bottom:1px solid #DDD;}
+.titleLine2 em{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/icon_Tit.gif) no-repeat 5px 45%; padding-left:15px;}
+.newsList ul{ padding:10px 15px 5px; margin:0 8px;}
+.newsList ul span{ margin-right:8px; color:#c20201;}
+.newsList ul.last{ padding:10px 15px 0;}
+/*右侧*/
+.xesPy{ width:260px; float:right;}
+.titlH3{ height:16px; line-height:16px; overflow:hidden; background:url(http://img.eduuu.com/website/zuowen/images/partsite/bj/index/line.gif) repeat-x 0 4px; margin-bottom:5px;}
+.titlH3 span{ display:inline-block; background-color:#FAFAFA; padding:0 10px;}
+.pyOne{ background-color:#fcfcfc; padding:13px 8px 5px; width:242px;}
+.titleH_0 em{ position:relative; padding-left:30px;}
+.titleH_0 em i{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/icon_rl.gif) no-repeat; display:inline-block; width:32px; height:30px; position:absolute; left:-5px; top:-2px;}
+.ksCon{ border-right:none; border-bottom:none;}
+.ksCon .titleH_0{ border-right:1px solid #ddd;}
+.ksTab th,.ksTab td{ height:30px; line-height:30px; text-align:center; border-right:1px solid #ddd; border-bottom:1px solid #ddd;}
+.ksTab th{ background-color:#fbedef; font-size:12px;}
+.ksTab tr.grey{ background-color:#f9f9f9;}
+/*首屏end*/
+/*升学英语专区*/
+.columnTit{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/columnTit.jpg) no-repeat; height:40px; line-height:40px; overflow:hidden;}
+.columnTit span{ font-weight:normal; padding-right:10px;}
+.columnTit em{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/columnTit_l.gif) no-repeat; display:block; float:left; font-size:22px; font-family:"微软雅黑"; font-weight:normal; padding-left:13px;}
+.columnTit em a{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/columnTit_r.gif) no-repeat right top; color:#fff; display:inline-block; padding-right:13px;}
+.columnTit em a:hover{ text-decoration:none;}
+.columnTit em small{ font-size:16px;}
+
+
+.bgst{ background:#FAFAFA;}
+.titH4 span{ padding:0 10px 0 0;}
+.exam dt{ font-weight:bold;}
+.exam dd{ padding-left:42px;}
+.exam dd ul li{ float:left; width:100px;}
+
+.boRdot{ border-right:1px dotted #ddd; padding-right:16px;}
+/*英文电影、歌曲*/
+.wibox470{ width:470px;}
+.titleMovie{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/movieNav.gif) no-repeat; height:40px; line-height:40px; padding:0 15px;}
+.titleMovie span{ font-weight:normal;}
+.titleMovie em{ font-family:"微软雅黑"; font-size:22px; font-weight:normal; color:#c60500;}
+.titleMovie em small{ font-size:16px; color:#000;}
+.titleMusic{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/musicNav.gif) no-repeat;}
+.wibox470 ul{ border:1px solid #ddd; border-top:none; width:468px;}
+.wibox470 ul li{ text-align:center; float:left; margin:15px 21px 5px; _display:inline;}
+.wibox470 ul li img{ border:1px solid #ddd; padding:1px;}
+/*学而思名师*/
+.tabTitMs{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/columnTit.jpg) no-repeat; height:35px; line-height:35px; padding:5px 10px 0; width:930px;}
+.tabTitMs li{ float:left; text-align:center; width:96px; height:35px; cursor:pointer; font-weight:bold;}
+.tabTitMs li.onMs{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/btn_ms_on.gif) no-repeat; color:#fff;}
+.tabTitMs li.onMs a{ color:#fff;}
+.tabTitMs li.onMs a:hover{ color:#fff;}
+.tabConMs{ border:1px solid #ddd; border-top:none;}
+
+.tea_xueersi ul{ font-size:12px;}
+.tea_xueersi li{ float:left; margin:15px 0 0 35px; _display:inline; width:122px; text-align:center; height:126px; overflow:hidden;}
+.tea_xueersi li img{ display:block; width:116px; height:86px; padding:2px; border:1px solid #ccc; margin-bottom:5px;}
+#demo_1{ overflow:hidden; width:948px;} 
+#indemo1{ float:left; width:5900px;} 
+#demo1{float:left;} 
+#demo2{float:left;} 
+#demo_2{ overflow:hidden; width:948px;} 
+#indemo2{ float:left; width:4900px;} 
+#demo3{float:left;} 
+#demo4{float:left;}
+#demo_3{ overflow:hidden; width:948px;} 
+#indemo3{ float:left; width:4900px;} 
+#demo5{float:left;} 
+#demo6{float:left;}
+
+
+.zj{ padding:10px 23px 5px;}
+.picbox dt{ float:left; margin-right:12px;}
+.picbox dt img,.pic-txt dt img{ display:block; padding:1px; border:1px solid #DDD;}
+.picbox dd{ float:left;}
+.picbox dd ul.listIcon1 li{ line-height:22px;}
+.info2{ padding:15px 10px 12px;}
+.pad10{ padding-top:10px;}
+.picbox2{ padding:5px 0 0 23px;}
+.picbox2 dd{ width:226px; font-size:12px; line-height:22px;}
+.h235{ height:235px}.h257{ height:257px}
+.level{ padding:5px 0;}
+.level dt{ float:left; background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/level.png) no-repeat; width:13px; height:67px; padding:8px 8px 0 6px; text-align:center; margin-right:10px; display:inline; color:#FFF; line-height:14px; font-weight:bold; word-wrap:break-word;}
+.level dt a{ display:block;}
+.level dt a:hover{text-decoration:none;}
+.level dd{ float:left; width:200px;}
+.level dd li{ line-height:19px;}
+.level dt.line21{ line-height:21px;}
+.widbox335{ width:333px; float:left; display:inline;}
+.titP em{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/boxIcon.gif) no-repeat 0 45%; display:inline-block; padding-left:15px;}
+.pic-txt dt{ float:left; margin-right:10px; display:inline;}
+.pic-txt dd{ float:left; width:180px;}
+.boxG{ padding:10px 20px; border:1px solid #DDD; border-top:none;}
+.book{ float:left; width:282px; margin:10px 20px 5px 0; display:inline;}
+.book dt{ float:left; width:114px;}
+.book dd{ float:right; width:156px; line-height:22px;}
+.book dt img{ display:block; border:1px solid #DDD;}
+
+.titleQ{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/tit_qun.png) no-repeat; height:37px; line-height:37px; padding-left:38px; font-size:14px; color:#FFF;}
+.qun{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/bg_qun.png) no-repeat; height:143px; padding:17px 0 0 12px;}
+.qun p{ margin-bottom:11px;}
+.qun img{ display:block;}
+.wid218{ width:218px;}
+.everyY li{ line-height:30px;}
+
+/*搜索*/
+.searchIndex{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/searchbg.png) no-repeat; height:37px; padding-top:8px; overflow:hidden;}
+.searchIndex form{ width:570px; float:left; padding-left:130px;}
+.sea_input{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/index/inputTxt.png) no-repeat; width:465px; height:31px; line-height:31px; overflow:hidden; padding-left:14px; border:none; color:#888; float:left;}
+.resou{ width:225px; float:left; margin-left:8px; padding-top:4px; color:#c00;}
+/*首页首屏左侧智康网校广告合并样式*/
+.focusBox{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/focusbg0.jpg) no-repeat; width:290px; height:209px; overflow:hidden; position:relative;}
+.focusPic{ background:none; width:auto; height:auto; margin:0; padding:0;}
+.focusPic li{ position:absolute; left:7px; top:7px; display:none;}
+.focusPic img{ width:276px; height:195px;}
+.focusNum{ position:absolute; right:11px; bottom:14px;}
+.focusNum span{ display:inline-block; width:20px; height:18px; line-height:18px; text-align:center; margin-right:5px; background-color:#666; color:#FFF; cursor:pointer;}
+.focusNum span.on{ background-color:#FF6633; font-weight:bold;}
+.borT{ border-top:none;}.zkCon{ padding:5px 10px;}
+
+/*返回顶部*/
+*html,*htmlbody/*修正IE6振动bug*/{background-image:url(about:blank);background-attachment:fixed;}
+#back-to-top{ background:url(http://img.eduuu.com/website/gaokao/images/contList/btn_back.gif) no-repeat 50% 0; width:30px; height:91px; position:fixed; bottom:102px; display:block; line-height:999px; overflow:hidden; cursor:pointer; left:50%; margin-left:475px;_position:absolute;_right:auto;_left:expression(eval(document.documentElement.scrollLeft+705));_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||100)));}
+/*改版新增样式2013-05-20*/
+.pyOne{ padding:13px 8px 10px;}
+.notT{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/contlist/nav23.gif) repeat-x; height:23px; line-height:23px; overflow:hidden;}
+.notT span{ border-style:solid; border-width:2px 1px 0 1px; border-color:#cd1d32;}
+/*校区查询、暑期课历*/
+.pyArea{ position:relative; width:230px; margin:0 auto; z-index:10;}
+.pdNews li{ background:url(http://pic.speiyou.com/speiyou/images/pd_asideNav.gif) no-repeat; height:39px; line-height:32px; *+margin-bottom:-4px; width:230px;}
+.pdNews li span{ display:block; padding:0 4px; text-align:center; color:#b01313; float:left;}
+.pdNews li span a{ display:block; cursor:pointer;}
+.pdNews li span a:hover{ background:url(http://pic.speiyou.com/speiyou/images/pd_asideOn.gif) no-repeat 0 0; padding:0 5px 0 28px;  height:38px; line-height:18px; color:#fff; font-family:"微软雅黑"; font-size:14px; overflow:hidden; text-decoration:none;}
+.pdNews li .on a:link,.pdNews li .on a:visited,.pdNews li .on a:hover,.pdNews li .on a:active{ color:#fff;}
+.pdNews li span.xqcx a:hover{ background:none; padding:0; font-size:12px; color:#b01313; line-height:32px; font-family:"宋体";}
+.wid67{ width:67px;}
+.wid68{ width:68px;}
+.wid70{ width:70px;}
+.btn_jx{ width:220px; margin:52px 0 0 10px; _display:inline; float:left;}
+.btn_jx li{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/btn_jx.gif) no-repeat; width:105px; height:29px; line-height:29px; overflow:hidden; float:left; font-family:"微软雅黑"; color:#fff;}
+.btn_jx li em{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/icon_jx.gif) no-repeat 10px 6px; padding-left:25px;}
+.wxInfo{ width:205px; text-indent:24px; float:right; margin-top:14px; height:116px; overflow:hidden;}
+.jx_school li{ float:left; margin-right:10px; height:165px; overflow:hidden;}
+.jx_school li.last{ margin-right:0;}
+.jx_school li img{ border:1px solid #ddd;-webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px; width:230px; height:170px; overflow:hidden; display:block;}
+.jxbg{ background:#fff url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jxbg.gif) repeat-x bottom; padding:13px;}
+.serTit dt{ font-size:24px; font-family:"微软雅黑"; float:left; margin-right:48px; _display:inline;}
+.serTit dd{ float:left; line-height:18px;}
+.serTit dd p{ font-weight:bold; font-family:"微软雅黑"; color:#444;}
+.tel{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/ico_tel.gif) no-repeat 0 2px; padding-left:20px;}
+.tel b{ color:#b91702; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+.jxTab{ width:582px;}
+.jxTit{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jx_li.gif) repeat-x; height:23px; line-height:23px; overflow:hidden;}
+.jxTit li{ float:left; padding:0 7px; text-align:center; cursor:pointer;}
+.jxTit li.jxOn{ border-top:1px solid #b91702; border-right:1px solid #ddd; background-color:#fff; height:24px;}
+.jxCon{ background-color:#fff; padding:15px; width:553px; min-height:165px; _height:165px; overflow:hidden;}
+.jxCon ul{ width:127px; float:left; overflow:hidden; margin-right:15px; }
+.jxCon ul.noMargin{ margin-right:0;}
+.jxPyOn .jxService,.jxPyOn2 .jxService2{ display:block;}
+.jxClose,.jxClose_kc{ cursor:pointer; position:absolute; right:0; top:0; background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/close.png) no-repeat; width:21px; height:23px; overflow:hidden; text-indent:-9999px;}
+.changeTit{ width:580px; height:30px; line-height:30px; overflow:hidden; background-color:#838383; color:#fff; margin-bottom:20px;}
+.changeTit li{ float:left; padding:0 10px; border-right:1px solid #fff; cursor:pointer;}
+.changeTit li.changeOn{ background-color:#b91702;}
+.jxCon ul.jx_sz{ width:174px;}
+.changeCon .clearfix{ display:inline-block; overflow:hidden;}
+.topMargin15{ margin-top:15px;}
+.divNone{ display:none;}
+.jxTab_kc{ padding:0 10px; width:562px;}
+.changeCon0{ background:#fff;}
+/*change by guoxf 2012-06-14*/
+.sqkc{ height:96px; border-left:1px solid #ddd; overflow:hidden;}
+.sqkc dl{ width:93px; float:left; border:1px solid #ddd; border-left:0; text-align:center; vertical-align:middle; font-family:"微软雅黑"; font-weight:bold; padding:20px 0; height:54px; overflow:hidden; background:#f7f7f7;}
+.sqkc dl.dl90{ width:90px;}
+.qjkc{ width:540px; border:1px solid #ddd; height:50px; overflow:hidden; background:#f7f7f7; padding:10px; font-weight:bold;}
+.sqkc dd,.qjkc dd,.sqTimes dd ul font{ color:#b91702; font-weight:normal;}
+.sqTimes dd ul{ width:265px; float:left;}
+.jxService,.jxService2{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jx_transbg.png) repeat; width:610px; padding:8px; overflow:hidden; -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;behavior:url(PIE.htc); position:absolute; top:40px; right:85px; z-index:10; display:none;}
+/*暑秋班*/
+.sqbTit{ background:url(http://img.eduuu.com/website/yingyu/images/mainsite/contlist/nav23.gif) repeat-x; height:23px; line-height:23px;}
+.sqbTit li{ float:left; padding:0 10px; cursor:pointer; text-align:center;}
+.sqbTit .sqbOn{ border-style:solid; border-width:2px 1px 0 1px; border-color:#cd1d32; background-color:#fff; height:21px; line-height:21px; font-weight:bold; color:#C20201;}
+.sqbCon{ padding:10px 10px 9px; line-height:25px;}
+.jpDqb{ width:135px; height:23px; line-height:23px; overflow:hidden; background-color:#ffede6; border-radius:5px 5px 5px 5px; padding:0 10px; margin:8px 0; color:#b01313;}
+.tm4{ margin-top:4px;}.bm3{ margin-bottom:3px;}
+.asidePic img{ border:1px solid #ddd; display:block;}
+.newsList ul{ padding:10px 15px 3px;}.h235{ height:242px;}

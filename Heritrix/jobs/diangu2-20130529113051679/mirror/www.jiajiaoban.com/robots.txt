@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /%BC%D2%BD%CC/
+Disallow: /¼Ò½Ì/

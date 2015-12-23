@@ -1,0 +1,137 @@
+/* 首页修改样式 [20130419 15:56:13] */
+.mainNav_0121 ul li a{ display:block; width:111px; height:29px;}
+.mainNav_0121 ul li a:hover{ background:url(http://files.eduuu.com/img/2011/05/08/191707_4dc67bb3dfc76.gif) no-repeat; color:#fff;}
+
+.mainNav_0121 UL #teacher0121 A {
+	WIDTH: auto
+}
+.mainNav_0121 UL #bbs0121 A {
+	WIDTH: auto
+}
+
+.clearfix:after{ content:".";display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block;overflow:hidden;}
+.hr_10{ clear:both; height:10px; overflow:hidden; font-size:1px; line-height:1px;}
+.pa_Left_bg{ width:725px; float:left; padding:0; border:none;}
+.pa_Left{ width:224px; float:left; height:auto;}
+.rese201159{ background:url(http://files.eduuu.com/img/2011/10/18/180602_4e9d4f8a3197a.jpg) no-repeat; height:50px; padding-top:107px; text-align:center;}
+.pa_Main{ width:494px; float:right; padding:0;}
+#focus_pic_box{ width:492px; height:224px; overflow:hidden; position:relative; border:1px solid #ccc;}
+#focusPic li{ position:absolute; left:0; top:0; display:none;}
+#pic_txt{ position:absolute; height:28px; bottom:0px; left:0; line-height:28px; background-color:#000; color:#FFF; width:492px; filter:alpha(opacity=70); opacity:0.7;}
+#pic_txt p{ padding-left:5px; line-height:28px; text-align:left; display:none;}
+#pic_txt p a{ color:#FFF;}
+#pic_txt p a:hover{ color:#FFF;}
+#num{ position:absolute; right:0; bottom:5px;}
+#num span{ display:inline-block; padding:0 6px; margin-right:5px; background-color:#666; color:#FFF; cursor:pointer;}
+#num span.on{ background-color:#FF6633; font-weight:bold;}
+
+#rqkc{ background:url(http://img.eduuu.com/jiajiao/images/index59/kcbg.gif) no-repeat; height:243px; overflow:hidden;}
+#rqkc h3{ font-size:14px; color:#A71414; padding:3px 0 0 32px; line-height:31px; height:31px;}
+#rqkc dl{ line-height:24px; padding:9px 18px;}
+#rqkc dl span{ float:right;}
+#rqkc dl .gray{ color:#909090;}
+#rqkc dl dt a{ font-size:14px; font-weight:bold;}
+#rqkc dl dd a{ color:#FD7E8C;}
+#rqkc dl dd a:hover{ color:#FD7E8C;}
+
+.sideCity{ width:248px; float:right;}
+#search_qj{ border:1px solid #ccc; width:920px; height:30px; background:url(http://dfiles.speiyou.com/img/2013/04/19/101558_5170a8dea46bf.jpg) no-repeat 15px 5px; padding:8px 0 0 58px; font-size:14px; font-weight:bold;}
+#search_qj ul li{ float:left; margin:0 5px; _display:inline;}
+#search_qj ul li select,#search_qj ul li input{ vertical-align:middle;}
+#search_qj ul li select{ height:23px; padding:1px;}
+
+.cjkcBox_l{ width:716px; float:left;}
+.cjkcBox_l h2{ background:url(http://img.eduuu.com/jiajiao/images/index59/title_cjkc.gif) no-repeat; padding:3px 0 0 30px; line-height:30px; height:30px; font-size:14px; color:#fff;}
+.cjkcBox_l_con{ border:1px solid #ccc; border-top:none;}
+.cjkcBox_l_con dl{ width:700px; height:75px; line-height:24px; padding:25px 0 0 14px; background-color:#F2FAFF;}
+.cjkcBox_l_con dl dt{ background:url(http://img.eduuu.com/jiajiao/images/index59/cjkc_bg.png) no-repeat; width:42px; height:24px; padding-left:16px; float:left; margin-top:11px; font-weight:bold; color:#00639B;}
+.cjkcBox_l_con dl dd{ float:left; padding-left:10px;}
+.cjkcBox_l_con dl.mid{ background-color:#FCFFF2; border-top:1px solid #B4E2FE; border-bottom:1px solid #B4E2FE;}
+.cjkcBox_r{ border:1px solid #ccc; padding:2px; float:right; width:250px; _height:330px;}
+.cjkcBox_r h2{ background:url(http://img.eduuu.com/jiajiao/images/index59/cjkcBox_r_tit.gif) repeat-x; height:29px; line-height:29px; font-size:14px; color:#fff; padding-left:10px;}
+.cjkcBox_r p{ width:220px; margin:0 auto; border-bottom:1px dotted #DBDBDB; padding:7px 5px 6px; line-height:22px;}
+.cjkcBox_r p em{ font-size:14px; color:#1894C6; font-weight:bold; font-style:normal;}
+.cjkcBox_r p.noline{ border-bottom:none;}
+.chooseCity{ background:url(http://img.eduuu.com/jiajiao/images/index59/choosecityxq.jpg) no-repeat; height:119px; padding-top:8px;}
+.chooseCity h2{ font-size:14px; color:#fff; padding:5px 38px;}
+.num_phone{ color:#FFEF00; font-family:"微软雅黑"; font-size:16px; padding-left:35px;}
+.zx_online{ background:url(http://img.eduuu.com/jiajiao/images/index59/zx_onbg.jpg) no-repeat; height:29px; font-size:14px; font-weight:bold; padding:32px 0 0 92px;}
+.bm_online{ background:url(http://img.eduuu.com/jiajiao/images/index59/bm_onbg.jpg) no-repeat; height:33px; font-size:14px; font-weight:bold; padding:18px 0 0 92px;}
+.free_list{ background:url(http://img.eduuu.com/jiajiao/images/index59/on_txtbg.jpg) no-repeat; height:139px; line-height:24px; padding:20px 0 0 18px;}
+/*--------------------最右边区域---------------- 20120905 bilibo update*/
+ul.free_list { background:url(http://dfiles.speiyou.com/img/2012/09/05/102712_5046b88099a1c.jpg) 0px 0px no-repeat; height:172px; line-height: 24px; padding: 55px 0 0 0px; width:247px;}
+ul.free_list li{ background:url(http://dfiles.speiyou.com/img/2012/09/05/102712_5046b880ad679.jpg) 22px 9px no-repeat; width:202px; padding:0px 10px 0 35px; height:30px; line-height:30px;}
+ul.free_list li strong{ font-size:14px; font-weight:bold; color:#ff7800;}
+ul.free_list li a{ color:#333; text-decoration:none;}
+ul.free_list li a:hover{ color:#F00; text-decoration:underline;}
+
+/*----------中间区域----------- 20120905 bilibo update*/
+.centjian{ width:494px; height:312px; overflow:hidden; background:#fff;}
+.centjian h3{ height:30px; line-height:30px; text-align:center; font-size:16px; font-weight:bold; width:494px;}
+.centjian h3 a{ color:#333; text-decoration:none;}
+.centjian h3 a:hover{ color:#ff0000; text-decoration:underline;}
+.centjian p{ height:25px; line-height:25px; text-align:center; width:494px; margin-bottom:15px;}
+.centjian p a{ color:#666; text-decoration:none;}
+.centjian p a:hover{ color:#ff0000; text-decoration:underline;}
+.centjian h4{ background:#f8f8f8 url(http://dfiles.speiyou.com/img/2012/09/05/102712_5046b880d2469.jpg) 10px 8px no-repeat ; height:30px; line-height:30px; width:464px; text-align:left; font-size:14px; font-weight:bold; position:relative; padding-left:30px;}
+.centjian h4 a{ top:0px; font-weight:normal; right:10px; color:#333; font-size:12px; text-decoration:none; position:absolute;}
+.centjian h4 a:hover{ color:#F00; text-decoration:underline;}
+.centjian ul{ width:494px; padding-top:8px;}
+.centjian ul li{ width:464px; height:25px; line-height:25px; background:url(http://dfiles.speiyou.com/img/2012/09/05/102713_5046b88145e8c.jpg) 10px 9px no-repeat; padding-left:25px; padding-right:5px;}
+.centjian ul li a{ color:#333; text-decoration:none;}
+.centjian ul li a:hover{ color:#F00; text-decoration:underline;}
+.centjian ul li span{ float:right;}
+.centjian ul li span a{ color:#2b9dda; text-decoration:none;}
+.centjian ul li span a:hover{ color:#F00; text-decoration:underline;}
+
+/*  help  20120905 bilibo update */
+.help{ width:222px; border:1px solid #CCCCCC; height:274px; margin-bottom:8px;}
+.help h3{ background:url(http://dfiles.speiyou.com/img/2012/09/05/102711_5046b87fc16cc.jpg) left top no-repeat; width:192px; height:32px; line-height:32px; padding-left:30px; font-size:14px; font-weight:bold; color:#333; border-bottom:1px solid #ccc;}
+.help_cent{ width:222px; height:241px;}
+.help_cent p.ppc{ background:url(http://dfiles.speiyou.com/img/2012/09/05/102712_5046b88080b79.jpg) 10px 10px no-repeat; height:45px; line-height:22px; color:#666; text-indent:2em; padding:10px 10px 5px 10px; width:202px;}
+.help_cent ul{ padding:0px 5px; width:212px;}
+.help_cent li{ height:25px; line-height:25px; margin-top:5px;}
+
+
+.adbox{ margin-top:6px;}
+.chooseBox{ width:220px; height:34px; margin:3px auto; background:url(http://img.eduuu.com/jiajiao/images/index59/choosebg.jpg) no-repeat; position:relative;}
+.chooseBox dt{ height:32px; line-height:32px; padding:2px 0 0 15px;}
+.city{ width:80px; position:absolute; left:0; top:0; height:34px; overflow:hidden;}
+.city dt{ width:65px; background:url(http://img.eduuu.com/jiajiao/images/index59/choose_icon.gif) no-repeat 68px 15px;}
+.city dd{ line-height:24px; text-indent:15px; cursor:pointer;}
+.city.on{ border:1px solid #278EC2; height:auto; background-color:#fff;}
+.sercenter{ width:140px; position:absolute; left:80px; top:0; height:32px; overflow:hidden;}
+.sercenter dt{ width:125px; background:url(http://img.eduuu.com/jiajiao/images/index59/choose_icon.gif) no-repeat 95px 15px;}
+.sercenter dd{ line-height:22px;}
+.sercenter dd a{ display:inline-block; margin:0 5px;}
+.sercenter.on{ height:auto; background-color:#fff; border:1px solid #278EC2;}
+
+/*新增益智大课堂、新浪微博版块样式*/
+#yz_dkt_box{ padding:20px 7px 20px 9px;}
+	.yzMess{ border-bottom:1px solid #d7d7d7; padding-bottom:12px; margin-bottom:12px;}
+	.yzMess li{ float:left; width:214px; text-align:center; margin:0 9px; _display:inline;}
+	.yzMess li span{ display:block; no-repeat; width:214px; height:172px; overflow:hidden; padding-top:11px; margin-bottom:10px;}
+	#yz_dkt_box .noline{ border-bottom:none; margin-bottom:0; padding-bottom:0;}
+	.cjkcBox_r h2.xlTitle span{ background:url(http://img.eduuu.com/jiajiao/images/index59/xlIco_03.gif) no-repeat 0 3px; padding-left:33px; display:block;}
+	.zkCon{ width:227px; margin:12px 12px 8px;}
+	.zkMess{ border-bottom:10px solid #e5e5e5; padding-bottom:10px; *padding-bottom:6px; margin-bottom:10px; width:227px;}
+	.zkMess dt{ float:left; width:52px; margin-right:10px; _display:inline;}
+        .zkMess dt img{ display:block;}
+	.zkMess dd{ float:left; width:95px; position:relative;}
+	.cjkcBox_r .zkCon dd p{ font-size:16px; border-bottom:0; width:86px; padding:0;}
+	.cjkcBox_r .zkCon dd p.guanzhu{ position:relative; top:5px;}
+	
+	.zkList{ line-height:18px;}
+	.cjkcBox_r .zkList p{ padding:0; color:#0ca5fd;}
+	.cjkcBox_r .zkList p a:link,.cjkcBox_r .zkList p a:visited{ color:#0ca5fd;}
+	.ggCon{ border-bottom:10px solid #e5e5e5; padding-bottom:7px; margin-bottom:7px; *margin-bottom:8px;}
+	.ggCon dt{ color:#0ca5fd; margin-bottom:3px;}
+	.ggCon dd{ line-height:17px;}
+	.ggCon h5{ font-size:13px; font-weight:normal;}
+	.fxCon h6{ font-size:12px; font-weight:normal; margin-bottom:8px;}
+	.fxCon h6 span{ float:right; color:#0ca5fd;}
+	.fxCon h6 em{ color:#0ca5fd; font-style:normal;}
+	.fxList li{ float:left; width:50px; text-align:center; margin:0 12px; _display:inline;}
+	.fxList li img{ margin-bottom:3px; *margin-bottom:5px; display:block;}
+	a.blue:link,a.blue:visited{ color:#0ca5fd;}

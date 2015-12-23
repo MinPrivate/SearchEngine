@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /%B8%DF%BF%BC/
+Disallow: /¸ß¿¼/
+Disallow: /test/
+Disallow: /website/

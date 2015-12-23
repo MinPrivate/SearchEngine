@@ -1,0 +1,29 @@
+// JavaScript Document
+//精选专区培优学而思服务中心
+//滑动
+tabs('.jxTit1','.jxCon1','jxOn1');
+tabs('.jxTit2','.jxCon2','jxOn2');
+//点击
+tabsC('.changeTit1','.changeCon1','changeOn1');
+tabsC('.changeTit2','.changeCon2','changeOn2');
+$(function(){
+	$('.pyTel').click(function(){
+		$(this).parents('.jxPy').addClass('jxPyOn');
+	});
+	$('.jxClose').click(function(){
+		$(this).parents('.jxPy').removeClass('jxPyOn');
+	});
+	$('.btnDx').click(function(){
+		$(this).parents('.zkArea').addClass('jxPyOn2');
+		setImg('#ckcode');
+	});
+	$('.jxClose_dx').click(function(){
+		$(this).parents('.zkArea').removeClass('jxPyOn2');
+	});
+	$('.zkTel').click(function(){
+		$(this).parents('.zkArea').addClass('jxPyOn3');
+	});
+	$('.jxClose_zk').click(function(){
+		$(this).parents('.zkArea').removeClass('jxPyOn3');
+	});
+});

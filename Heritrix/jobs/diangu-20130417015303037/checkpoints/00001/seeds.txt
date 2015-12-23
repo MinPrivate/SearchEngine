@@ -1,0 +1,3 @@
+http://www.confucianism.com.cn/
+# Heritrix added seed redirect from http://www.confucianism.com.cn/ 20130417015412164.
+http://www.confucianism.com.cn/index.html

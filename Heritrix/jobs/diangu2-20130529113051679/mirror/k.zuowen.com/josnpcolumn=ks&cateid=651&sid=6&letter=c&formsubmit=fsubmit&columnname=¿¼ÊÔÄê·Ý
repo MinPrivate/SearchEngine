@@ -1,0 +1,11 @@
+document.writeln("<select name=\"cbigclass\" id=\"scharea\" class=\"select120\">");
+document.writeln("<option value=\"100\">¿¼ÊÔÄê·Ý</option>");
+document.writeln("<option value=\"c657\">2012年</option>");
+document.writeln("<option value=\"c658\">2011年</option>");
+document.writeln("<option value=\"c659\">2010年</option>");
+document.writeln("<option value=\"c660\">2009年</option>");
+document.writeln("<option value=\"c661\">2008年</option>");
+document.writeln("<option value=\"c662\">2007年</option>");
+document.writeln("<option value=\"c663\">2006年</option>");
+document.writeln("</select>");
+document.writeln('<input name="column" type="hidden" value="ks" />');

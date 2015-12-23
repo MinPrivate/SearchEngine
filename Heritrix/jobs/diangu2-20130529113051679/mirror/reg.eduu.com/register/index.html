@@ -1,0 +1,282 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>E度通行证</title>
+<link href="http://imgs.eduu.com/css/base.css" rel="stylesheet" type="text/css" />
+<link href="http://imgs.eduu.com/css/login_style.css" rel="stylesheet" type="text/css" />
+<link href="http://imgs.eduu.com/css/user_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://imgs.eduu.com/js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="http://imgs.eduu.com/js/jquery.fend.js"></script>
+<script type="text/javascript" src="http://imgs.eduu.com/dialog/jquery.artDialog.js?skin=default"></script>
+<!--[if IE 6]>
+    <script type="text/javascript" src="http://img.eduuu.com/website/public_js/DD_belatedPNG.js" ></script>
+    <script type="text/javascript">
+    DD_belatedPNG.fix('.cloud');
+    DD_belatedPNG.fix('.logo');
+    </script>
+<![endif]-->
+</head>
+<body>
+<div class="main cloud">
+    <div class="wrapper">
+        <h1 class="logo"><a href="http://www.eduu.com/" target="_blank"></a></h1>
+        <div class="content">
+            <!--<div class="corn"><img src="http://imgs.eduu.com/images/cornCon_t.gif" width="950" height="8" /></div>
+            <div class="conBox">-->
+<h2 class="titleZcDl">快速注册E度通行证</h2>
+<div  class="homeRegL" >
+<form method="post" onsubmit="return formSub(this);">
+<input name="url" type="hidden" value="http://img.eduuu.com/website/public_js/topMenu.js" />
+<input type="hidden" id="ifgpword" name="ifgpword" value="0">
+<ul class="loginInputBox regInputBox">
+    
+    <li class="ft14">电子邮箱：</li>
+    <li class="ft14"><input name="email" type="text" class="loginInputBg loginInputBg_l" value="" /><em class="click_ts">用来接收找回密码等信息</em></li>
+
+    <li class="ft14 topMargin20">用户名：</li>
+    <li class="ft14 regUser"><input name="uname" type="text" class="loginInputBg loginInputBg_l" id="uname" value="" autocomplete="off"/><em id="uem" class="click_ts">4-15个字符或2-7个汉字</em>
+    <div class="regrecommend" style="display:none;">
+        <h3>推荐您使用以下用户名</h3>
+        <div id="recuser"></div>
+    </div>
+    </li>
+    
+    <li class="ft14 topMargin20">设置密码：</li>
+    <li class="ft14"><input id="npasswd" name="passwd" type="password" class="loginInputBg loginInputBg_l" /><em class="click_ts">6到16个字符，区分大小写</em></li>
+    <li class="wdtip" style="display:none;"><b class="cur1">弱</b><b class="cur2">中</b><b class="cur3">强</b></li>
+
+    <li class="ft14 topMargin20">确认密码：</li>
+    <li class="ft14"><input name="agnpwd" type="password" class="loginInputBg loginInputBg_l" /><em class="click_ts">请再次输入密码</em></li>
+
+    <li class="ft14 topMargin20">验证码：</li>
+    <li class="ft14"><input name="locheck" type="text" class="loginInputBg loginInputBg_s" /> <em class="click_ts">请填写验证码</em><img src="http://reg.eduu.com/register/ckCode" align="absmiddle" id="ckcode" onclick="FD.fm.setImg('#ckcode');" /> <a href="JavaScript:void(0);" onclick="return FD.fm.setImg('#ckcode');" class="blue" style=" padding-top:6px; vertical-align:middle;">换一张</a> </li>
+    <li id="Agremt" class="topMargin20"><input name="isagreement" type="checkbox" checked class="forgetInput" /> 我已阅读并接受《<a href="http://reg.eduu.com/register/agreement" target="_blank" class="blue">使用协议</a>》<input type="hidden" name="referer" value="img.eduuu.com"/></li>
+    <li class="topMargin20"><button type="submit" onclick="javascript:_gaq.push(['_trackPageview', '/zhuce/tijiaozhuce']);" class="loginBtnFin"></button></li>
+    
+ </ul>
+
+</form>
+<script type="text/javascript">
+var getUrl="http://reg.eduu.com/register/check";
+$("#uname").keydown(function(){
+    $(".regrecommend").hide();
+});
+$('.loginInputBg').focus(function(){ $(this).next('em').show();$("#login_ts").hide(); }).blur(
+function(){ 
+    var obj=$(this).next('em').removeClass().html('');
+    switch (this.name){
+        case 'uname':
+            if (this.value){ 
+                var v=this.value;
+                $.get(getUrl+'?tp=0&uname='+encodeURIComponent(v),function(data){
+                    if(data == '-1') {
+                        obj.addClass('login_ts').show().html('用户名包含非法字符');
+                    }else if(data == '-2') {
+                        obj.addClass('login_ts').show().html('用户名不能为空');
+                    }else if(data == '-3') {
+                        obj.addClass('login_ts').show().html('用户名太短了');
+                    }else if(data == '-4') {
+                        obj.addClass('login_ts').show().html('用户名太长了');
+                    }else if(data == '-5') {
+                        obj.addClass('login_ts').show().html('这个用户名已经被注册过了');
+                        //这里给出推荐用户
+                        getRecommed(v);
+                    }else if(data == '-6') {
+                        obj.addClass('login_ts').show().html('用户名包含敏感内容');
+                    }else if(data == '-7') {
+                        obj.addClass('regIconTure').show().html('用户名包含<a href="http://help.eduu.com/e/20120528/4fc30a4d65ed1.shtml" class="blue" target="_blank">机构保留词</a>，需审核');
+                        $("#ifgpword").val('1');
+                    }else {
+                        obj.addClass('regIconTure').show().html('');
+                        $("#ifgpword").val('0');
+                        $(".regrecommend").hide();
+                    }
+                })
+            }else{
+                obj.addClass('login_ts').html('用户名不能为空').show();
+                $("#ifgpword").val('0');
+            }
+            break;
+        case 'email':
+            if (this.value){
+                if (/^[\w-]+@([\w-]+\.)+[a-zA-Z]+$/.test(this.value)){
+                    $.get(getUrl+'?tp=1&uname='+encodeURIComponent(this.value),function(data){
+                        if (data=='1'){
+                            obj.html('').addClass('regIconTure').show();
+                        }else{
+                            obj.html('邮箱已存在').addClass('login_ts').show();
+                        }
+                    })
+                }else{
+                    obj.addClass('login_ts').html('邮箱格式不正确').show();
+                }
+            }else{
+                obj.addClass('login_ts').html('email不能为空').show();
+            }
+            break;
+        case 'passwd':
+            if (this.value){
+                var pwdStrong=FD.pwdstrong.checkStrong(this.value);
+                if (this.value.length<6 || this.value.length>16){
+                    obj.addClass('login_ts').show().html('密码长度应为6~16个字符');
+                }else{
+                    obj.addClass('regIconTure').show().html('');
+                }
+            }else{
+                obj.addClass('login_ts').show().html('密码不能为空');
+            }
+            break;
+        case 'agnpwd':
+            if (this.value){
+                if(this.value!=$('#npasswd').val()) {
+                    obj.addClass('login_ts').show().html('两次密码输入不一致，请重新输入');
+                }else{
+                    obj.addClass('regIconTure').show().html('');
+                }
+            }else{
+                obj.addClass('login_ts').show().html('两次密码输入不一致，请重新输入');
+            }
+            break;
+        case 'locheck':
+            if (this.value){
+                if (this.value.length<4){
+                    obj.addClass('login_ts').show().html('验证码输入错误，请重试');
+                }else{
+                    $.get('http://reg.eduu.com/register/ckcode?tp=1&code='+encodeURIComponent(this.value)+'&t='+Math.random(),function(data){
+                        if(data == '1'){
+                            obj.addClass('regIconTure').show().html('');
+                        }else {
+                            obj.addClass('login_ts').show().html('验证码输入错误，请重试');
+                        }
+                    })
+                }
+            }else{
+                obj.addClass('login_ts').show().html('验证码不能为空');
+            }
+            break;
+    }
+});
+
+//提取注册相关用户
+function getRecommed(v){
+    $.getJSON('http://reg.eduu.com/register/getrecommed?n=3&&uname='+encodeURIComponent(v),function(data){
+        if(data=='-1') return;
+        var i;var h='';
+        for(i=0;i<3;i++){ 
+            h+="<a href=\"javascript:;\" onclick=\"recomUser('"+data[i]+"');\">"+data[i]+"</a>";
+        }
+        $("#npasswd").blur();
+        $("#recuser").html(h);
+        $(".regrecommend").show();
+    })
+}
+function recomUser(s){
+    $("#uname").val(s);
+    $("#uem").removeClass().addClass('regIconTure').show().html('');
+    $(".regrecommend").hide();
+}
+
+
+function formSub(O){
+    if (!O.uname.value){
+        $(O.uname).next('em').addClass('login_ts').show();
+        return false;
+    }
+    if (!O.email.value){
+        $(O.email).next('em').addClass('login_ts').show();
+        return false;
+    }
+    if (!O.passwd.value){
+        $(O.passwd).next('em').addClass('login_ts').show();
+        return false;
+    }
+    if (!O.agnpwd.value){
+        $(O.agnpwd).next('em').addClass('login_ts').show();
+        return false;
+    }
+    if (!O.locheck.value){
+        $(O.locheck).next('em').addClass('login_ts').show();
+        return false;
+    }
+    if (!O.isagreement.checked){
+        $('#Agremt').css('color','red').hide('slow').show('slow').hide('slow').show('slow');
+        return false;
+    }
+
+    return true;
+}
+
+//密码强度检测
+function chkPwd(){
+    var v=$("#npasswd").val();
+    if(v.length>5 && v.length<17){ 
+        var pwdstrong=FD.pwdstrong.checkStrong(v);
+        if(pwdstrong==1){
+            $(".wdtip").removeClass('wdtip2').removeClass('wdtip3').addClass('wdtip1');
+        }else if(pwdstrong==2){
+            $(".wdtip").removeClass('wdtip1').removeClass('wdtip3').addClass('wdtip2');
+        }else if(pwdstrong==3){
+            $(".wdtip").removeClass('wdtip1').removeClass('wdtip2').addClass('wdtip3');
+        }
+        $(".wdtip").show();
+    }else{
+        $(".wdtip").hide();
+    }
+}
+$("#npasswd").keyup(function(){
+    chkPwd();
+});
+chkPwd();
+</script>
+</div>
+<script type="text/javascript">
+//换下一个注册页面
+function nextReg(tid){
+    var url="http://reg.eduu.com/register/Nexttask?id="+tid+'&r='+Math.random();
+    $.get(url,function(data){
+        if(data){
+            $('#regContent').html(data);
+        }
+    });
+}
+</script>
+<div class="homeRegR" style="width:220px;">
+    <p style="font:20px/28px Microsoft YaHei;">注册e度账户通行证,</p>
+    <p style="font:20px/28px Microsoft YaHei; color:#f00;">即得学而思网校代金券</p>
+    <p>用e度通行证<a href="http://reg.eduu.com/login">直接登录</a></p>
+    <p>您也可以用以下方式登录</p>
+    <p><a class="qqlogin" href="#" 
+    onclick="javascript:apiLogin(4,'http://reg.eduu.com/');_gaq.push(['_trackEvent' ,'login', 'qq', 
+    'step-1']);"></a></p>
+    <p><a class="weibologin" href="#" 
+    onclick="javascript:apiLogin(1,'http://reg.eduu.com/');_gaq.push(['_trackEvent' ,'login', 'sina', 
+    'step-1']);"></a></p>
+</div>
+<!--            </div>
+            <div class="corn"><img src="http://imgs.eduu.com/images/cornCon_b.gif" width="950" height="9" /></div>-->
+        </div>
+        <div class="hr_10"></div>
+        <div class="clearfix" id="footer">
+            <div class="left"><p>e度空间 京ICP备09042963号</p><p>北京市公安局海淀分局备案编号 1101081950</p><p>客服邮箱---service@eduu.com</p></div>
+            <div class="right">
+            <a href="http://home.eduu.com/verify/" target="_blank" class="blue">认证合作</a>  |  
+            <a href="http://help.eduu.com/" target="_blank" class="blue">帮助中心</a>  |  
+            <a href="http://www.xueersi.org/" target="_blank" class="blue">关于我们</a>  |  
+            <a href="http://www.eduu.com/include/hezuo.html" target="_blank" class="blue">联系合作</a>  |  
+            <a href="http://www.eduu.com/z/yqlj/index.html" target="_blank" class="blue">友情链接</a>  |  
+            <a href="http://www.eduu.com/include/site_map.html" target="_blank" class="blue">网站地图</a>  |  
+            <a href="http://www.eduu.com/include/fuwu.html" target="_blank" class="blue">服务条款</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div style="display:none;">
+<script src="http://img.eduuu.com/edu/js/ggc_test.js?v=20111226" type="text/javascript" type="text/javascript"></script> 
+<script src="http://s50.cnzz.com/stat.php?id=1997329&web_id=1997329" type="text/javascript" type="text/javascript"></script> 
+<script src="http://s14.cnzz.com/stat.php?id=2252450&web_id=2252450" type="text/javascript" language="JavaScript"></script> 
+</div>
+</body>
+</html>

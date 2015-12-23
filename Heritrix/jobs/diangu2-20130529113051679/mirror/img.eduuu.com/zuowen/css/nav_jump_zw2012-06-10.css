@@ -1,0 +1,30 @@
+/* 新版导航样式 [20130111 11:18:23] */
+@charset "gb2312";
+/* CSS Document */
+/*头部样式*/
+.logoArea-head{ height:70px; width:950px; position:relative;z-index:550;}
+.logo_new{ width:196px; height:45px; float:left; padding-top:10px;}
+
+.logo-banner{ width:468px; float:left; margin-left:30px; _display:inline; padding:4px; border:1px solid #ddd; height:60px; overflow:hidden;}
+.logo-fd{ background:url(http://img.eduuu.com/zuowen/images/newhead/fdbg.gif) no-repeat; width:131px; height:32px; overflow:hidden; text-align:center; padding-top:38px; float:right;}
+.logoReg{ background:url(http://img.eduuu.com/website/aoshu/images/header/btn_qqbg.gif) no-repeat; width:208px; height:65px; position:absolute; right:0; top:-7px; padding:12px 5px 0; line-height:20px;}
+.logoReg span{ color:#c00;}
+.logoReg img{ margin-bottom:-5px;}
+.loginInAd{ width:218px; height:69px; float:right; display:none; overflow:hidden;}
+/*主导航*/
+.tag_nav{ background:url(http://img.eduuu.com/website/zuowen/images/header/top_nav_bg.gif) no-repeat; height:35px; overflow:hidden; width:950px;}
+.tag_nav span{ display:block; float:left; font-size:14px; font-weight:bold; background:url(http://img.eduuu.com/website/zuowen/images/header/nav_line.gif) no-repeat 0 1px;}
+.tag_nav span a{ color:#6141BC;height:33px; line-height:33px; padding:2px 9px 0; display:inline-block;}
+.tag_nav span a:hover{ text-decoration:none;color:#6141BC;}
+.tag_nav .tag_nav_2{ background:url(http://img.eduuu.com/website/zuowen/images/header/navbg_l.gif) no-repeat;}
+.tag_nav .tag_nav_2 a{ background:url(http://img.eduuu.com/website/zuowen/images/header/navbg_r.gif) right top no-repeat; color:#fff; font-weight:bold; padding:2px 9px 0;}
+.tag_nav .tag_nav_2 a:hover{ color:#fff;}
+.tag_nav #tag_nav_index.tag_nav_2 a{ padding:2px 9px 0;}
+
+#nav_con{ background:url(http://img.eduuu.com/website/zuowen/images/header/top_nav_con.gif) no-repeat; height:32px; line-height:32px; overflow:hidden; padding:2px 10px 0; position:relative; width:930px;}
+#nav_con ul li{ float:left; margin-left:10px; _display:inline; line-height:28px;}
+#nav_con ul li a{ color:#fff;}
+#nav_con ul li a:hover{ color:#fff;}
+#nav_con ul li span{ color:#fff; font-weight:bold;}
+#nav_con ul li span.nav_hot{ display:inline-block; color:#6141BC; background:url(http://img.eduuu.com/website/zuowen/images/header/nav_hotbg.gif) no-repeat 0 6px; width:64px; font-weight:bold; padding-left:5px; margin-right:5px; line-height:31px; *line-height:32px;}
+.divNone{ display:none;}

@@ -1,0 +1,109 @@
+/* 首页首屏样式文件 [20130510 09:22:07] */
+@charset "gbk";
+/* CSS Document 1.0*/
+body{padding:0; margin:0; background:#fff; /*为头部导航固定*/}
+
+.T_win980,.T_clearfix *{ padding:0; margin:0; font-size:12px; font-family:宋体; color:#333;}
+img{ border:none; vertical-align:middle;}
+ul,ol,li{ list-style:none;}
+table{}
+dt dl dd{ padding:0; margin:0; line-height:100%;}
+.T_left{ float:left;}
+.T_right{ float:right;}
+.clear{ clear:both;}
+.T_clearfix{zoom:1;}  
+.T_clearfix:after{content:'.';display:block;visibility:hidden;clear:both;height:0px;}  
+.T_win980{ width:980px; margin: 0 auto;}
+.T_wid220{ width:220px;}
+.T_wid530{ width:530px;}
+.T_wid210{ width:210px;}
+
+.T_ml10{ margin-left:10px;}
+.T_ml15{ margin-left:15px;}
+.T_mt10{ margin-top:10px;}
+.T_mt13{ margin-top:13px;}
+/*公用样式*/
+/*课程导航*/
+.T_dhTop{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_01.jpg) no-repeat; width:220px; height:40px; overflow:hidden;}
+.T_dhbottom{ background:url(http://pic.speiyou.com/jiajiao/indexImg/lefrightbg.jpg) repeat-x #ebebeb; width:220px; padding-bottom:2px;}
+.T_dhbg{ background:#fafafa; width:216px; margin:0 auto; padding:10px 0px 5px 0px;}
+.T_lefttitle{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_02.jpg) no-repeat left center; padding-left:27px; line-height:20px; font-size:14px; color:#333; margin—top:8px; margin-left:14px;}
+.ulline{ border-bottom:1px solid #e8e8e8;}
+.ulallclass{ padding:5px 0px; margin:0px 9px;}
+.ulallclass li{ line-height:24px; color:#333; font-size:12px; padding:0px 7px;}
+.ulallclass li span{ font-weight:bold;}
+.ulallclass li a,.T_zxtitlep a{ color:#333; text-decoration:none;}
+.ulallclass li a:hover,.T_zxtitlep a:hover{ color:#ff0000; text-decoration:underline;}
+/*服务专区*/
+.T_zqbg{ background:url(http://pic.speiyou.com/jiajiao/indexImg/alllrbg.jpg) no-repeat; width:207px; height:38px; overflow:hidden; font-size:14px; color:#333; font-weight:bold; padding:0px 0px 0px 13px; line-height:38px;}
+.T_zqbottom{ border:#e7e7e7 1px solid; border-top:none; width:202px; padding:10px 8px;}
+.T_csteache{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_07.jpg) no-repeat left center; font-size:14px; color:#333; padding-left:25px; line-height:26px; }
+.T_cssdad{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_08.jpg) no-repeat left center; font-size:14px; color:#333; padding-left:25px; line-height:26px; }
+.T_csfw{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_11.jpg) no-repeat left center; font-size:14px; color:#333; padding-left:25px; line-height:26px; }
+.T_cstjytse{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_12.jpg) no-repeat left center; font-size:14px; color:#333; padding-left:25px; line-height:26px; }
+.T_csteache a,.T_cssdad a,.T_csfw a,.T_cstjytse a{ color:#333; text-decoration:none; font-size:14px; }
+.T_csteache a:hover,.T_cssdad a:hover,.T_csfw a:hover,.T_cstjytse a:hover{ color:#ff0000; text-decoration:underline; }
+
+.T_centerimg{ width:530px; height:265px; overflow:hidden;}
+.T_zxtitle{ font-family:"黑体"; font-size:18px; color:#010101; text-align:center; line-height:26px; font-weight:normal;}
+.T_zxtitle a{ color:#333; text-decoration:none;font-family:"黑体"; font-size:18px; }
+.T_zxtitle a:hover{ color:#ff0000; text-decoration:underline;font-family:"黑体"; font-size:18px; }
+
+.T_zxtitlep{ text-indent:24px; font-size:12px; line-height:24px; color:#333; }
+
+/*下边滑动门宽度自适应*/
+.column{ border-bottom:1px solid #d8d8d8; height:29px; line-height:29px; padding:0px 5px 0px 0px; margin-top:10px;}
+.column div{line-height:28px; text-align:center; color:#333; font-size:14px; float:left; display:inline; cursor:pointer; height:28px; padding:0px 15px;  font-weight:bold;}
+.column div a,.column div a:hover{ color:#777; text-decoration:none; font-size:14px;}
+.column div.hover{display:block; background:#1f9ed4; padding:0px 15px; cursor:pointer; height:29px; display: block; line-height:29px; float:left; font-weight:bold; color:#fff; font-size:14px; text-align:center; font-weight:700; margin-bottom:-1px; position:relative;}
+.column div.hover a,.column div.hover a:hover{color:#333; font-weight:700; text-decoration:none; font-size:14px; }
+.wid340{ width:340px;}
+.wid170{ width:170px;}
+/*.T_hottop{ margin-top:10px;}*/
+.T_hottop ul li{ line-height:25px; color:#333; font-size:14px; background:url(http://pic.speiyou.com/jiajiao/indexImg/T_pic_16.jpg) no-repeat center left; margin-left:5px; padding-left:10px;height:25px;overflow:hidden;}
+.T_hottop ul li a{ text-decoration:none; color:#333;font-size:14px;font-family:"微软雅黑"}
+.T_hottop ul li a:hover{ text-decoration:underline; color:#ff0000;font-size:14px;}
+.T_wid70{ width:70px;}
+.T_wid90{ width:80px;height:55px;line-height:55px;overflow:hidden;}
+.T_imgfonts{ font-size:12px; color:#333; line-height:26px;}
+.T_imgfonts a{color:#333; text-decoration:none;}
+.T_imgfonts a:hover{color:#ff0000; text-decoration:underline;}
+
+
+/*校区查询*/
+.T_xqbgbox{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_17.jpg) no-repeat; width:197px; height:37px; font-size:14px; color:#333; font-weight:bold; padding:0px 0px 0px 13px; line-height:37px; overflow:hidden;}
+.T_xqbgbottom{ border:#e7e7e7 1px solid; border-top:none; width:208px; padding:10px 0px;}
+.T_xqbgbottom .T_ul li{ float:left; width:84px; margin-left:7px; background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_18.jpg) no-repeat left center; line-height:26px; padding-left:10px; color:#666; display:inline;}
+.T_xqbgbottom .T_ul li a{ text-decoration:none; color:#666;}
+.T_xqbgbottom .T_ul li a:hover{ text-decoration:underline; color:#ff0000;}
+.position{ position:relative;}
+.T_more{ text-align:right; color:#ff5b00; text-align:none; background:none; position:absolute; text-decoration:none; bottom:15px; right:10px;}
+.T_more:hover{ text-decoration:underline; color:#ff5b00;}
+
+.T_chooseBox{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_19.jpg) no-repeat; width:199px; height:31px; margin: 10px auto 0px auto;}
+
+.T_cptablecont{ width:100%; }
+.T_cptablecont td{ line-height:26px; color:#333;}
+
+.lxinput{ width:120px; height:20px; border:1px solid #e2e3ea; line-height:20px;}
+.ksippnt{ background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_06.jpg) no-repeat; width:121px; height:32px; cursor:pointer; border:0px;}
+.T_xqbgbottom01{ border:#e7e7e7 1px solid; border-top:none; width:208px; padding:4px 0px;}
+
+
+.T_city{position: absolute; top:0px; left:0px;height: 31px;overflow: hidden;}
+.T_sercenter {position: absolute;top:0px; right:5px;height:31px;overflow:hidden;}
+.T_city dd{width:68px; text-align:left; line-height:26px;cursor: pointer;}
+.T_city dd a {display: inline-block;margin: 0;}
+.T_city.on {background-color: #FFFFFF;border: 1px solid #278EC2;height: auto;}
+
+
+.T_citydt{background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_20.jpg) no-repeat right center; width:55px; padding-right:12px; text-align:center; line-height:31px;}
+.T_sercenterdt{background:url(http://pic.speiyou.com/jiajiao/indexImg/Tpic_20.jpg) no-repeat right center; width:105px; padding-right:12px; text-align:center; line-height:31px;}
+
+.T_sercenter dd{width:124px; text-align:left; line-height:26px; overflow: auto;overflow-x:hidden;max-height:370px; height:expression( this.scrollHeight > 370 ? "370px" : "auto" ); -webkit-max-height:370px;}
+.T_sercenter dd a {display: inline-block;margin: 0 5px 0 20px;}
+.T_sercenter.on{background-color: #FFFFFF;border: 1px solid #278EC2;height: auto;}
+#ttt{padding-left:14px;}
+#ttt li {background:none;}
+#mmmm{background:none;}
+.centerimg{ position:absolute; right:0px; top:-10px;}

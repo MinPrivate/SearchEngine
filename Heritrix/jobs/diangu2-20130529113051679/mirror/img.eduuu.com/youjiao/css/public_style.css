@@ -1,0 +1,64 @@
+/** FileName: 频道首页公用样式 Date: 2010-05-13 13:59:20 **/
+/*频道首页页公用样式*/
+/*初始化样式*/
+* { margin:0px; padding:0px;}
+html{color:#333;background:#FFF;}
+body{ text-align:left; font-style:normal; font-size:12px; line-height:20px; font-family:"宋体";}
+ul,ol,li{list-style:none;}
+table{ border-collapse:collapse; border-spacing:0;}
+img,fieldset {border:0;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+input,label,select,option,textarea,button,fieldset,legend,table,td {font-size:12px;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+address,caption,cite,code,dfn,em,th,var {font-style:normal;font-weight:normal;}
+a { color:#333; text-decoration:none; font-style: normal; }
+a:hover{ color:#F00; text-decoration:underline; cursor: pointer;}
+.f18{ font-size:18px; font-weight:bold;}
+.haslayout{ overflow:hidden; zoom:1;}
+.clear{ clear:both; height:1px; line-height:1px; font-size:0px;}
+.area{ width:950px; margin:0 auto; clear:both;}
+.blank10{ height:10px; clear:both; font-size:0px; line-height:0px;}
+a.fblue{ color:#006699;}
+a.fred{ color:#F00;}
+.fblue{ color:#006699;}
+.fred{ color:#F00;}
+/*-------header style---------*/
+#topbar{ height:28px; line-height:28px; border:1px solid #DFE4EB; background:url(../images/index/bg_h28.png) repeat-x; width:948px;}
+#topbar .toolbar{ float:left; padding-left:10px;}
+#topbar .toolbar span{ display:block; height:28px; float:left;}
+#topbar .toolbar .icon{ background:url(../images/index/icon_01.gif) no-repeat left 8px; display:inline-block; padding-left:18px; padding-right:10px; cursor:pointer;}
+#topbar .toolbar .line{ background:url(../images/index/line06.gif) no-repeat left 8px; padding:0 10px; cursor:pointer;}
+#topbar .toolbar .nopad{ padding-right:0px;}
+#topbar .brother_site{ float:right; padding-right:10px;}
+#main_nav{ padding-top:5px;}
+#main_nav h2{ float:left; width:150px; height:57px;}
+#main_nav_con{ float:right; width:755px; padding-top:5px;}
+#main_nav_con dl{ float:left; background:url(../images/index/line_01.gif) no-repeat left center; margin-right:5px; line-height:22px;}
+#main_nav_con dl dt{ float:left; width:18px; font-size:14px; color:#336699; padding-left:5px; font-weight:bold;}
+#main_nav_con dl dt a{ color:#E91F8F;}
+#main_nav_con dl dt a:hover{ color: #F00;}
+#main_nav_con dl dd a{ display:inline-block; padding:0px 2px;}
+#main_nav_con dl .line a{ background:url(../images/index/line_02.gif) no-repeat center bottom;}
+.c1{ width:160px;}
+.c1 dt#f12{ font-size:12px; line-height:14px;}
+.c2{ width:135px;}
+.c2 dt#f12{ font-size:12px; line-height:14px;}
+.c3{ width:185px;}
+.c4{ width:138px;}
+.c5{ width:110px;}
+/*-------end header---------*/
+/*links*/
+#links{ border:1px solid #B5D1EB; width:948px;}
+#links h4{ background:url(../images/index/bg_h24_2.gif) repeat-x; height:24px; line-height:24px; padding-left:10px; font-size:12px; color:#338FC2;}
+.links_inner{ padding:10px; line-height:20px;}
+.links_inner a{ display:inline-block; margin:0 5px; color:#999;}
+.links_inner a:hover{ color:#F00; text-decoration:underline;}
+/*footer*/
+.footer{ overflow:hidden; height:1%; padding-bottom:10px;}
+.footer p{ padding-top:5px; text-align:center; line-height:20px;}
+.footer p img{ border:1px solid #CCC; margin:0 5px;}
+/*学而思服务中心*/
+.part_d{ border:1px solid #E5E5E5; width:948px;}
+.part_d .hd{ background:url(../images/index/service_title_bg.gif) repeat-x; height:24px; line-height:24px; padding-left:10px; font-weight:normal;}
+.part_d_inner{ padding:10px; line-height:20px;}

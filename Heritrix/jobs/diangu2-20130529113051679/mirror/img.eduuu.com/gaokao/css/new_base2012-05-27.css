@@ -1,0 +1,79 @@
+/* 新版基础样式 [20130516 14:51:22] */
+@charset "gb2312";
+/* CSS Document */
+/*-----------------------------------------初始化样式------------------------------------------*/
+body,html{ padding:0; margin:0 auto; background-color:#fff; line-height:24px; text-align:left; font-family:"宋体"}
+img{ border:none; display:block;}
+h1,h2,h3,h4,h5,h6,hr,blockquote,form,ul,ol,li,p,pre,dl,dt,dd,fieldset,legend,button,input,textarea,th,td{ padding:0; margin:0;}
+ul,ol,li{ list-style:none;}
+sup{ vertical-align:text-top;}
+sub{ vertical-align:text-bottom;}
+legend { color:#333;}
+fieldset{ border:0;} 
+em,i{ font-style:normal;}
+button,input,select,textarea { font-size:100%; vertical-align:middle;}
+table{ border-collapse:collapse; border-spacing:0;}
+.clear{ clear:both; line-height:0px; font-size:0px;}
+.clearfix:after{ content:".";display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{zoom:1;}
+.lt,.left{ float:left; _display:inline;}.rt,.right{ float:right;}
+.hr_10{ clear:both; height:10px; overflow:hidden; font-size:1px; line-height:1px;}
+
+/*------------------------------------------字体样式-------------------------------------------*/
+body,button,input,select,textarea{ font-family:"宋体"; color:#000; font-size:12px;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+address,cite,dfn,em,var{ font-style:normal }
+code,kbd,pre,samp{ font-family:courier new, courier, monospace;}
+small{ font-size:12px;}
+.bold{ font-weight:bold;}
+.ft12{ font-size:12px;}.ft14{ font-size:14px;}.ft16{ font-size:16px;}.ft18{ font-size:18px;}.ft120{ font-size:20px;}
+a{ color:#000; text-decoration:none;}
+a:hover{ color:#CC0000; text-decoration:underline;}
+ 
+/*-----------------------------------------全局元素布局----------------------------------------*/
+.tm5{ margin-top:5px;}.tm10{ margin-top:10px;}.tm15,.topMargin15 { margin-top:15px;}.tm20{ margin-top:20px;}
+.lm5{ margin-left:5px;}.lm10{ margin-left:10px;}.lm15{ margin-left:15px;}.lm20{ margin-left:20px;}
+.bm5{ margin-bottom:5px;}.bm10{ margin-bottom:10px;}.bm15{ margin-bottom:15px;}.bm20{ margin-bottom:20px;}
+.rm5{ margin-right:5px;}.rm10{ margin-right:15px;}.rm15{ margin-right:15px;}.rm20{ margin-right:20px;}
+.tp5{ padding-top:5px;}.tp10{ padding-top:10px;}.tp15{ padding-top:15px;}.tp20{ padding-top:20px;}
+.lp5{ padding-left:5px;}.lp10{ padding-left:10px;}.lp15{ padding-left:15px;}.lp20{ padding-left:20px;}
+.bp5{ padding-bottom:5px;}.bp10{ padding-bottom:10px;}.bp15{ padding-bottom:15px;}.bp20{ padding-bottom:20px;}
+.rp5{ padding-right:5px;}.rp10{ padding-right:10px;}.rp15{ padding-right:15px;}.rp20{ padding-right:20px;}
+.wrapper,.area{ width:950px;margin:0 auto;}
+.txtC{ text-align:center;}.txtR{ text-align:right;}
+.txt_idt{ text-indent:24px;}
+.fontYh{ font-family:"微软雅黑";}
+
+/*头部样式*/
+
+/*尾部样式*/
+#footer{ overflow:hidden; padding-bottom:10px;}
+#footer p{ padding-top:5px; text-align:center;}
+#footer p img{ border:1px solid #CCC; margin:0 5px;}
+/*频道页页脚样式*/
+.footer{ overflow:hidden; height:1%; padding-bottom:10px;}
+.footer p{ padding-top:5px; text-align:center;}
+.footer p img{ border:1px solid #CCC; margin:0 5px;}
+/*学而思服务中心*/
+.part_d{ border:1px solid #E5E5E5; width:948px; margin:0 auto;}
+.part_d .hd{ background:url(../images/beikao/service_title_bg.gif) repeat-x; height:24px; line-height:24px; padding-left:10px; font-weight:normal;}
+.part_d_inner{ padding:10px;}
+/*高考关键词*/
+.partner h5{ background:url(http://img.eduuu.com/gaokao/images/index/bg_tit1.jpg) repeat-x; border:1px solid #B6D2E8;font-size:12px;height:25px;padding:0 0 0 10px;color:#338FC2; overflow:hidden; line-height:25px;}
+.partner .content{ border:1px solid #B6D2E8; border-top:0; padding:10px}
+.partner .content a{ color:#999; white-space:nowrap; width:92px; display:inline-block; text-align:left;}
+.partner .content a:hover{ color:#f00}
+.partner .col_key a{ width:auto;}
+/*关键词2013-05-16*/
+.keyArea{ border:1px solid #bad2e7; width:948px;}
+.keyTit,.keyArea dl{ height:34px; line-height:34px; background:url(http://img.eduuu.com/website/gaokao/images/partsite/bj/index/keyNav.gif) repeat-x; overflow:hidden;}
+.keyTit span,.mtTit span{ padding:0 10px; text-align:center; cursor:pointer; display:block; float:left;}
+.keyTit .keyOn,.mtTit .mtOn{ border-top:2px solid #187DC0; border-right:1px solid #bad2e7; background:#fff; height:32px;}
+.keyTit .keyOn,.keyTit .keyOn a,.keyTit .keyOn a:hover,.mtTit .mtOn{ color:#2f80bd;}
+.keyCon{ padding:10px;}.keyCon ul{ float:left; margin-right:28px;}
+.keyArea dt{ padding:0 15px 0 10px;}.keyArea dt,.keyArea dd{ float:left;}
+.mtTit span{ margin-right:5px;}.mtTit .mtOn{ font-weight:bold; line-height:32px; border-left:1px solid #bad2e7;}
+.mtCon{ padding:10px 0;}.mtCon li{ float:left; display:inline; margin:0 12px; white-space:nowrap;}
+/*返回顶部*/
+/*修正IE6振动bug*/*html,*htmlbody{background-image:url(about:blank);background-attachment:fixed;}
+#back-to-top{ background:url(http://img.eduuu.com/website/gaokao/images/contList/btn_back.gif) no-repeat 50% 0; width:30px; height:91px; position:fixed; bottom:106px; display:block; line-height:999px; overflow:hidden; cursor:pointer; left:50%; margin-left:475px;_position:absolute;_right:auto;_left:expression(eval(document.documentElement.scrollLeft+705));_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||100)));}

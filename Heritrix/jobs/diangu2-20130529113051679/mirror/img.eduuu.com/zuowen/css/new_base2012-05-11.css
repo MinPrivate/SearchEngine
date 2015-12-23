@@ -1,0 +1,128 @@
+/* 新版公共样式 [20121231 15:39:58] */
+@charset "gb2312";
+/* CSS Document */
+
+/*-----------------------------------------初始化样式------------------------------------------*/
+body,html{ padding:0; margin:0 auto; background-color:#fff; line-height:24px;}
+img{ border:none;}
+h1,h2,h3,h4,h5,h6,hr,blockquote,form,ul,ol,li,p,pre,dl,dt,dd,fieldset,legend,button,input,textarea,th,td{ padding:0; margin:0;}
+ul,ol,li{ list-style:none;}
+sup{ vertical-align:text-top;}
+sub{ vertical-align:text-bottom;}
+legend { color:#000;}
+fieldset{ border:0;} 
+em,i{ font-style:normal;}
+button,input,select,textarea { font-size:100%; vertical-align:middle;}
+table{ border-collapse:collapse; border-spacing:0;}
+.clear{ clear:both; line-height:0px; font-size:0px;}
+.clearfix:after{ content:".";display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block;overflow:hidden;}
+.left{ float:left; _display:inline;}
+.right{ float:right;}
+.hr_10{ clear:both; height:10px; overflow:hidden; font-size:1px; line-height:1px;}
+
+/*------------------------------------------字体样式-------------------------------------------*/
+body,button,input,select,textarea{ font-family:"宋体"; color:#000; font-size:12px;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+address,cite,dfn,em,var{ font-style:normal }
+code,kbd,pre,samp{ font-family:courier new, courier, monospace;}
+small{ font-size:12px;}
+.bold{ font-weight:bold;}
+.ft14{ font-size:14px;}
+.ft16{ font-size:16px;}
+a{ color:#000; text-decoration:none;}
+a:hover{ color:#CC0000; text-decoration:underline;}
+.red{ color:#B70B00;}
+a.red:link,a.red:visited{ color:#B70B00;}
+a.red:hover{ color:#B70B00;}
+a.red:active{ color:#B70B00;}
+a.white:link,a.white:visited{ color:#fff;}
+a.white:hover{ color:#fff;}
+a.white:active{ color:#fff;}
+ 
+/*-----------------------------------------全局元素布局----------------------------------------*/
+.topMargin5{ margin-top:5px;}
+.topMargin10{ margin-top:10px;}
+.topMargin15{ margin-top:15px;}
+.topMargin20{ margin-top:20px;}
+.leftMargin5{ margin-left:5px;}
+.leftMargin10{ margin-left:10px;}
+.bottomMargin5{ margin-bottom:5px;}
+.bottomMargin10{ margin-bottom:10px;}
+.rightMargin10{ margin-right:15px;}
+.wrapper{ width:950px;margin:0 auto;}
+.center{ text-align:center;}
+
+/*尾部样式*/
+.fl_tit{ background:url(http://img.eduuu.com/edu/images//friendlinkbg.gif) repeat-x; height:24px; border-right:1px solid #D2DBDD;}
+.fl_tit h2{ background:url(http://img.eduuu.com/edu/images//friendlink_tit.gif) repeat-x; height:23px; border:1px solid #1A5189; border-bottom:none; width:70px; text-align:center; color:#fff; line-height:23px;}
+.fl_cont{ border:1px solid #D2DBDD; padding:10px; line-height:20px;}
+#footer{ text-align:center; line-height:22px; border-top:1px solid #E8E8E8; padding-top:10px;}
+/*友情链接-------------*/
+.partner{}
+.partner .h1{ background:url(http://img.eduuu.com/zuowen/images/second/bg_partner.jpg) repeat-x; border:1px solid #ccc; border-bottom:none;font-size:12px;height:20px;padding:4px 0 0 10px;}
+.partner .h1 a{font-weight:bold;font-size:12px}
+.partner .content{ border:1px solid #ccc; border-top:none; padding:10px}
+.partner .content a{ color:#999; white-space:nowrap; padding:0 3px}
+.partner .content a:hover{ color:#f00}
+.partner .content a.disNone{ display:none;}
+/*-----------------------footer-----------------------------*/
+.footer{ overflow:hidden; padding-bottom:10px;}
+.footer p{ padding-top:5px; text-align:center;}
+.footer p img{ border:1px solid #CCC; margin:0 5px;}
+
+/*列表页论坛调用样式*/
+.bbs_list1 li img{ width:18px; height:18px; padding:1px solid #d5d5d5; float:right;}
+.bbs_list2 li span {padding-left:0x;padding-right:3px}
+.bbs_list2 li{padding-left:8px}
+.pages .why{border:none;color:#666;position:relative;top:33px;*top:-30px;}
+.tougao_why{position:relative;top:2px}
+.source .aimg{position:relative;top:5px;}
+
+/*2010-3-25 10:53:10 by wangrong*/
+.source{position:relative;}
+.tougao_aimg{background:url(http://img.eduuu.com/zuowen/images/index/tougao_botton_zw.gif) no-repeat;padding:0 44px;font-size:0;line-height:0;height:23px;display:block;float:right;position:absolute;top:0;right:0}
+.tougao_aimg:hover{background:url(http://img.eduuu.com/zuowen/images/index/tougao_botton_zw.gif) no-repeat 0 -24px;padding:0 44px;font-size:0;line-height:0;height:23px;display:block;float:right;position:absolute;top:0;right:0}
+
+.pages .tougao_aimg2{background:url(http://img.eduuu.com/zuowen/images/index/tougao_botton2_zw.jpg) no-repeat;padding:0;font-size:0;line-height:0;height:66px;margin:0;width:160px}
+.pages .tougao_aimg2:hover{background:url(http://img.eduuu.com/zuowen/images/index/tougao_botton2_zw.jpg) no-repeat 0 -66px;padding:0;font-size:0;line-height:0;height:66px;margin:0;width:160px}
+
+.zw_top{width:450px;word-spacing:-6px;}
+/*友情链接*/
+.partner .content a{display:inline-block;width:90px;}
+
+
+
+/*网站地图样式*/
+#map_dress{ background-color:#FAFAFA; height:20px; line-height:20px; border:1px solid #eee; padding:2px 0 0 10px; width:938px;}
+#map_cont h1{ font-size:20px; font-family:"微软雅黑"; color:#009ED8; font-weight:normal; padding:6px;}
+.map_inbox{ border:1px solid #B8D4F1; border-top:none;}
+.map_inbox h2{ background:url(http://img.eduuu.com/edu/images/map_titbg.gif) repeat-x; line-height:24px; height:24px; text-indent:15px; font-size:14px; padding-top:2px;}
+.map_inbox div{ line-height:24px; padding:10px 15px;}
+.map_inbox div a{ margin-right:12px;}
+
+/*订阅*/
+.first{ padding-top:5px;}
+#kbdy{ text-align:center; padding-top:14px; height:29px;border-bottom:1px solid #e8e8e8; clear:both;}
+#kbdy em{ background:url(http://img.eduuu.com/edu/new_images/kbdy_icon.gif) no-repeat 0 3px; text-indent:15px; display:inline-block; color:#1F376D; line-height:19px; float:left; margin-right:5px;}
+#kbdy form{ float:left;line-height:0;}
+#kbdy input{ vertical-align:middle; margin-top:-2px;}
+#kbdy img{ position:absolute; top:-2px; _top:0px; margin-left:3px;}
+#kbdy .kbdy_input{ width:168px;height:17px;border:1px solid #D2DBDD;}
+#kbdy .kbdybox{ width:570px; position:relative; margin:0 auto;}
+/*作文库推广频道页*/
+.zw-lib-col{ border:1px solid #DCDCDC; background:#F6F6F6; position:relative;}
+.zw-lib-col-tit{ background:url(http://img.eduuu.com/website/zuowen/images/partsite/bj/index/zw_lib_icon.gif) no-repeat; height:43px; padding:15px 15px 0 130px;}
+.zw-lib-col-tit input{ vertical-align:middle;}
+.zw-lib-col-tit div{ width:230px;}
+.boutique-srh{ background:#fff url(http://img.eduuu.com/website/zuowen/images/contList/boutique_srh_icon.gif) no-repeat; width:140px; height:23px; border:1px solid #C4C4C4; padding-left:25px; line-height:23px; color:#666;}
+.lib-tab-tit{ float:left; width:570px;}
+.lib-tab-tit li{ width:80px; float:left; background:url(http://img.eduuu.com/website/zuowen/images/partsite/bj/index/zw_lib_tab_line.gif) no-repeat left center; font-size:14px; line-height:25px; _display:inline; color:#6141BC; text-align:center; cursor:pointer;}
+.lib-tab-tit li.lib-on{ color:#fff; font-weight:700; background:#9E8AD7;}
+.lib-tab-tit #xx_div{ background-image:none;}
+.lib-tab-con{ padding:5px;}
+.lib-tab-con div{ background:#fff; padding:5px 15px;}
+.lib-btn-t{ width:80px; height:10px; border:1px solid #DCDCDC; border-top:none; position:absolute; bottom:-10px; left:50%; margin-left:-41px;background:#F6F6F6; cursor:pointer;}
+.lib-btn-t i{ border-width:4px; border-style:solid; border-color:#F6F6F6 #F6F6F6 #A0A0A0; width:0; height:0; line-height:0; font-size:0; position:absolute; left:45%; bottom:4px;}
+.lib-btn-d i{ border-color:#A0A0A0 #F6F6F6 #F6F6F6; bottom:0;}
+.zw-lib-h{ width:120px; height:58px; display:block; position:absolute; left:0; top:0;}

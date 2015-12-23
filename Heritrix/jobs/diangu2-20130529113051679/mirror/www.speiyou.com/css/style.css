@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+/*-------------------------------   初始化样式     ----------------------------------*/
+body{padding:0; margin:0; font-family: "宋体"; background:#fff;}
+*{ padding:0; margin:0; font-size:12px;}
+img{ border:none; vertical-align:middle;}
+ul,ol,li{ list-style:none;}
+table{}
+dt dl dd{ padding:0; margin:0; line-height:100%;}
+a{ text-decoration:none;outline: none; /* firefox */hide-focus: expression(this.hideFocus = true); /* ie */}
+
+/*-------------------------------   全局布局     ----------------------------------*/
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both;}
+.clearfix{zoom:1;}  
+.clearfix:after{content:'.';display:block;visibility:hidden;clear:both;height:0px;}  
+.over{ overflow:hidden;}
+.text{ text-align:center}
+.position{ position:relative;}
+.wid980{ width:980px; margin:0 auto;}
+/*头部*/
+.banner{ width:100%; margin-top:50px;} 
+.banner_left{background:url(images/head.jpg) left top no-repeat; width:10px; height:62px; float:left;}
+.banner_center{background:url(images/head.jpg) repeat-x -62px; width:960px; height:62px; float:left; text-align:center;}
+.banner_right{background:url(images/head.jpg) no-repeat right -124px; width:10px; height:62px; float:left;}
+/*中间*/
+.center{ background:url(images/contbg.jpg) left bottom; width:100%; margin-top:60px;}
+.contbg{ background:url(images/ggbg.jpg) no-repeat left top; height:380px; }
+.jycont{ width:583px; }
+.fontlink{ width:540px; margin:40px 0px 0px 400px;}
+.mr17{ margin-right:17px;}
+.mt25{ margin-top:25px;}
+
+a.proSite:link,a.proSite:visited{ background:url(images/linkfont.jpg) no-repeat; width:90px; height:40px; display:block; color:#FFFFFF; font-family:"微软雅黑"; font-size: 18px; line-height:40px; text-align:center;}
+a.proSite:hover{ background:url(images/hoverfont.jpg) no-repeat; width:90px; height:40px; display:block; color:#FFFFFF; font-family:"微软雅黑"; font-size: 18px; line-height:40px; text-align:center;}
+.mb{ margin-bottom:10px;}
+
+a.tjz:link,a.tjz:visited{ background:url(images/linkfont_02.jpg) no-repeat; width:90px; height:40px; display:block; text-indent:-9999px;}
+a.tjz:hover{ background:url(images/hoverfont_02.jpg) no-repeat; width:90px; height:40px; display:block; text-indent:-9999px;}
+a.shz:link,a.shz:visited{ background:url(images/linkfont_03.jpg) no-repeat; width:90px; height:40px; display:block; text-indent:-9999px;}
+a.shz:hover{ background:url(images/hoverfont_03.jpg) no-repeat; width:90px; height:40px; display:block; text-indent:-9999px;}
+a.szz:link,a.szz:visited{ background:url(images/linkfont_04.jpg) no-repeat; width:90px; height:40px; display:block; text-indent:-9999px;}
+a.szz:hover{ background:url(images/hoverfont_04.jpg) no-repeat; width:90px; height:40px; display:block; text-indent:-9999px;}
+a.gzz:link,a.gzz:visited{ background:url(images/linkfont_05.jpg) no-repeat; width:90px; height:40px; display:block; text-indent:-9999px;}
+a.gzz:hover{ background:url(images/hoverfont_05.jpg) no-repeat; width:90px; height:40px; display:block; text-indent:-9999px;}
+
+
+
+/*版权*/
+#foot { border-top: 1px solid #D9D9D9; clear: both; margin-top: 10px; padding: 10px 0; text-align: center;}
+#foot p{ color:#555555; font-size:12px; line-height:24px;}
+#foot p a{ color:#000; text-decoration:none;}
+#foot p a:hover{ color:#000; text-decoration:underline;}

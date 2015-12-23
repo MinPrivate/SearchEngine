@@ -1,0 +1,148 @@
+/* 公共基础样式 [20120210 10:27:14] */
+@charset "gb2312";
+/* CSS Document1 */
+
+/*-----------------------------------------初始化样式------------------------------------------*/
+body,html{ padding:0; margin:0 auto; background-color:#FFF;}
+img{ border:none;}
+h1,h2,h3,h4,h5,h6,hr,blockquote,form,ul,ol,li,p,pre,dl,dt,dd,fieldset,legend,button,input,textarea,th,td{ padding:0; margin:0;}
+ul,ol,li{ list-style:none;}
+sup{ vertical-align:text-top;}
+sub{ vertical-align:text-bottom;}
+legend { color:#000;}
+fieldset{ border:0;} 
+button,input,select,textarea { font-size:100%;}
+table{ border-collapse:collapse; border-spacing:0;}
+.clear{ clear:both; line-height:0px; font-size:0px;}
+.clearfix:after{ content:".";display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block;overflow:hidden;}
+.left{ float:left; _display:inline;}
+.right{ float:right;}
+.hr_10{ clear:both; height:10px; overflow:hidden; font-size:1px; line-height:1px;}
+
+/*------------------------------------------字体样式-------------------------------------------*/
+body,button,input,select,textarea{ font-family:"宋体"; color:#000; font-size:12px;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+address,cite,dfn,em,var{ font-style:normal }
+code,kbd,pre,samp{ font-family:courier new, courier, monospace;}
+small{ font-size:12px;}
+a:link,a:visited{ color:#000; text-decoration:none;}
+a:hover{ color:#c00; text-decoration:underline;}
+a:active{ color:#000; text-decoration:none;}
+
+/*-----------------------------------------全局元素布局----------------------------------------*/
+.topMargin5{ margin-top:5px;}
+.topMargin10{ margin-top:10px;}
+.topMargin15{ margin-top:15px;}
+.topMargin20{ margin-top:20px;}
+.leftMargin5{ margin-left:5px;}
+.leftMargin9{ margin-left:9px;}
+.leftMargin10{ margin-left:10px;}
+.botMargin15{ margin-bottom:15px;}
+.topPadding4{ padding-top:4px;} 
+.wrapper{ width:950px; margin:0 auto;}
+.borderSer{ border:1px solid #E3E3E3;}
+
+/*公共链接样式*/
+a.white:link,a.white:visited{ color:#fff;}
+a.white:hover{ color:#fff;}
+a.white:active{ color:#fff;}
+a.red:link,a.red:visited{ color:#c00;}
+a.red:hover{ color:#c00;}
+a.red:active{ color:#c00;}
+.greeQ a:link,.greeQ a:visited{ color:#348B16;}
+.greeQ a:hover{ color:#348B16;}
+.greeQ a:active{ color:#348B16;}
+a.greeS:link,a.greeS:visited{ color:#176100;}
+a.greeS:hover{ color:#176100;}
+a.greeS:active{ color:#176100;}
+
+/*头部样式*/
+.logoArea1{ height:70px; width:950px; position:relative; z-index:550;}
+.logo_new{ width:188px; height:53px; float:left; padding-top:10px;}
+.logo-banner{ width:510px; float:left; margin-left:17px; _display:inline;}
+.logoReg{ background:url(http://img.eduuu.com/website/aoshu/images/header/btn_qqbg.gif) no-repeat; width:208px; height:65px; position:absolute; right:0; top:-7px; padding:12px 5px 0; line-height:20px;}
+.logoReg span{ color:#c00;}
+.logoReg img{ margin-bottom:-5px;}
+
+.loginInAd{ width:218px; height:69px; float:right; display:none;}
+.mission{ background:url(http://img.eduuu.com/website/aoshu/images/header/mesbg.gif) no-repeat; width:202px; height:61px; overflow:hidden; float:right; padding:8px 8px 0; line-height:18px; color:#999; position:relative;}
+.mission dt{ width:52px; float:left;}
+.mission dt img{ display:block; padding:1px; border:1px solid #ddd;}
+.mission dd{ float:left; width:140px; padding-left:8px;}
+.mission dd .tit{ color:#006500; font-weight:bold;}
+.mission .btnMis{ background:url(http://img.eduuu.com/website/aoshu/images/header/btn_mes.gif) no-repeat; width:64px; height:18px; border:none; cursor:pointer;}
+.mission .btnClose{ position:absolute; right:8px; top:8px; cursor:pointer;}
+
+.newsite{ position:relative; z-index:500;}
+
+#tag_nav{ background:url(http://img.eduuu.com/website/yuer/images/big_bg.png) no-repeat; height:32px; padding:8px 0 0 10px; overflow:hidden; width:940px;}
+#tag_nav span{display:block; float:left; width:110px; text-align:center; text-indent:-9999px;}
+#tag_nav span a{ display:block; width:67px; height:24px; margin:0 auto;}
+#tag_nav span.font_00 a{ background:url(http://img.eduuu.com/website/yuer/images/font_index.gif) no-repeat center center;}
+#tag_nav span.font_00 a:hover{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_03.gif) no-repeat center center;}
+#tag_nav span.font_00 a.aCur{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_03.gif) no-repeat center center;}
+#tag_nav span.font_01{ width:140px;}
+#tag_nav span.font_01 a{ width:140px; background:url(http://img.eduuu.com/website/yuer/images/font_01.gif) no-repeat center center;}
+#tag_nav span.font_01 a:hover{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_05.gif) no-repeat center center;}
+#tag_nav span.font_01 a.aCur{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_05.gif) no-repeat center center;}
+#tag_nav span.font_02{ width:142px;}
+#tag_nav span.font_02 a{ background:url(http://img.eduuu.com/website/yuer/images/font_02.gif) no-repeat center center; width:142px;}
+#tag_nav span.font_02 a:hover{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_07.gif) no-repeat center center;}
+#tag_nav span.font_02 a.aCur{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_07.gif) no-repeat center center;}
+#tag_nav span.font_03{ width:140px;}
+#tag_nav span.font_03 a{ width:140px; background:url(http://img.eduuu.com/website/yuer/images/font_03.gif) no-repeat center center;}
+#tag_nav span.font_03 a:hover{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_09.gif) no-repeat center center;}
+#tag_nav span.font_03 a.aCur{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_09.gif) no-repeat center center;}
+#tag_nav span.font_04{ width:138px;}
+#tag_nav span.font_04 a{ width:138px; background:url(http://img.eduuu.com/website/yuer/images/font_04.gif) no-repeat center center;}
+#tag_nav span.font_04 a:hover{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_11.gif) no-repeat center center;}
+#tag_nav span.font_04 a.aCur{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_11.gif) no-repeat center center;}
+#tag_nav span.font_05{ width:185px;}
+#tag_nav span.font_05 a{ width:185px; background:url(http://img.eduuu.com/website/yuer/images/font_06.gif) no-repeat center center;}
+#tag_nav span.font_05 a:hover{ background:url(http://img.eduuu.com/website/yuer/images/font_hover_06.gif) no-repeat center center;}
+
+/*友情链接*/
+.fl_tit{ background:#fff8e4; border:1px solid #fcecba; border-bottm:none; height:24px;}
+.fl_tit li{ height:23px; line-height:23px; width:70px; text-align:center; float:left;}
+.fl_tit li.on{ background:#fce7a6; border:1px solid #fbca53; border-bottom:none; color:#FE8100; font-weight:bold;}
+.fl_tit li.on a:link,.fl_tit li.on a:visited{ color:#FE8100;}
+.fl_tit li.on a:hover{ color:#FE8100;}
+.fl_tit li.on a:active{ color:#FE8100;}
+.fl_tit em{ margin-left:10px; _display:inline; line-height:26px;}
+.fl_cont{ border:1px solid #fcecba; border-top:none; line-height:20px; word-spacing:6px; padding:10px;}
+.divNone{ display:none;}
+
+/*服务中心*/
+.tabTitSer{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/service_tit.gif) repeat-x; height:24px; line-height:24px; font-size:14px; padding-left:10px; width:938px;}
+.tabTitSer li{ float:left; padding:0 10px; border-left:1px solid #EAEAEA; cursor:pointer;}
+.tabTitSer li.onSer{ background:#fff; font-weight:bold;}
+.tabTitSer li.last{ border-right:1px solid #EAEAEA;}
+.serInfo{ display:none;}
+.serPy{ padding:10px;}
+
+.xq_tel{ text-align:center; padding:15px 0 20px 0}
+.xql{ float:left; width:382px; padding-left:16px}
+.xqc{ float:left; width:251px; padding-left:16px}
+.xqr{ float:left; width:250px; padding-left:16px; padding-bottom:5px}
+.xq_main li{ float:left; display:block; width:125px;line-height:23px;}
+.xq_main .xq_tit{  background:url(http://img.eduuu.com/jiajiao/images/erping/xq-tit.gif) no-repeat left; color:#fff; font-weight:bold; padding:4px 11px 2px 4px;line-height:18px;float:none;width:auto;}
+.xq_main .xqr li{line-height:23px;}
+
+.serBsc{ width:290px; float:left; padding:15px 0 0 20px;}
+.serBsc dt{ background:url(http://img.eduuu.com/jiajiao/images/erping/xq-tit.gif) no-repeat; height:19px; line-height:19px;margin-bottom:5px;}
+.serBsc dt span{ width:64px; text-align:center; color:#fff; display:block;}
+.serBsc dd{ line-height:24px; min-height:84px; _height:84px;}
+
+#kbdy{ padding-top:14px; height:29px;}
+#kbdy .kbdybox{ width:640px; _width:675px; position:relative; margin:0 auto;}
+*+html #kbdy .kbdybox{ width:675px;}
+#kbdy em{ background:url(http://img.eduuu.com/edu/new_images/kbdy_icon.gif) no-repeat 0 45%; text-indent:15px; display:block; color:#1F376D; line-height:19px; float:left; margin-right:5px;}
+#kbdy form{ float:left; padding-top:2px;line-height:12px;}
+*+html #kbdy form{ padding-top:0;}
+#kbdy input{ vertical-align:middle; margin:-3px 5px 0;}
+#kbdy img{ position:absolute; top:-1px; right:0; _top:0px; display:block;}
+*+html #kbdy img{ top:-2px;}
+#kbdy .kbdy_input{ width:168px; height:17px;border:1px solid #D2DBDD;}
+
+#footer{ text-align:center; line-height:22px; border-top:1px solid #E8E8E8; padding-top:10px;}

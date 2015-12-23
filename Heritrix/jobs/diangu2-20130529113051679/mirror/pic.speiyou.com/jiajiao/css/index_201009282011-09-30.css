@@ -1,0 +1,244 @@
+/* 首页样式2010-9-28_现在用 [20120316 10:58:30] */
+/*家教网样式 by wangrong*/
+@charset "gb2312";
+/*初始化样式------------------------------------------------------------------------------------------------------------------*/
+*{  padding:0; margin:0 }
+body{ text-align:left; font-style:normal; font-size:12px;  font-family:"宋体";}
+html{color:#585858;background:#FFF;}
+img{ border:0px none}
+.clear{	clear:both;height:0;font-size:0;line-height: 0px; }
+ul,ol,li{list-style:none;}
+table{ border-collapse:collapse; border-spacing:0;}
+img,fieldset {border:0;}
+h1,h2,h3,h4,h5,h6{font-size:14px;}
+input,label,select,option,textarea,button,fieldset,legend,table,td {font-size:12px;}
+.areas{ width:980px; margin:0 auto}
+.fred{color:#c00;font-weight:bold;}
+/*字体样式----------------------------------------------------------------------------------------------------------------*/
+a{ color:#585858; text-decoration:none; font-style: normal; }
+a:hover{ color:#F00; text-decoration:underline; cursor: pointer;}
+.blank10{ height:10px;font-size:0; line-height:0;clear:both; }
+.blank{margin:0 auto;padding:0;height:7px;width:980px;clear:both;font-size:0;line-height:0;}
+/**/
+.pic_block_245_240_bg{ background:url(http://img.eduuu.com/jiajiao/images/erping/pic_bg.jpg) no-repeat 0px bottom; height:330px;width:265px; float:left; }
+.pic_block_245_240{ width:245px; padding:5px; border:1px solid #ccc;height:312px;}
+.pic_block_245_240 dt{ width:245px; height:240px; font-size:0; background:#fff; margin-bottom:5px }
+.pic_block_245_240 dd{ width:245px; display:inline-block; text-align:center; background:#F3F3F3; font-size:14px;height:62px;padding-top:5px}
+.pic_block_245_240 dd img{margin-top:6px;}
+
+.pic_block_110_95{ width:115px; float:left; padding:0 12px 10px 12px}
+.pic_block_110_95 dt{ width:105px; height:90px; padding:5px; border:1px solid #ccc; font-size:0; background:#fff }
+.pic_block_110_95 dd{ text-align:center; padding:5px 0 0 0}
+.pic_block_110_95 dd span{ display:inline-block; background:url(http://img.eduuu.com/jiajiao/images/erping/icon4.gif) 0 5px no-repeat; padding-left:8px; text-align:center}
+.pic_block_110_95 dd span a{ color:#428A00}
+.pic_200_165{text-align:center;}
+
+.pic_block_220_140{ float:left;border-bottom:1px dashed #ccc; height:180px; padding:0 6px 0 7px}
+.pic_block_220_140 dt{  width:220px; height:140px; padding:2px; border:1px solid #ccc; font-size:0; line-height:0;}
+.pic_block_220_140 dd{ text-align:center; padding-top:3px}
+
+.list_void{}
+.list_void {line-height:24px; clear:both; padding:5px 5px 0 5px; }
+.list_void li{font-size:12px; color:#333; background:url(http://img.eduuu.com/jiajiao/images/erping/icon3.gif) 0 7px no-repeat; padding-left:25px; border-bottom:1px dashed #ccc }
+
+.list12 {line-height:25px;padding:5px 5px 2px 5px; color:#adadad; float:left; width:309px;}
+.list12 li{font-size:12px; color:#333; background:url(http://img.eduuu.com/jiajiao/images/erping/icon5.gif) 12px 7px no-repeat;padding-left:25px; }
+
+.list_12 {line-height:24px;padding:5px 5px 2px 5px; color:#adadad; float:left; width:309px;}
+.list_12 li{font-size:12px; color:#333;padding-left:15px; }
+
+.list_13 {line-height:24px;padding:5px 5px 2px 5px; color:#adadad; float:left; width:210px;}
+.list_13 li{font-size:12px; color:#333;padding-left:12px; }
+
+/*滑块*/
+.tag_tit1{}
+.tag_tit1_2,.tag_tit1_1{ width:86px; height:20px; font-weight:bold; text-align:center; display:inline-block; padding-top:5px; font-size:12px}
+.tag_tit1_2{ background:url(http://img.eduuu.com/jiajiao/images/erping/tab.jpg) no-repeat;}
+.tag_tit1_1{ background:none; color:#4F4F4F;}
+.tag_tit1_1 a{ color:#4F4F4F}
+.textList{ padding-bottom:10px;height:200px;}
+
+/*----------------------------------首屏----------------------------------*/
+.pa_Left_bg{ float:left; width:743px; border:1px solid #DBDBDB; padding:1px; background:#fff;}
+.pa_Left{ background:#FDFDFD url(http://img.eduuu.com/jiajiao/images/erping/new_bg.jpg) repeat-x;width:743px; height:305px}
+.focus{ float:left; width:332px; padding:9px; border-right:1px solid #DBDBDB; height:287px}
+.focus_border{ border:1px solid #FFD9B8;width:330px; height:285px }
+.pa_Main{ float: right; width:360px; padding:10px 15px; height:285px}
+.pa_Main h2{ font-size:20px;text-align:center; margin:7px 0 10px 0; font-family:"黑体";font-weight:normal;line-height:24px; background:url(http://img.eduuu.com/jiajiao/images/erping/line3.jpg) repeat-x bottom;}
+.pa_Main .pic span{ background:url(http://img.eduuu.com/jiajiao/images/erping/icon1.gif) no-repeat;  padding:8px 0 13px 40px;display:inline-block;color:#1C71A7;}
+.pa_Main h2 a{ color:#1C71A7; height:35px; display:inline-block;}
+.pa_Main p{ line-height:23px; text-align:center}
+.pa_Main .news{ line-height:31px}
+.pa_Main .news span{ background:#568CAE; color:#fff; padding:3px 5px;  font-weight:bold;}
+.pa_Right{float:right;height:306px;width:223px;border:1px solid #DBDBDB}
+
+.dongtai {background-image: url(http://img.eduuu.com/jiajiao/images/index_sp/title_06.jpg);background-repeat: no-repeat;height: 35px;font-family: "宋体";font-size: 14px;font-weight:bold;color: #262626;line-height: 35px;}
+.dongtai h2 {margin-left: 28px;}
+.dongtaiZ {float: left;	width: 225px;margin-top: 5px;padding-bottom: 5px;}
+.dongtaiZ ul {list-style-type: none;}
+.dongtaiZ ul li {line-height: 23px;background-image: url(http://img.eduuu.com/jiajiao/images/index_sp/title_09.jpg);background-repeat: no-repeat;margin-left: 8px;padding-left: 8px;background-position: left;}
+.zhuanti {float: left;width: 225px;background-image: url(http://img.eduuu.com/jiajiao/images/index_sp/title_13.jpg);background-repeat: no-repeat;height: 28px;background-position: bottom;}
+.zhuanti h3 {font-size: 14px;margin-left: 10px;line-height: 30px;	color: #4c4c4c;}
+
+.pa_Right .zhikangren{background: url(http://img.eduuu.com/jiajiao/images/title_061.jpg)  no-repeat;}
+.zhikangren a:link,.zhikangren a:visited{ color:#d40000;float:left;display:block;padding:5px 5px 0 5px}
+
+.zhikangren span{ color:#676767;float:left}
+.zhikangren span b{ color:#d40000;font-size:24px}
+.pa_Right .ztjj{background: url(http://img.eduuu.com/jiajiao/images/title_131.jpg)  no-repeat; padding:0 0 0 28px;width:197px;}
+.pa_Right .ztjj h3  a:link,.pa_Right .ztjj h3  a:visited{color:#585858;}
+
+
+/*焦点图样式*/
+#hotpic {width:330px;padding:0px;height:285px;overflow:hidden;float: left;} 
+#hotpic img {width:330px;height: 285px; margin:0;padding:0;border:0;float:left;} 
+#hotpic #jdt_wrapper {width:330px;height:285px;float:left;overflow:hidden;position:relative} 
+#hotpic #jdt_wrapper #jdt_pics {width:330px;height:1125px;float:left;position:absolute;} 
+#hotpic #jdt_wrapper #jdt_pics a {width:330px;height:285px;float:left;display:block} 
+#hotpic #jdt_wrapper #jdt_titles {width:330px;height:19px;clear:both;line-height:19px;color:#fff;position:absolute;top:265px;left:0;} 
+#hotpic #jdt_titles ul {width:330px;height:19px;float:left;border-top:1px solid #fff} 
+#hotpic #jdt_titles li {height:19px;float:left;display:inline;border-right:1px solid #fff;cursor:pointer;background:#000;filter:alpha(opacity=70);-moz-opacity:0.7;opacity:0.7;} 
+#hotpic #jdt_titles li b {font-weight:bold} 
+#hotpic #jdt_wrapper #jdt_titles .j_on {float:left;display:block;zoom:1;height:19px;border-right:none;filter:alpha(opacity=90);-moz-opacity:0.9;opacity:0.9;background:#074F86} 
+#hotpic #jdt_wrapper #jdt_titles .j_on #jdtArrow{width:7px;height:4px;display:inline-block;z-index:9999;overflow:hidden;position:absolute;left:10px;top:-3px;background:url(http://www.chinabyte.com/TLimages2009/chinabyte/http://img.eduuu.com/jiajiao/images/index_sp/cb_index/jdt_arrow_2.gif) left top no-repeat} 
+#hotpic #jdt_wrapper #jdt_titles .j_on a {color:#fff;} 
+#hotpic #jdt_wrapper #jdt_titles .j_on a:hover {color:#fff;text-decoration:underline} 
+#hotpic #jdt_wrapper #jdt_titles .j_last {border:none}
+
+/*滚动*/
+.scrollImgList1{zoom:1;overflow:hidden; float:left;height:88px;}
+.scrollImgList1 .LeftBotton{width:16px;height:20px;cursor:pointer;float:none;margin-top:40px;}
+.scrollImgList1 .RightBotton{width:15px;height:20px;cursor:pointer; float:none; margin-top:40px;}
+.scrollImgList1 .Cont{float:left;width:180px;overflow:hidden;padding:5px 0; float:left;}
+.scrollImgList1 .ScrCont{width:10000px;zoom:1;overflow:hidden;}
+#List1_1,#List2_1{float:left;}
+.scrollImgList1 .box{width:75px; height:70px; float:left; margin-right:12px;  padding:3px;border:1px solid #ccc}
+.scrollImgList1 .box img{display:block;}
+.scrollImgList1 .box p{line-height:24px;color:#505050;text-align:left;}
+.scrollcurb{float:left; margin-left:5px; _margin-left:3px}
+#content #scrollImgList1 img{margin-left:0}
+
+/*----------------------------------二屏----------------------------------*/
+.adv{width:980px;margin:0 auto;}
+.part_b{ border:1px solid #ccc; width:976px; margin:0 auto; padding:2px; background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_bg.jpg) no-repeat; overflow:hidden}
+.part_b .pb_Left{ float: left; width:305px; background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_line1.gif) no-repeat right 8px; height:400px; overflow:hidden}
+.part_b .pb_Main{ float: left; width:425px; background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_line1.gif) no-repeat right 8px; height:390px; padding:10px 0 0 20px; overflow:hidden}
+.part_b .pb_Right{ float: left; width:226px; height:390px;padding-top:10px}
+
+.part_b .tab1{ background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_tab1.jpg) no-repeat; height:32px; color:#fff; font-size:14px; font-weight:bold; padding:10px 0 0 45px; position:relative}
+.part_b .tab1 span{ position:absolute; right:10px; background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_icon1.gif)  0 3px no-repeat; padding-left:20px; font-size:12px; color:#000; font-weight:normal; display:block; height:18px;top:14px;}
+.pb_Left .ul{ border-bottom:1px dotted #ccc; margin:10px 10px}
+.pb_Left .ul li{ background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_icon3.gif) 5px 6px no-repeat; padding-left:15px;line-height:23px;}
+.pb_Left .ul .new a{ background:url(http://img.eduuu.com/jiajiao/images/erping/new.gif) no-repeat right; padding:0 33px 0 0}
+.pb_Left table{ border-collapse:collapse; width:80%;margin:5px 0 10px 28px;}
+.pb_Left table caption{ font-weight:bold}
+.pb_Left table td{ border:1px solid #B0B0B0; padding:0 0 0 5px; height:25px}
+
+.pb_Main .tab2{ background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_tab2.jpg) no-repeat; height:26px; color:#fff; font-weight:bold; font-size:12px; padding:2px 0 0 8px; position:relative; margin:10px 0 } 
+.pb_Main .tab2 a:link,.pb_Main .tab2  a:visited{  color:#fff;} 
+.pb_Main .tab2 span{ position:absolute; background:url(http://img.eduuu.com/jiajiao/images/erping/more.gif) 0 6px no-repeat; padding:0 0 0 20px; right:35px; top:0px; color:#000; font-weight:normal} 
+.pb_Main .tab2 span a:link,.pb_Main .tab2 span  a:visited{ color:#000;} 
+.pb_Main .tab2 span a:hover{color:#f00; text-decoration:underline;} 
+.pb_Main .tab3 {background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_tab3.jpg) no-repeat; height:26px; color:#fff; font-weight:bold; font-size:12px; padding:2px 0 0 8px; margin:10px 0 } 
+.pb_Main .tab3 a{ color:#fff;} 
+.pb_Main p{ line-height:26px} 
+.pb_cell{ float:left; width:210px; overflow:hidden}
+.pb_Main .ps{ background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_ps.jpg) no-repeat; height:65px; padding:7px 0 0 139px; margin:20px 0 0 0} 
+
+.pb_Right .tab4{ background:url(http://img.eduuu.com/jiajiao/images/erping/patr_b_tab4.jpg) no-repeat; height:30px; padding:10px 0 0 40px; font-size:14px; font-weight:bold; margin-bottom:5px}
+.pb_Right .tab4 a:link,.pb_Right .tab4  a:visited{ color:#585858}
+.pb_Right p{ line-height:20px; padding:5px 20px 0 20px; margin:0}
+.pb_Right p a:link,.pb_Right p  a:visited{ color:#C90008}
+/*----------------------------------三屏----------------------------------*/
+.title1{ background:url(http://img.eduuu.com/jiajiao/images/erping/titlebg.jpg) no-repeat; height:25px; color:#fff; position:relative; font-size:14px; font-weight:bold; padding:8px 0 0 30px; width:950px; margin:0 auto}
+.title1 a:link,.title1 a:visited{ color:#fff}
+.title1 b ,.title1 span{ position:absolute; font-weight:normal; font-size:12px; color:#000}
+.title1 b a:link,.title1 b a:visited{ color:#000}
+.title1 b a:hover{color:#f00; text-decoration:underline;}
+.title1 b { right:140px}
+.title1 span a:link,.title1 span a:visited{ color:#000}
+.title1 span a:hover{color:#f00; text-decoration:underline;}
+.title1 span{ right:15px;}
+.contain{ border:1px solid #ccc; border-top:none; padding:20px 10px 10px 20px; width:948px; overflow:hidden; margin:0 auto}
+.pc_Left,.pe_Left{ float:left; width:690px; overflow:hidden} 
+.pc_Main{ float:right; width:425px; overflow:hidden} 
+.pc_Right{ float: right; width:258px; height:388px; background:url(http://img.eduuu.com/jiajiao/images/erping/box1.jpg) no-repeat} 
+.pc_Right h2{ font-size:14px; background:url(http://img.eduuu.com/jiajiao/images/erping/icon2.gif) 13px 10px no-repeat; padding:5px 0 0 30px; height:20px } 
+.pc_Right .main{ padding:10px}
+
+.pd_Main{border:1px solid #ccc; border-top:none; padding:20px 10px 10px 10px; width:958px; overflow:hidden; margin:0 auto}
+.pe_Right{ float: right; width:258px; height:321px; background:url(http://img.eduuu.com/jiajiao/images/erping/box2.jpg) no-repeat; overflow:hidden}
+.pe_cell{ float:left; width:345px; padding:3px 0 0 0 }
+.pe_cell h2{ background:url(http://img.eduuu.com/jiajiao/images/erping/title2.jpg) no-repeat; font-size:12px; padding:5px 0 0 30px; position:relative; height:25px}
+.pe_cell h2 span{ position:absolute; right:10px; background:url(http://img.eduuu.com/jiajiao/images/erping/icon6.gif) no-repeat; padding-left:10px;}
+.pe_cell h2 span a:link,.pe_cell h2 span  a:visited{ color:#D33631}
+
+
+/*----------------------------------校区----------------------------------*/
+.sc_xiao{ width:978px; border:1px solid #ccc; margin:0 auto; text-align:center;}
+.sc_xiao_top{ width:978px; height:39px;}
+.sc_xiao_cent{ width:978px; padding:15px 0px 0px 0px; overflow:hidden; text-align:left;}
+.sc_xiao_left{ float:left; width:725px; background:url(http://files.eduuu.com/img/2012/03/16/104859_4f62aa1b4998d.jpg) right center no-repeat; overflow:hidden; }
+.sc_xiao_a{ float:left; width:294px; overflow:hidden;margin-left:15px; display:inline;}
+.sc_xiao_a h3{ background:url(http://files.eduuu.com/img/2012/03/16/104900_4f62aa1c0b883.jpg) no-repeat; width:294px; height:25px; line-height:25px; padding-left:10px; font-size:14px; font-family:"微软雅黑"; color:#FFF; }
+.sc_xiao_a p{ padding:8px 0px;}
+.sc_xiao_a p a{ width:85px; height:20px; line-height:20px; color:#585858; text-decoration:none; display:inline-block; margin:0px; padding-left:5px;}
+.sc_xiao_a p a:hover{ color:#F00; text-decoration:none;}
+
+.sc_xiao_b{ float:left; width:184px; overflow:hidden; margin-left:15px; display:inline;}
+.sc_xiao_b h3{ background:url(http://files.eduuu.com/img/2012/03/16/104900_4f62aa1c227ae.jpg) no-repeat; width:294px; height:25px; line-height:25px; padding-left:10px; font-size:14px; font-family:"微软雅黑"; color:#FFF; }
+.sc_xiao_b p{ padding:8px 0px;}
+.sc_xiao_b p a{ width:80px; height:20px; line-height:20px; color:#585858; text-decoration:none; display:inline-block; margin:0px; padding-left:5px;}
+.sc_xiao_b p a:hover{ color:#F00; text-decoration:none;}
+
+.sc_xiao_right{ float:right; width:250px; margin:0px; padding:0px;}
+.sc_xiao_right ul{ margin:0px; padding:; width:250px;}
+.sc_xiao_right li{ width:100%; text-align:center; margin:0px auto;}
+
+
+
+
+
+
+
+
+.footer{ line-height:24px}
+.footer p{ text-align:center}
+.line{ background:url(http://img.eduuu.com/jiajiao/images/erping/line2.gif) no-repeat; height:1px; font-size:0; line-height:0; margin:5px 0}
+
+.teacherSearch{padding-top:12px;clear:both}
+.fenxiao11 .fred{color:#c00}
+
+
+
+.mainNav_0121 {
+	BORDER-BOTTOM: #0081b1 2px solid; LINE-HEIGHT: 29px; HEIGHT: 29px; width:980px; margin:auto
+}
+.mainNav_0121 UL LI {
+	TEXT-ALIGN: center; WIDTH: 111px; FONT-FAMILY: "微软雅黑"; FLOAT: left; HEIGHT: 29px; FONT-SIZE: 14px; FONT-WEIGHT: bold
+}
+.mainNav_0121 UL LI A {
+	DISPLAY: block; BACKGROUND: url(http://files.eduuu.com/img/2011/05/08/191745_4dc67bd9d740a.gif) no-repeat
+}
+.mainNav_0121 UL LI A.curr {
+	BACKGROUND: url(http://files.eduuu.com/img/2011/05/08/191707_4dc67bb3dfc76.gif) no-repeat; COLOR: #fff
+}
+.mainNav_0121 UL LI A:hover {
+	BACKGROUND: url(http://files.eduuu.com/img/2011/05/08/191745_4dc67bd9d740a.gif) no-repeat; COLOR: #000; TEXT-DECORATION: none
+}
+.mainNav_0121 UL LI#teacher0121 {
+	PADDING-LEFT: 5px; WIDTH: 101px
+}
+.mainNav_0121 UL LI#bbs0121 {
+	PADDING-LEFT: 5px; WIDTH: 78px
+}
+.mainNav_0121 UL LI#teacher0121 A {
+	BACKGROUND-IMAGE: none
+}
+.mainNav_0121 UL LI#bbs0121 A {
+	BACKGROUND-IMAGE: none
+}
+
+.chengshi{width:978px; margin:auto; background:url(http://files.eduuu.com/img/2011/05/08/194743_4dc682dfc00aa.gif) ; background-repeat:no-repeat; height:30px; border:1px #CCCCCC solid}
+
+.qhcity{ width:110px; height:30px; float:right; margin-top:5px}

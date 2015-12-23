@@ -1,0 +1,11 @@
+﻿.Product_Column_List_Box_TD {position:relative;display:block;overflow:hidden;}
+.Product_Column_List_Box_TD H3 {}
+.products {position:relative;display:block;float:left;margin:0 auto;overflow:hidden;zoom:1;}
+.products UL {position:relative;display:block;float:left;margin:0 auto;overflow:hidden;zoom:1;}
+.productsLI {position:relative;display:inline;float:left;overflow:hidden;}
+.p_pic {overflow:hidden;}
+.p_pic IMG {display:block;}
+.p_name {overflow:hidden;text-align:center;white-space:nowrap;text-overflow:ellipsis;}
+.p_price {text-align:center;}
+.pagenum {clear:both;text-align:center;}
+.Product_Column_List_Box_More {position:absolute;}

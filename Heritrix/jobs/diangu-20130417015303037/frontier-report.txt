@@ -1,0 +1,12 @@
+
+ -----===== IN-PROCESS QUEUES =====-----
+
+ -----===== READY QUEUES =====-----
+
+ -----===== SNOOZED QUEUES =====-----
+queue currentSize totalEnqueues sessionBalance lastCost (averageCost) lastDequeueTime wakeTime totalSpend/totalBudget errorCount lastPeekUri lastQueuedUri
+www.confucianism.com.cn 2983 7201 3000 0(0) 2013-04-17T04:54:15.478Z 6m33s205ms 0/-1 0 http://www.confucianism.com.cn/html/hanyu/1073525.html http://www.confucianism.com.cn/html/hanyu/1073525.html
+
+ -----===== INACTIVE QUEUES =====-----
+
+ -----===== RETIRED QUEUES =====-----

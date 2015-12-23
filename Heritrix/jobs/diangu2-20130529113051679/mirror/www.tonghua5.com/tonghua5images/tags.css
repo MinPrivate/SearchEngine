@@ -1,0 +1,259 @@
+/*全站通用css*/
+html{height:100%;}
+body {font-size:12px; color:#333; font-family:'宋体'; background:url(../tonghua5images/bg_1-3.jpg) top center no-repeat #fff;}
+ul li{ list-style-type:none;}
+h1 { font-weight:bold; font-size:16px; font-family:"宋体", "微软雅黑"; font-weight:bold;}
+div,form,img,ul,ol,li,dl,dt,dd {margin:0; padding:0; border:0; }
+p { margin: 0px 0 12px 0 ;}
+A:link {COLOR: #333333; TEXT-DECORATION: none; }
+A:visited {COLOR: #333333; TEXT-DECORATION: none;}
+A:active {COLOR: #333333; TEXT-DECORATION: none;}
+A:hover {COLOR: #333333;TEXT-DECORATION: underline;}
+.FL{float:left; display:inline; overflow:hidden;}	
+.FR{float:right; display:inline; overflow:hidden;}
+.clear{clear:both;}
+/*header*/
+.head_index{
+	height:97px;
+	width:960px;
+	margin:0 auto;
+	background:url(../tonghua5images/menu-bg.gif) 230px -210px no-repeat;
+}
+.head{
+	height:97px;
+	width:960px;
+	margin:0 auto;
+}
+.logo{
+	height:60px;
+	width:220px;
+	padding:16px 0 0 0;
+	background:url(../tonghua5images/logo.png) 0 16px no-repeat;
+}
+.logo a{
+	height:60px;
+	width:220px;
+	overflow:hidden;
+	line-height:60px;
+	text-indent:999em;
+	display:inline-block;
+}
+.hd_info{
+	width:75px;
+	height:70px;
+	line-height:20px;
+	text-align:right;
+	padding:16px 15px 0 0;
+}
+.hd_info li{
+	width:75px;
+	color:#04508c;
+}
+.hd_info li a{
+	color:#04508c;
+}
+.hd_info li a:hover{
+	color:#fff;
+}
+.menu{
+	height:78px;
+	width:998px;
+	margin:0 auto;
+	background:url(../tonghua5images/bg_4.jpg) repeat-x;
+}
+.nav,.nav ul{
+	background:url(../tonghua5images/bg_2.jpg) no-repeat;
+}
+.nav{
+	height:42px;
+	width:998px;
+	position:relative;
+	background-position:0 -94px;
+}
+.nav ul{
+	height:42px;
+	width:988px;
+	padding:0 0 0 10px;
+	background-position:918px 0px;
+}
+.nav ul li{
+	float:left;
+	padding:14px 0 0 24px;
+	background:url(../tonghua5images/bg_3.png) -87px 15px no-repeat;
+}
+.nav ul li a{
+	color:#04508c;
+}
+.nav ul li a:hover{
+	color:#f9514c;
+}
+.sub{
+	height:26px;
+	width:960px;
+	margin:10px auto 0 auto;
+	background:url(../tonghua5images/bg_2.jpg) 0 -42px no-repeat #0085cb;
+}
+.search{
+	height:20px;
+	width:202px;
+	padding:3px 0 0 35px;
+	background:url(../tonghua5images/bg_5.gif) 35px 3px no-repeat;
+}
+.search-keyword{
+	height:18px;
+	width:145px;
+	font-size:12px;
+	line-height:18px;
+	color:#91c2d5;
+	padding:1px 1px 1px 4px;
+	border:none;
+	background:none;
+}
+.search-submit{
+	height:20px;
+	width:48px;
+	text-align:center;
+	color:#895500;
+	line-height:20px;
+	font-size:12px;
+	margin-left:4px;
+	padding:0;
+	border:none;
+	background:none;
+}
+.tag{
+	height:26px;
+	width:710px;
+	color:#fff;
+	line-height:26px;
+	background:url(../tonghua5images/bg_2.jpg) 630px -68px no-repeat;
+}
+.tag span{
+	float:right;
+	font-weight:bold;
+	padding-right:20px;
+}
+.tag a{
+	color:#fff;
+}
+.menu_ico1,.menu_ico2{
+	position:absolute;
+	z-index:10;
+	background:url(../tonghua5images/bg_3.png) no-repeat;
+}
+/*童话故事tag*/
+.w960{width:960px;}
+.center{margin:0px auto;}
+.clearth{overflow:hidden;}
+.mt1{margin-top:8px;}
+.sp-title{
+	color:#888;
+	padding:4px 12px;
+	border-top:1px solid #EEE;
+	border-bottom:1px solid #EEE;
+	background:#FAFAFA;
+	margin-bottom:8px;
+}
+.sp-title h2{
+	font-size:16px;
+	line-height:27px;
+}
+.sp-title h2 a{
+	margin-left:6px;	
+}
+.sp-title .more{
+	float:right;
+	margin:-27px 0px;
+	line-height:27px;
+}
+.tags_list dd{
+	padding:4px 12px;
+	line-height:220%;
+}
+.tags_list dd a{
+	margin-right:10px;
+	white-space:nowrap;
+}
+/* 自适应宽度的块(通用块) */
+
+.tbox{
+	margin:0 0 8px 0;
+	border-bottom:1px solid #DFF2F5;
+	overflow:hidden;
+	background:url(../images/fl-bg.gif) 0 0 repeat-x;
+}
+.tbox dt{
+	height:25px;
+	border:1px solid #DFF2F5;
+	overflow:hidden;
+	clear:both;
+}
+.tbox dd{
+	border-left:1px solid #DFF2F5;
+	border-right:1px solid #DFF2F5;
+	padding:4px 4px 0px;
+	overflow:hidden;
+}
+
+.tbox dt strong{
+	height:26px;
+	line-height:26px; !important;line-height:25px;
+	padding-left:22px;
+	padding-right:4px;
+	display:block;
+	float:left;
+	color:#397CBE;
+	background:url(../images/fbico.gif) 5px 6px no-repeat;
+	letter-spacing:1px;
+}
+.tbox dt strong a{
+	color:#397CBE;
+}
+.tbox dt strong a:hover{
+	color:#4C94F6;
+	text-decoration:none;
+}
+.tbox dt span.more{
+	float:right;
+	position:relative;
+	line-height:26px;
+	padding-right:8px;
+	color:#397CBE;
+}
+.tbox dt span.more a{
+	color:#397CBE;
+	text-decoration:none;
+}
+.tbox dt span.more a:hover{
+	color:#333;
+}
+.tbox dt span.label{
+	height:24px;
+	float:right;
+	overflow:hidden;
+	padding-right:1px;
+	padding-top:2px;
+}
+.tbox dt span.label a{
+	height:25px;
+	display:block;
+	padding:0px 7px 0px 8px;
+	line-height:23px;
+	border-left:1px solid #BFE0F9;
+	float:left;
+	color:#666;
+	text-decoration:none;
+	overflow:hidden;
+	letter-spacing:1px;
+}
+.tbox dt span.label a:hover{
+	color:#360;
+}
+.tbox dt span.label a.thisclass{
+	background:#FFF;
+	color:#333;
+	border-top:3px solid #BFE0F9;
+}
+/* footer */
+.footer{ width:960px;overflow:hidden; margin:0 auto;text-align:center; padding-top:5px;line-height:25px; color:#666666; background:url(../tonghua5images/footer_beijing.jpg) bottom no-repeat; height:80px;}
+.footer a{color:#666666}

@@ -1,0 +1,15 @@
+document.writeln("<select name=\"cbigclass\" id=\"scharea\" class=\"select120\">");
+document.writeln("<option value=\"100\">×ÖÊý</option>");
+document.writeln("<option value=\"c115\">600字</option>");
+document.writeln("<option value=\"c116\">650字</option>");
+document.writeln("<option value=\"c117\">700字</option>");
+document.writeln("<option value=\"c118\">750字</option>");
+document.writeln("<option value=\"c119\">800字</option>");
+document.writeln("<option value=\"c120\">900字</option>");
+document.writeln("<option value=\"c121\">1000字</option>");
+document.writeln("<option value=\"c122\">1200字</option>");
+document.writeln("<option value=\"c123\">1500字</option>");
+document.writeln("<option value=\"c124\">2000字</option>");
+document.writeln("<option value=\"c125\">3000字</option>");
+document.writeln("</select>");
+document.writeln('<input name="column" type="hidden" value="gz" />');

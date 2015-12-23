@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+	<title>新空间，心分享</title>
+	<link rel="stylesheet" href="http://qzonestyle.gtimg.cn/qzone_v6/act/20110628_qzonev6_alpha/style.css" />
+	<link rel="Shortcut Icon" href="http://qzonestyle.gtimg.cn/qzonestyle/qzone_client_v5/img/favicon.ico" type="image/x-icon"/>
+</head>
+<body style="background:transparent">
+<div id="other" class="none">
+	<a class="absolute hideText sprite hitandrun" href="javascript:;" onclick="getIt(this);return false;">升级新版空间</a>
+</div>
+<script src="http://qzonestyle.gtimg.cn/ac/qzfl/release/qzfl_for_qzone.js" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+document.domain = "qq.com";
+
+if(QZFL.cookie.get('skey')){
+	var cgiGetBitmap = 'http://base.qzone.qq.com/cgi-bin/user/cgi_getimbitmap',
+	t = new QZFL.JSONGetter(cgiGetBitmap, void (0), {uin:checkLogin(),rd: Math.random()}, "utf-8");
+	t.onSuccess = function(sBitmap){
+		var v = getBit(sBitmap,60);
+		
+		if(v!=1){
+			QZFL.css.removeClassName($('other'),'none');
+		}
+	};
+	t.onError = function(){
+		QZFL.css.removeClassName($('other'),'none');
+	};
+	t.send("_Callback");
+}else{
+	QZFL.css.removeClassName($('other'),'none');
+}
+
+function checkLogin(){
+	var g = QZFL.cookie.get, u, uin,g_iLoginUin=0;
+	uin = g_iLoginUin > 10000 ? g_iLoginUin : ((u = g('uin').replace(/\D/g, '') - 0) && g('skey') && u > 10000 && u || 0);
+	return uin;
+}
+
+function getBit(sBitmap, bit){
+	return parseInt(sBitmap.charAt(15 - Math.floor((bit - 1) / 4)), 16) >> ((bit - 1) % 4) & 1;
+}
+
+function getIt(){
+	QZFL.cookie.set("v6_up",1, "qq.com", '/', 0.5);
+	if(QZFL.cookie.get('skey')){
+		top.location.href = 'http://rc.qzone.qq.com';
+	}else{
+		top.location.href = 'http://i.qq.com';
+	}
+}
+//]]>
+</script>
+</body>
+</html><!--[if !IE]>|xGv00|913cca2c99ec4543a9debc2fdf34b09b<![endif]-->

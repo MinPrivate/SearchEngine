@@ -1,0 +1,7 @@
+document.writeln("<select name=\"abigclass\" id=\"scharea\" class=\"select120\">");
+document.writeln("<option value=\"100\">¿¼ÊÔÀàÐÍ</option>");
+document.writeln("<option value=\"a652\">小升初</option>");
+document.writeln("<option value=\"a653\">中考</option>");
+document.writeln("<option value=\"a654\">高考</option>");
+document.writeln("</select>");
+document.writeln('<input name="column" type="hidden" value="ks" />');

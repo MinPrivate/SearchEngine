@@ -1,0 +1,184 @@
+/* 2012ÐÂ°æÊ×Ò³ÑùÊ½ [20130329 10:44:13] */
+@charset "gb2312";
+/* CSS Document */
+
+body{ line-height:24px;}
+.white a:link,.white a:visited{ color:#fff;}
+.white a:hover{ color:#fff;}
+.white a:active{ color:#fff;}
+
+.widbox670{ width:670px; float:left;}
+.widbox290{ width:290px; float:left;}
+.widbox360{ width:360px; float:right;}
+.widbox260{ width:260px; float:right;}
+.bordG,.borderG{ border:1px solid #DDD;}
+.borderG{ border-top:none;}
+.botG{ border-top:1px solid #DDD;}
+.botDot{ border-top:1px dotted #DDD;}
+.bgGreen{ background:#F9FFFE;}
+.grey,.grey a{ color:#666;}
+.green,.green a,a.green:link,a.green:visited,a.green:active,.cbox li span a:link,.cbox li span a:visited,.cbox li span a:active{ color:#009999;}
+.green a:hover,a.green:hover,.grey a:hover,.cbox li span a:hover{ color:#CC0000;}
+.listIcon1 li{ background:url(http://img.eduuu.com/website/zhongkao/images/partsite/bj/index/listIcon2.gif) no-repeat 0 10px; padding-left:10px;}
+.listIcon2 li{ background:url(http://img.eduuu.com/liuxue/images/2012index/listIcon_arrow.gif) no-repeat 0 50%; padding-left:14px;}
+.listIcon3{ background:url(http://img.eduuu.com/liuxue/images/2012index/ul_number.png) no-repeat 0 6px; padding-left:22px;}
+.listIcon3 li,.listIcon5 li{ line-height:28px;}
+.listIcon5{ background:url(http://img.eduuu.com/liuxue/images/2012second/listIcon5.png) no-repeat 0 6px; padding-left:22px;}
+.line22{ line-height:22px;}
+.line26{ line-height:26px;}
+.left18{ margin-left:18px;}
+.bottom3{ margin-bottom:3px; _margin-bottom:1px;}
+.bottom9{ margin-bottom:9px; _margin-bottom:6px;}
+.top5{ margin-top:5px;}
+#right0{ margin-right:0;}
+/*Ê×ÆÁ*/
+.focus290{ width:288px; padding-top:10px;}
+.focusPic{ background:url(http://img.eduuu.com/website/zhongkao/images/partsite/bj/index/focusBg.jpg) no-repeat; width:254px; height:181px; margin:0 auto; overflow:hidden; padding:7px;}
+.focusPic img{ display:block;}
+.focusInfo{ width:268px; height:50px; margin:6px auto 0;}
+.focusInfo em{ font-weight:bold;}
+.titGrey{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_titG.png) repeat-x; height:34px; line-height:34px; padding:0 12px; border-bottom:1px solid #DDD; font-size:14px; color:#009999;}
+.titGrey span{ float:right; font-weight:normal; font-size:12px;}
+.boxGreen{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_boxGreen.gif) no-repeat 0 55%;  padding-left:21px;}
+.lGreen{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_lGreen.gif) no-repeat 0 50%; padding-left:16px;}
+.info{ padding:10px 12px 0;}
+.info2{ padding:5px 12px;}
+.tool{ padding:4px 0 6px; height:170px;}
+.tool li{ float:left; display:inline; background:url(http://img.eduuu.com/liuxue/images/2012index/tool_li.png) no-repeat; width:76px; height:26px; line-height:26px; text-align:center; padding:0 1px 2px 0; margin:0 5px 6px;}
+.tool li a{ width:76px; display:inline-block;}
+.tool li a:hover{ text-decoration:none;}
+.searchArea{ background:#F2FDFC; width:241px; overflow:hidden; padding:10px 11px 4px; border:1px solid #BAE1D7; margin-bottom:12px;}
+.searchArea span{ float:left;}
+.searchArea p{ height:24px; line-height:24px;}
+.input1{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_search_input.gif) no-repeat; width:160px; height:26px; line-height:26px; padding-left:30px; border:none; float:left; display:inline; color:#888;}
+.topNews{ padding-bottom:6px;}
+.topNews h1,.topNews h2,.topNews h3,.titnew h2{ font-family:"Î¢ÈíÑÅºÚ"; font-weight:normal; font-size:18px; height:37px; line-height:37px;}
+.topNews h1 span,.topNews h2 span,.topNews h3 span,.recom em,.abroad dt{ background:url(http://img.eduuu.com/liuxue/images/2012index/pao.gif) no-repeat 0 45%; width:43px; padding-right:3px; display:inline-block; margin-right:7px; text-align:center; color:#FFF; font-family:"ËÎÌå"; font-weight:bold; font-size:14px;}
+.topNews p{ text-align:center;}
+.titLine{ border-bottom:1px solid #00ADAD; height:35px; line-height:35px; font-size:14px; color:#009999; margin-bottom:12px;}
+.titLine span{ float:right; font-size:12px; font-weight:normal;}
+.hot{ background:#F2FDFC; padding:7px 38px 4px 12px; border:1px solid #BDE3D9; border-bottom:none; line-height:22px; position:relative;}
+.hot b{ position:absolute; right:-1px; top:-1px; _right:0px; _top:0px; background:url(http://img.eduuu.com/liuxue/images/2012index/coner_hot.png) no-repeat; width:39px; height:36px; display:block;}
+.hot p span{ font-weight:bold;}
+.actions{ width:234px; margin-bottom:10px;}
+.actions dt{ float:left; width:110px;}
+.actions dt img{ display:block; padding:1px; border:1px solid #DDD;}
+.actions dd{ float:right; width:112px; line-height:23px;}
+.pic-txt li{ float:left; width:66px; text-align:center;}
+.pic-txt li img{ display:block; padding:1px; border:1px solid #DDD;}
+/*¹ö¶¯Í¼*/
+.roll-wrap{ height:96px; _height:98px; padding-left:12px; position:relative;}
+.rollbox{ width:150px; overflow:hidden; position:relative; margin:0 6px; display:inline;}
+.rollbox ul{ width:20000px;position:relative;}
+.rollbox ul:after{ clear:both;content:"";display:block;height:0;line-height:0;visibility:hidden;}
+.rollbox ul li{ float:left; margin:0 20px; _display:inline; width:110px; height:96px; text-align:center; overflow:hidden;}
+.rollbox ul li img{ border:1px solid #ddd; padding:1px; display:block;}
+.roll-prev,.roll-next{ width:24px; height:88px; cursor:pointer;}
+.roll-prev-default{ background:url(http://img.eduuu.com/liuxue/images/2012index/green_L.gif) 50% no-repeat;}
+.roll-next-default{ background:url(http://img.eduuu.com/liuxue/images/2012index/green_R.gif) 50% no-repeat;}
+.roll-prev-end{ background:url(http://img.eduuu.com/liuxue/images/2012index/grey_L.gif) 50% no-repeat;}
+.roll-next-end{ background:url(http://img.eduuu.com/liuxue/images/2012index/grey_R.gif) 50% no-repeat;}
+
+.tit950{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_tit950.png) repeat-x; height:36px; line-height:36px; padding-right:12px; font-family:"Î¢ÈíÑÅºÚ"; font-weight:normal; font-size:20px; color:#FFF;}
+.tit950 em{ background:url(http://img.eduuu.com/liuxue/images/2012index/tit950.png) no-repeat; width:151px; padding-left:32px; display:block;}
+.tit950 span{ float:right; padding-top:4px; height:32px; line-height:32px; font-family:"ËÎÌå"; font-size:12px; color:#009999;}
+.tit950 span b{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_pao.gif) no-repeat 0 7px; width:91px; padding-right:4px; text-align:center; display:inline-block;}
+.recom{ margin:10px 0 15px; padding:0 7px; height:33px; line-height:33px; background:#F2FDFC; border:1px solid #BAE1D7;}
+.recom em{ font-size:12px;}
+.titLine2{ padding:0 12px; height:34px; line-height:34px;}
+.titLine2 h2{ border-bottom:1px solid #DDD; background:url(http://img.eduuu.com/liuxue/images/2012index/bg_lGreen.gif) no-repeat 0 50%; padding-left:13px; font-size:14px; color:#009999;}
+.titLine2 h2 span{ float:right; font-weight:normal; font-size:12px;}
+/*»¬¹ýÕ¹¿ª*/
+.recruit div{ display:none;}
+.recruit h4{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_recruit.gif) repeat-x; height:36px; line-height:36px; font-weight:normal; font-size:14px; padding:0 12px; margin-bottom:2px;}
+.recruit span{ background:url(http://img.eduuu.com/liuxue/images/2012index/cross.gif) no-repeat right 50%; width:15px; height:36px; float:right;}
+.recruitOn h4{ display:none; margin-bottom:0;}
+.recruitOn div{ padding:15px 12px 5px;}
+.recruitF div{ display:block; padding:15px 12px 5px;}
+
+.bodGreen{ background:#FFF; border:1px solid #BAE1D7; color:#009999; height:20px; line-height:20px; text-align:center; margin-bottom:4px;}
+.adpic{ width:680px; float:left;}
+.adpic img{ display:block;}
+.adbox{ padding:0 12px;}
+.out dt{ float:left; width:3em; margin-right:4px; display:inline;}
+.out dd{ float:left; width:224px;}
+.out dd a{ margin:0 4px;}
+.abroad dt{ font-size:12px;}
+.pic-list dt{ margin-bottom:5px;}
+.pic-list dt img{ display:block; border:1px solid #DDD;}
+
+.titArrow{ background:url(http://img.eduuu.com/liuxue/images/2012index/arrow.gif) no-repeat 1px 50%; padding-left:13px; font-size:14px;}
+.titArrow em{ font-weight:normal;}
+.livetool{ float:left; width:50px; margin:0 18px 0 2px; display:inline; padding-bottom:3px;}
+.livetool dt img{ display:block;}
+.livetool dd{ text-align:center;}
+.picbox{ float:left; width:108px; margin-right:15px; border:1px solid #DDD;}
+.picbox dt img{ display:block; padding:1px;}
+.picbox dd{ background:#F5FFFF; text-align:center; height:38px; overflow:hidden; line-height:18px; padding:0 4px; border-top:1px solid #DDD;}
+.tips{ background:#FFF; border:1px solid #BAE1D7; padding:6px 12px;}
+.titnew{ padding-bottom:5px; border-bottom:1px dotted #DDD;}
+.titnew h2{ font-size:20px; text-align:center;}
+.titnew p{ text-indent:2em;}
+.master{ padding:8px 0;}
+
+
+/*ÁôÑ§Á÷³Ì*/
+.monthArea{ width:928px; padding:10px;}
+.monthL{ display:inline-block; background:url(http://img.eduuu.com/liuxue/images/2012index/pao_big.png) no-repeat; width:48px; height:44px; font-size:16px; font-weight:bold; color:#FFF; float:left; font-family:"Î¢ÈíÑÅºÚ"; padding:4px 0 2px 6px; line-height:20px;}
+.monthR{ width:860px;}
+.monthTit{ margin-bottom:5px;}
+.monthTit li{ float:left; width:62px; height:24px; text-align:center; background:url(http://img.eduuu.com/liuxue/images/2012index/bg_tab_off.gif) no-repeat; padding-right:10px; margin-right:6px;}
+.monthTit li.onMonth{ background:url(http://img.eduuu.com/liuxue/images/2012index/bg_tab_on.gif) no-repeat; color:#FFF;}
+.monthTit li a{ color:#696969;}
+.monthTit li.last{ background:url(http://img.eduuu.com/liuxue/images/2012index/last_tab_off.gif) no-repeat; width:67px; padding:0; color:#FFF;}
+.monthTit li.last.onMonth{ background:url(http://img.eduuu.com/liuxue/images/2012index/last_tab_on.gif) no-repeat;}
+.monthTit li.onMonth a{ color:#fff;}
+.monthTit li.noMargin,.lcCon li.noMargin{ margin-right:0;}
+.monthCon{ height:20px; line-height:20px; background:url(http://img.eduuu.com/website/zhongkao/images/partsite/bj/index/monthList.gif) no-repeat; padding:0 10px; width:830px; color:#696969;}
+.month2{ text-indent:40px;}
+.month3{ text-indent:100px;}
+.month4{ text-indent:150px;}
+.month5{ text-indent:200px;}
+.month6{ text-indent:315px;}
+.month7{ text-indent:380px;}
+.month8{ text-indent:460px;}
+.month9{ text-indent:525px;}
+.month10{ text-indent:435px;}
+.month11{ text-indent:665px;}
+.divNone{ display:none;}
+
+.guodu{ padding-bottom:4px;}
+.guodu p{ line-height:28px;}
+
+/*¾«Ñ¡×¨Çø*/
+.jxService{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jx_transbg.png) repeat; width:610px; padding:8px; overflow:hidden; -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;behavior:url(PIE.htc); position:absolute; top:40px; right:160px; z-index:10; display:none;}
+.col4f a{ color:#4f4f4f;}
+.col4f a:hover{ color:#c00;}
+.jxWx{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/wxbg.gif) no-repeat; width:450px; height:133px; overflow:hidden; padding:10px;}
+.jxPy{ background:url(http://img.eduuu.com/liuxue/images/2012index/pybg.gif) no-repeat; width:450px; height:133px; padding:10px; position:relative;}
+.btn_jx{ width:220px; margin:52px 0 0 10px; _display:inline; float:left;}
+.btn_jx li{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/btn_jx.gif) no-repeat; width:105px; height:29px; line-height:29px; overflow:hidden; float:left; font-family:"Î¢ÈíÑÅºÚ"; color:#fff;}
+.btn_jx li em{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/icon_jx.gif) no-repeat 10px 6px; padding-left:25px;}
+.wxInfo{ width:205px; text-indent:24px; float:right; margin-top:14px; height:116px; overflow:hidden;}
+.jx_school li{ float:left; margin-right:10px; height:165px; overflow:hidden;}
+.jx_school li.last{ margin-right:0;}
+.jx_school li img{ width:230px; height:165px; overflow:hidden; display:block;}
+.jxbg{ background:#fff url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jxbg.gif) repeat-x bottom; padding:13px;}
+.serTit dt{ font-size:24px; font-family:"Î¢ÈíÑÅºÚ"; float:left; margin-right:48px; _display:inline;}
+.serTit dd{ float:left; line-height:18px;}
+.serTit dd p{ font-weight:bold; font-family:"Î¢ÈíÑÅºÚ"; color:#444;}
+.tel{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/ico_tel.gif) no-repeat 0 2px; padding-left:20px;}
+.tel b{ color:#b91702; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+.jxTab{ width:582px;}
+.jxTit{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jx_li.gif) repeat-x; height:23px; line-height:23px; overflow:hidden;}
+.jxTit li{ float:left; padding:0 7px; text-align:center; cursor:pointer;}
+.jxTit li.jxOn{ border-top:1px solid #b91702; border-right:1px solid #ddd; background-color:#fff; height:24px;}
+.jxCon{ background-color:#fff; padding:15px; width:553px; min-height:165px; _height:165px; overflow:hidden;}
+.jxCon ul{ width:127px; float:left; overflow:hidden; margin-right:15px; }
+.jxCon ul.noMargin{ margin-right:0;}
+.jxPyOn .jxService{ display:block;}
+.jxClose{ cursor:pointer; position:absolute; right:0; top:0; background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/close.png) no-repeat; width:21px; height:23px; overflow:hidden; text-indent:-9999px;}
+.changeTit{ width:580px; height:30px; line-height:30px; overflow:hidden; background-color:#838383; color:#fff; margin-bottom:20px;}
+.changeTit li{ float:left; padding:0 10px; border-right:1px solid #fff; cursor:pointer;}
+.changeTit li.changeOn{ background-color:#b91702;}
+.jxCon ul.jx_sz{ width:174px;}

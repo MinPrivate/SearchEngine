@@ -1,0 +1,6 @@
+﻿.Friend_List{ padding-left:20px;}
+.Friend_List span{margin-top:6px; position:relative;}
+.Friend_List li{width:88px; height:31px; display:block; float:left; margin:5px 6px; text-align:center; position:relative; border:1px #000000 solid; overflow:hidden;}
+.Friend_List a{position:relative; line-height:240%;}
+.Friend_List img {width:88px; height:31px;}
+

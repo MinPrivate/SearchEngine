@@ -1,0 +1,71 @@
+/* Ê×Ò³¾«Ñ¡×¨ÇøÑùÊ½ [20130507 21:10:03] */
+/*¾«Ñ¡×¨Çø2012-09-24*/
+.col4f a{ color:#4f4f4f;}
+.col4f a:hover{ color:#c00;}
+.jxService,.jxService2{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jx_transbg.png) repeat; width:610px; padding:8px; overflow:hidden; -webkit-border-radius:5px;-moz-border-radius:5px;border-radius:5px;behavior:url(PIE.htc); position:absolute; top:40px; right:160px; z-index:10; display:none;}
+.jxWx{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/wxbg.gif) no-repeat; width:450px; height:133px; overflow:hidden; padding:10px;}
+.jxPy{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/pybg.gif) no-repeat; width:450px; height:133px; padding:10px; position:relative;}
+.btn_jx{ width:220px; margin:52px 0 0 10px; _display:inline; float:left;}
+.btn_jx li{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/btn_jx.gif) no-repeat; width:105px; height:29px; line-height:29px; overflow:hidden; float:left; font-family:"Î¢ÈíÑÅºÚ"; color:#fff;}
+.btn_jx li em{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/icon_jx.gif) no-repeat 10px 6px; padding-left:25px;}
+.btn_jx li em a:link,.btn_jx li em a:visited{ color:#fff; font-weight:bold;}
+.btn_jx li em a:hover{ color:#fff; text-decoration:underline;}
+.btn_jx li em a:active{ color:#fff;}
+.wxInfo{ width:205px; text-indent:24px; float:right; margin-top:14px; height:116px; overflow:hidden; line-height:24px;}
+.jx_school li{ float:left; margin-right:10px; height:166px; overflow:hidden;}
+.jx_school li.last{ margin-right:0;}
+.jx_school li img{ width:228px; height:164px; overflow:hidden; display:block; border:1px solid #ddd;}
+.jxbg{ background:#fff url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jxbg.gif) repeat-x bottom; padding:13px;}
+.serTit{height:40px;}
+.serTit dt{ font-size:24px; font-family:"Î¢ÈíÑÅºÚ"; float:left; margin-right:48px; _display:inline;}
+.serTit dd{ float:left; line-height:18px;}
+.serTit dd p{ font-weight:bold; font-family:"Î¢ÈíÑÅºÚ"; color:#444;}
+.tel{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/ico_tel.gif) no-repeat 0 2px; padding-left:20px;}
+.tel b{ color:#b91702; font-family:Arial, Helvetica, sans-serif; font-size:16px;}
+.jxTab{ width:582px;}
+.jxTit{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/jx_li.gif) repeat-x; height:23px; line-height:23px; overflow:hidden;}
+.jxTit li{ float:left; padding:0 7px; text-align:center; cursor:pointer;}
+.jxTit li.jxOn{ border-top:1px solid #b91702; border-right:1px solid #ddd; background-color:#fff; height:24px;}
+.jxCon{ background-color:#fff; padding:15px; width:553px; min-height:165px; _height:165px; overflow:hidden;}
+.jxCon ul{ width:127px; float:left; overflow:hidden; margin-right:15px; line-height:24px;}
+.jxCon ul.noMargin{ margin-right:0;}
+.jxPyOn .jxService{ display:block;}
+.jxClose{ cursor:pointer; position:absolute; right:0; top:0; background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/close.png) no-repeat; width:21px; height:23px; overflow:hidden; text-indent:-9999px;}
+.changeTit{ width:580px; height:30px; line-height:30px; overflow:hidden; background-color:#838383; color:#fff; margin-bottom:20px;}
+.changeTit li{ float:left; padding:0 10px; border-right:1px solid #fff; cursor:pointer;}
+.changeTit li.changeOn{ background-color:#b91702;}
+.jxCon ul.jx_sz{ width:174px;}
+
+.btn_jx{ width:220px; margin:52px 0 0 10px; _display:inline; float:left;}
+.btn_jx li,.btn_zk p{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/btn_jx.gif) no-repeat; width:105px; height:29px; line-height:29px; overflow:hidden; float:left; font-family:"Î¢ÈíÑÅºÚ"; color:#fff;}
+.btn_jx li em,.btn_zk p em{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/icon_jx.gif) no-repeat 10px 6px; padding-left:25px;}
+.btn_jx li em a:link,.btn_jx li em a:visited,.btn_zk p em a:link,.btn_zk p em a:visited{ color:#fff; font-weight:bold;}
+.btn_jx li em a:hover,.btn_zk p em a:hover{ color:#fff; text-decoration:underline;}
+.btn_jx li em a:active,.btn_zk p em a:active{ color:#fff;}
+.jxPyOn .jxService,.jxPyOn2 .jxService2,.jxPyOn3 .zkService{ display:block;}
+.jxPyOn,.jxPyOn2,.jxPyOn3{ z-index:100;}
+
+.jxClose,.jxClose_zk,.jxClose_dx{ cursor:pointer; position:absolute; right:0; top:0; background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/close.png) no-repeat; width:21px; height:23px; overflow:hidden; text-indent:-9999px;}
+.jxService2{ width:334px; height:232px; top:60px; left:155px;}
+.zkService{ left:130px;}
+.jx_logo{position:absolute; width:176px; height:44px; display:block; left:45px; top:10px; z-index:5;}
+.pyTel,.zkTel,.btnDx{ cursor:pointer; color:#fff;}
+.btn_zk dt{ height:30px; margin-bottom:10px;}
+.zkArea{ background:url(http://img.eduuu.com/website/zhongkao/images/mainsite/index/zkBg0.jpg) no-repeat;}
+.btn_zk dd{ height:35px; font-family:"Î¢ÈíÑÅºÚ"; color:#333;}
+.btn_zk dd strong{ display:inline-block; color:#c00;}
+.dxInput{ width:160px; height:24px; line-height:24px; text-indent:10px; border:1px solid #ddd; overflow:hidden; color:#666;}
+.yzm{ width:80px;}.dxList li{ margin-bottom:10px; position:relative;}
+.dxList li label{ width:98px; text-align:right; display:inline-block;}
+.jxTab_dx{ width:290px; padding:15px 10px 7px; height:183px;}.changeCon0{ background:#fff;}
+.dxList li img{ position:absolute; left:195px; top:1px;}.btn_sub{ text-indent:106px;}
+body, button, input, select, textarea{ vertical-align:middle;}
+/*ÐÂÐÞ¸ÄÑùÊ½2013-04-23*/
+.btn_jx{ margin:0; padding:57px 0 0 10px;}
+.xes_jx h2{ height:44px;}
+.xes_jx .btn_zk{ padding:15px 0 0 10px; margin:0;}
+.xes_l{ float:right; font:bold 20px/50px "Î¢ÈíÑÅºÚ"; height:40px; display:block; padding:0 60px 0 15px; border-left:1px solid #999; margin-top:3px;}.xes_l:hover{ color:#333; text-decoration:none;}
+.xes_jx .wxInfo{ width:220px; text-indent:15px; height:90px; margin-top:14px;}
+.jxCon .haidian ul{ width:180px; margin-right:6px;}.jxCon .haidian ul.noMargin{ margin-right:0;}.jxCon .haidian ul.wid205{ width:205px;}
+.jxCon .chaoyang ul{ width:260px;}
+.jxCon .minhang ul,.jxCon .wid260{ width:260px;}.jxCon .xicheng ul,.jxCon .wid550 ul,.jxCon .wid550 ul,.jxCon .wid550{ width:550px;}

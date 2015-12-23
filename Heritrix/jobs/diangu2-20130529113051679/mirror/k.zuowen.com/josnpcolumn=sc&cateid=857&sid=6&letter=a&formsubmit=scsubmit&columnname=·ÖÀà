@@ -1,0 +1,15 @@
+document.writeln("<select name=\"abigclass\" id=\"scharea\" class=\"select120\">");
+document.writeln("<option value=\"100\">·ÖÀà</option>");
+document.writeln("<option value=\"a859\">读后感</option>");
+document.writeln("<option value=\"a868\">哲理故事</option>");
+document.writeln("<option value=\"a867\">优美段落</option>");
+document.writeln("<option value=\"a866\">时事论据</option>");
+document.writeln("<option value=\"a865\">祝福语</option>");
+document.writeln("<option value=\"a864\">名人故事</option>");
+document.writeln("<option value=\"a863\">成语故事</option>");
+document.writeln("<option value=\"a862\">历史典故</option>");
+document.writeln("<option value=\"a861\">好词好句</option>");
+document.writeln("<option value=\"a860\">名言警句</option>");
+document.writeln("<option value=\"a869\">考场素材</option>");
+document.writeln("</select>");
+document.writeln('<input name="column" type="hidden" value="sc" />');

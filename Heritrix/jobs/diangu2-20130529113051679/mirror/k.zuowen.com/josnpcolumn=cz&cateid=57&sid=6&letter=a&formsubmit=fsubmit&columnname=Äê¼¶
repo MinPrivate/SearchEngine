@@ -1,0 +1,7 @@
+document.writeln("<select name=\"abigclass\" id=\"scharea\" class=\"select120\">");
+document.writeln("<option value=\"100\">Äê¼¶</option>");
+document.writeln("<option value=\"a60\">初一</option>");
+document.writeln("<option value=\"a61\">初二</option>");
+document.writeln("<option value=\"a62\">初三</option>");
+document.writeln("</select>");
+document.writeln('<input name="column" type="hidden" value="cz" />');

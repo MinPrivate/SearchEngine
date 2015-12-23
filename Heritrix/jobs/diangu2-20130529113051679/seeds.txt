@@ -1,0 +1,7 @@
+http://www.zuowen.com/sucai/diangu/
+http://www.diyifanwen.com/chengyu/chengyugushi/
+http://diangu01.banzhu.com/
+http://baike.baidu.com/fenlei/
+http://www.tonghua5.com/
+# Heritrix added seed redirect from http://www.diyifanwen.com/chengyu/chengyugushi/ 20130529113534030.
+http://www.diyifanwen.com/chengyu/chengyugushi/index.html

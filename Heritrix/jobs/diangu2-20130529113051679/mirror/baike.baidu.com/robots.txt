@@ -1,0 +1,71 @@
+User-agent: Baiduspider
+Disallow: /w?
+
+User-agent: Googlebot
+Disallow: /update
+Disallow: /history
+Disallow: /usercard
+Disallow: /usercenter
+
+User-agent: MSNBot
+Allow: /
+
+User-agent: Baiduspider-image
+Disallow: /w?
+
+User-agent: YoudaoBot
+Allow: /
+
+User-agent: Sogou web spider
+Disallow: /update
+Disallow: /history
+Disallow: /usercard
+Disallow: /usercenter
+
+User-agent: Sogou inst spider
+Disallow: /update
+Disallow: /history
+Disallow: /usercard
+Disallow: /usercenter
+
+User-agent: Sogou spider2
+Disallow: /update
+Disallow: /history
+Disallow: /usercard
+Disallow: /usercenter
+
+User-agent: Sogou blog
+Disallow: /update
+Disallow: /history
+Disallow: /usercard
+Disallow: /usercenter
+
+User-agent: Sogou News Spider
+Disallow: /update
+Disallow: /history
+Disallow: /usercard
+Disallow: /usercenter
+
+User-agent: Sogou Orion spider
+Disallow: /update
+Disallow: /history
+Disallow: /usercard
+Disallow: /usercenter
+
+User-agent: JikeSpider
+Allow: /
+
+User-agent: Sosospider
+Allow: /
+
+User-agent: PangusoSpider
+Allow: /
+
+User-agent: yisouspider
+Allow: /
+
+User-agent: EasouSpider
+Allow: /
+
+User-agent: *
+Disallow: /

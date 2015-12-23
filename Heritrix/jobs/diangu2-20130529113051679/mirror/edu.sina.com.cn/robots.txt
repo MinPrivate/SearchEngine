@@ -1,0 +1,47 @@
+<!--[42,54,1854] published at 2008-01-10 11:50:14 from #195 by 268-->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+
+function survey_Opener_21331(domain)
+
+{
+	var dol = document.domain.length;
+	if(document.domain.substr(dol-11, 11) == 'sina.com.cn')
+	{
+		document.domain="sina.com.cn";
+	}
+	if(domain != "")
+	{
+		newWindow = window.open (domain,"survey_server","toolbar,resizable,scrollbars,dependent,width=500,height=420,left=150,top=80");
+		newWindow.focus();
+	}else{
+		newWindow = window.open(domain,"survey_server","toolbar,resizable,scrollbars,dependent,width=500,height=420,left=150,top=80");
+		newWindow.focus();
+
+		document.survey_21331.submit();
+
+	}
+	return false;
+}
+//-->
+</SCRIPT>
+
+<form name="survey_21331" action="http://survey.news.sina.com.cn/polling.php" method="post" target="survey_server">
+12月专题评选<br>
+<input type="checkbox" name="q_4436[]" value="21809">邓子科：<a href="http://edu.sina.com.cn/official/gz2008gwy/index.html" target="_blank">2008年国家公务员考试真题及点评</a><br>
+<input type="checkbox" name="q_4436[]" value="21810">杨卓：<a href="http://edu.sina.com.cn/cet/07cetbkgc/index.html" target="_blank">四六级备考倒计时专题</a><br>
+<input type="checkbox" name="q_4436[]" value="21811">赵雪梅：<a href="http://edu.sina.com.cn/zhongkao/zkzy10/index.html" target="_blank">10位中考状元学法大比拼</a><br>
+<input type="checkbox" name="q_4436[]" value="21812">黄晓冬：<a href="http://edu.sina.com.cn/kaoyan/moviekyEnglish/index.html" target="_blank">看大片学考研英语</a><br>
+<input type="checkbox" name="q_4436[]" value="21813">雷蕾：<a href="http://edu.sina.com.cn/gaokao/mxgk/index.html" target="_blank">十大明星艺考经历</a><br>
+<input type="checkbox" name="q_4436[]" value="21814">娄雷：<a href="http://edu.sina.com.cn/video/universitytv/index.html" target="_blank">中国高校电视台联盟</a><br>
+<input type="checkbox" name="q_4436[]" value="21815">孟楠：<a href="http://edu.sina.com.cn/en/2007-12-21/152340337.shtml" target="_blank">2007闪耀缤纷圣诞夜给你好看</a><br>
+<input type="checkbox" name="q_4436[]" value="21816">唐晓芸：<a href="http://edu.sina.com.cn/blog/focus/missworld/index.html" target="_blank">校花校草vs世界小姐</a><br>
+<input type="checkbox" name="q_4436[]" value="21817">郭晓雯：<a href="http://edu.sina.com.cn/official/gwyztjj/index.html" target="_blank">国家公务员历年真题集锦</a><br>
+<br>
+<input type="hidden" name="poll_id" value="21331">
+<input type="hidden" name="ad_url" value="">
+<input type="submit" value="提交" onClick="return survey_Opener_21331('');">
+<input type="button" name="viewresult" value="查看" onClick="return survey_Opener_21331('http://survey.news.sina.com.cn/voteresult.php?pid=21331');">
+</form>
+
+

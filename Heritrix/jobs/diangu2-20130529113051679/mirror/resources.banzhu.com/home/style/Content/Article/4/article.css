@@ -1,0 +1,5 @@
+﻿.article_4 .pic_words_warp{overflow:hidden;position:relative;}
+.article_4 .pic_words_warp img{position:absolute;}
+.article_4 .pic_words_warp h5{display:block;white-space:nowrap;overflow:hidden;position:absolute;}
+.article_4 .pic_words_warp h5 a{}
+.article_4 .pic_words_warp p{position:absolute;white-space:normal;}

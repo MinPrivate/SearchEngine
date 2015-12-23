@@ -1,0 +1,163 @@
+/* 新版公共顶部导航样式 [20130417 13:35:30] */
+@charset "gb2312";
+/* CSS Document */
+/*public add css*/
+.clearfix:after{ content:"."; display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{ zoom:1;}
+.tm5{margin-top:5px;}.tm10{margin-top:10px;}.tm15{margin-top:15px;}.tm20{margin-top:20px;}.tm25{margin-top:25px;}.tm30{margin-top:30px;}.tm35{margin-top:35px;}.lm5{margin-left:5px;}.lm10{margin-left:10px;}.lm15{margin-left:15px;}.lm20{margin-left:20px;}.lm25{margin-left:25px;}.rm5{margin-right:5px;}.rm10{margin-right:10px;}.rm15{margin-right:15px;}.rm20{margin-right:20px;}.rm25{margin-right:25px;}.bm5{margin-bottom:5px;}.bm10{margin-bottom:10px;}.bm15{margin-bottom:15px;}.bm20{margin-bottom:20px;}.bm25{margin-bottom:25px;}.tp5{padding-top:5px;}.tp10{padding-top:10px;}.tp15{padding-top:15px;}.tp20{padding-top:20px;}.tp25{padding-top:25px;}.lp5{padding-left:5px;}.lp10{padding-left:10px;}.lp15{padding-left:15px;}.lp20{padding-left:20px;}.lp25{padding-left:25px;}.rp5{padding-right:5px;}.rp10{padding-right:10px;}.rp15{padding-right:15px;}.rp20{padding-right:20px;}.rp25{padding-right:25px;}.bp5{padding-bottom:5px;}.bp10{padding-bottom:10px;}.bp15{padding-bottom:15px;}.bp20{padding-bottom:20px;}.bp25{padding-bottom:25px;}
+.utra{ -moz-transition:all 0.2s ease-in-out 0s; -webkit-transition:all 0.2s ease-in-out 0s; -o-transition:all 0.2s ease-in-out 0s;}
+.dpn{ display:none;}.dpb{ display:block;}
+.hof:hover{ filter:alpha(opacity=80); opacity:0.8;}
+
+/*公共顶部导航样式样式*/
+.topnavI{ background:url(http://img.eduuu.com/edu/images/topnavbg.gif) repeat-x; height:28px; line-height:28px; border:none; border-bottom:1px solid #DFE4EB; width:100%; padding:0; _overflow:hidden;font-family:"SimSun";} 
+.topnavI em{ font-style:normal;}
+.topnavI li{line-height:28px; padding:0 10px;}
+.topnavI #eduuTopIndex{padding-left:0;}
+.topnavI li.noPa{ padding:0;}
+.topnavI li.navSrh{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_login.png) no-repeat 0 -86px; width:193px; height:21px;line-height:18px; padding:0; margin:3px 0 0 15px;}
+.topnavI li.navSrh input{ vertical-align:middle;}
+.topnavI li.navSrh .topInput{ border:none; width:164px; height:16px; background:none; margin:4px 0 0 7px; line-height:16px; color:#bbb; _margin:2px 0 0 7px;}
+.topnavI li.navSrh .topInput:hover{ filter:alpha(opacity=80); opacity:0.8;}
+.topNavL,.topNavL ul,.topNavL ul li{ float:left;}
+.topNavR,.topNavR ul li{ float:right;}
+.topnavI #eduuTopIndex i{font-family:Arial;font-size:14px;line-height:26px;font-style:normal;}
+.btnEdu{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_login.png) no-repeat 0 -60px; width:87px; height:20px; line-height:20px; text-align:center; color:#fff; display:block; margin-top:4px;}
+.btnEdu:link,.btnEdu:visited{color:#fff;}
+.btnEdu:hover{color:#fff; filter:alpha(opacity=80); opacity:0.8; text-decoration:none;}
+.btnEdu:active{color:#fff;}
+.topLogin .lg{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_denglu.gif) no-repeat; width:45px; height:20px; display:block; text-indent:-9999px; margin-top:4px;}
+
+.tarBox{ position:relative; z-index:6000;}
+.tarBox dt{ background:none; position:relative; z-index:502; height:28px; padding:0 15px 0 10px; cursor:pointer;}
+.tarBox dt i{-webkit-transition:-webkit-transform .2s ease-in;-webkit-backface-visibility:hidden;-moz-transition:-moz-transform .2s ease-in;-o-transition:-o-transform .2s ease-in;transition:transform .2s ease-in; border-width:3px; border-style:solid; border-color:#4d4d4d transparent transparent; _border-color:#4d4d4d #F9F9F9 #F9F9F9; width:0; height:0; line-height:0; font-size:0;position:absolute;right:5px; top:12px;}
+.tarBox dd{ display:block; position:absolute; top:26px; _top:25px; z-index:501; border:1px solid #DCDCDC; background:#fff; display:none;}
+.navOn dt,.userOn dt,.messageOn dt,.searchOn dt{ border:1px solid #DCDCDC; border-bottom:none; height:26px; _height:25px; line-height:22px; margin-top:2px; background-color:#fff; padding:0 14px 0 9px; -webkit-border-radius:2px 2px 0 0; -moz-border-radius:2px 2px 0 0; border-radius:2px 2px 0 0;}
+.navOn dt i,.userOn dt i,.messageOn dt i,.searchOn dt i,.launchOn dt i,.setOn dt i{ -moz-transform:rotate(180deg);-moz-transform-origin:50% 30%;-webkit-transform:rotate(180deg);-webkit-transform-origin:50% 30%;-o-transform:rotate(180deg);-o-transform-origin:50% 30%;transform:rotate(180deg);transform-origin:50% 30%; top:9px; right:4px;}
+.navOn dd,.launchOn dd,.setOn dd,.messageOn dd,.userOn dd{ display:block;}
+.otherWebsite dd a,.apply dd a,.coach dd a{ display:inline-block; line-height:20px; text-align:center;_vertical-align:middle;}
+.otherWebsite dd a:hover,.apply dd a:hover,.coach dd a:hover{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_ahover.gif) repeat-x; padding:10px 10px 5px; border:1px solid #CAE0F8; -webkit-border-radius:1px 1px 0 0; -moz-border-radius:1px 1px 0 0; border-radius:1px 1px 0 0;}
+.otherWebsite dd a s,.apply dd a s,.coach dd a s{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_website.png) no-repeat; width:32px; height:32px; display:block; margin:0 auto;}
+.otherWebsite dd{ width:690px; left:0;}
+.otherWebsite dd a{ width:42px;margin:20px 17px 15px; }
+.otherWebsite dd a:hover{ margin:9px 6px;}
+.otherWebsite dd a s.w1{ background-position:0 0; cursor:pointer;}
+.otherWebsite dd a s.w2{background-position:0 -34px; cursor:pointer;}
+.otherWebsite dd a s.w3{background-position:0 -68px; cursor:pointer;}
+.otherWebsite dd a s.w4{background-position:0 -102px; cursor:pointer;}
+.otherWebsite dd a s.w5{background-position:0 -136px; cursor:pointer;}
+.otherWebsite dd a s.w6{background-position:0 -170px; cursor:pointer;}
+.otherWebsite dd a s.w7{background-position:0 -204px; cursor:pointer;}
+.otherWebsite dd a s.w8{background-position:0 -238px; cursor:pointer;}
+.otherWebsite dd a s.w9{background-position:0 -272px; cursor:pointer;}
+.apply dd{ width:290px; left:-160px;}
+.apply dd a{ width:32px;margin:20px 20px 15px;}
+.apply dd a:hover{ margin:9px;}
+.apply dd a s.w10{background-position:0 -306px; cursor:pointer;}
+.apply dd a s.w11{background-position:0 -340px; cursor:pointer;}
+.apply dd a s.w12{background-position:0 -374px; cursor:pointer;}
+.apply dd a s.w13{background-position:0 -408px; cursor:pointer;}
+.apply dd a s.w14{background-position:0 -442px; cursor:pointer;}
+.coach dd{ width:390px; left:-210px;}
+.coach dd a{ width:60px;margin:20px 18px 15px;}
+.coach dd a:hover{ margin:9px 7px;}
+.coach dd a s.w15{background-position:0 -476px; cursor:pointer;}
+.coach dd a s.w16{background-position:0 -510px; cursor:pointer;}
+.coach dd a s.w17{background-position:0 -544px; cursor:pointer;}
+.coach dd a s.w18{background-position:0 -578px; cursor:pointer;}
+.apply dd a s.w19{background-position:0 -612px; cursor:pointer;}
+.apply dd a.xsc{ width:38px;}
+.launch dt{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_login.png) no-repeat -100px -56px; padding:0 15px 0 30px;}
+.launch dd{ width:90px; right:0; _right:-1px; padding:4px;}
+.launch dd a,.set dd a,.message dd a{ display:block; padding-left:10px;-moz-transition:padding-left 0.2s ease-in-out 0s;-webkit-transition:padding-left 0.2s ease-in-out 0s;-o-transition:padding-left 0.2s ease-in-out 0s;}
+.launch dd a:hover,.set dd a:hover,.message dd a:hover{ text-decoration:none; background:#E4E4E4; color:#333; padding-left:15px; _padding-left:10px;}
+.launchOn dt{ border:1px solid #DCDCDC; border-bottom:none; height:26px; _height:25px; line-height:22px; margin-top:2px; background-color:#fff; padding:0 14px 0 29px; -webkit-border-radius:2px 2px 0 0; -moz-border-radius:2px 2px 0 0; border-radius:2px 2px 0 0; background-position:-101px -59px;}
+.set dt{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_login.png) no-repeat -167px -54px; padding:0 15px 0 30px;}
+.set dd,.message dd{ width:100px; left:0; padding:4px;}
+.setOn dt{ border:1px solid #DCDCDC; border-bottom:none; height:26px; _height:25px; line-height:22px; margin-top:2px; background-color:#fff; padding:0 14px 0 29px; -webkit-border-radius:2px 2px 0 0; -moz-border-radius:2px 2px 0 0; border-radius:2px 2px 0 0; background-position:-168px -57px;}
+.message dt em{ background:#D9D9D9; color:#666; margin-right:5px; -webkit-border-radius:2px; -moz-border-radius:2px; border-radius:2px; min-width:19px; display:inline-block; text-align:center; line-height:14px; height:14px; _width:17px; _margin-top:7px;}/*默认无消息灰色背景*/
+.message dt em.hasMes{ background:#FF641F; color:#fff;}/*有消息橙色背景*/
+.message dd em.hasOrg{ color:#FF641F; }/*有消息橙色字色*/
+.messageOn dt em{ _margin-top:4px;}
+.user dt{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_login.png) no-repeat -167px -28px; _background:none; padding:0 15px 0 30px; text-align:right; _overflow:hidden;}
+.user dd{ width:190px; left:0; padding:10px 15px 5px; zoom:1; overflow:hidden;}
+.userOn dt{ border:1px solid #DCDCDC; border-bottom:none; height:26px; _height:25px; line-height:22px; margin-top:2px; background-color:#fff; padding:0 14px 0 29px; -webkit-border-radius:2px 2px 0 0; -moz-border-radius:2px 2px 0 0; border-radius:2px 2px 0 0; background-position:-168px -31px;}
+.userInfo{ border-bottom:1px dotted #ddd; padding-bottom:5px; margin-bottom:5px; overflow:hidden; zoom:1;}
+.userInfo img{ float:left; display:block; width:50px; -webkit-border-radius:5px; -moz-border-radius:5px; border-radius:5px;}
+.userInfo div{ float:left; padding-left:10px; width:130px;}
+.userInfo .n_gzfs a{ float:left; display:block; width:50px; line-height:16px; color:#2761AF;}
+.userInfo .n_gzfs a:hover{ text-decoration:none;}
+.userInfo .n_gzfs a span{ display:block; font-size:14px;}
+.userInfo .level{ font-size:14px; font-weight:bold; color:#333; background:url(http://imgs.eduu.com/images/level_icon.png) no-repeat; padding-right:20px;}
+.userInfo .levelIcon1{ background-position:right -6px;}
+.userInfo .levelIcon2{ background-position:right -34px;}
+.userInfo .levelIcon3{ background-position:right -62px;}
+.userInfo .levelIcon4{ background-position:right -90px;}
+.userInfo .levelIcon5{ background-position:right -118px;}
+.userInfo .levelIcon6{ background-position:right -146px;}
+.userInfo .levelIcon7{ background-position:right -174px;}
+.userInfo .levelIcon8{ background-position:right -202px;}
+.userInfo .levelIcon9{ background-position:right -230px;}
+.userInfo .levelIcon10{ background-position:right -258px;}
+.userInfo .levelIcon11{ background-position:right -286px;}
+.userInfo .levelIcon12{ background-position:right -314px;}
+.userInfo .levelIcon13{ background-position:right -342px;}
+.userInfo .levelIcon14{ background-position:right -370px;}
+.userInfo .levelIcon15{ background-position:right -398px;}
+.userInfo .levelIcon16{ background-position:right -426px;}
+.userInfo .levelIcon17{ background-position:right -454px;}
+.userInfo .levelIcon18{ background-position:right -482px;}
+.userInfo .levelIcon19{ background-position:right -510px;}
+.userInfo .levelIcon20{ background-position:right -538px;}
+.userInfo .levelIcon21{ background-position:right -566px;}
+.userInfo .levelIcon22{ background-position:right -594px;}
+.enterHome{ background:url(http://img.eduuu.com/website/public_images/topmenu/nav_login.png) -176px 4px no-repeat; padding-left:20px; color:#005dab; display:inline-block; line-height:24px; margin-right:20px;}
+.userItem{ line-height:22px; color:#333; word-spacing:30px;}
+
+.loginInAd01{ width:218px; height:69px; float:right;}
+
+/*2013-4-10*/
+.topNavR .n_menubox li{ float:none; padding:0 20px;}
+.topNavR .n_menubox h2{ font-weight:normal;}
+.topNavR .n_menubox p{ padding-left:6px; overflow:hidden; zoom:1;}
+.topNavR .n_menubox p a{ float:left; display:block; margin:0px 10px; _display:inline;}
+.n_menubox .n_gary a{ color:#999999;}
+
+/*内容页相关文章、相关词条、seo浮层*/
+#seo-float{ width:100%; height:115px; position:fixed; z-index:9999; bottom:0; left:0; background:#e3e3e3; filter:alpha(opacity=90); opacity:0.9; line-height:24px;_position:absolute;_bottom:auto;_top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));display:none;}
+#seo-float h3{ font-size:14px; border-bottom:1px solid #333; line-height:24px; padding-top:5px; margin-bottom:5px;}
+.seo-f-l{ width:500px; float:left;}
+.seo-f-l li{ width:160px; float:left;}
+.seo-f-l .red{color:#f00;}
+.seo-f-c{ width:140px; float:left; padding-left:30px; word-break: keep-all;}
+.seo-f-r{ width:440px; float:right; padding-top:15px;}
+#seo-f-box{ height:115px; position:relative; width:950px;}
+.seo-close{ position:absolute; top:15px; right:-25px; cursor:pointer;}
+*html,*htmlbody{_background-image:url(about:blank);_background-attachment:fixed;}
+
+.other-tj{ border-top:1px dashed #E3E3E3; padding-top:5px; font-size:14px; line-height:28px;}
+.other-tj h2{ margin-bottom:5px;}
+.other-tj h2 span{ float:right;}
+.other-tj ul li{ width:295px; float:left;}
+.other-ct{ border-top:1px dashed #E3E3E3; padding:5px 0; font-size:14px; line-height:28px;}
+
+.other_tj2{ width:295px; padding-top:5px; line-height:28px; font-size:14px; }
+.other_tj2 h2{ margin-bottom:5px;}
+.other_tj2 li{ width:295px; height:24px; line-height:24px; text-emphasis:dot; overflow:hidden; zoom:1;}
+
+/*新增搜索*/
+.top_q_Login,.top_w_Login{ float:left; display:block; width:76px; height:20px; margin-top:3px; background:url(http://imgs.eduu.com/images/home/add_btns.gif) no-repeat;}
+.top_q_Login{ margin-right:10px; background-position:-220px -143px;}
+.top_w_Login{ background-position:-220px -196px}
+.New_logbox dd{ left:-221px; *left:-215px; _left:-221px;}
+.New_topLogin{ width:190px; padding:10px 39px 26px; color:#797979;}
+.New_topLogin p{ line-height:14px; overflow:hidden; zoom:1;}
+.New_topLogin p label{ display:block;}
+.New_topLogin p span a{ *display:block; *margin-top:3px;}
+.New_topLogin p label input{ padding:0px; *margin-top:-3px; margin-right:5px; vertical-align:top; *vertical-align:middle; font-size:12px;}
+.New_topLogin p span{ display:block;}
+.New_topLogin .topUserName,.New_topLogin .topPassWord{ width:172px; height:28px; margin:10px 0px; padding:0px 7px; line-height:28px; border:1px solid #DDDDDD;}
+.New_topLogin .onIput{ color:#AEAEAE;}
+.New_topLogin button{ width:189px; height:42px; margin-top:10px; background:url(http://imgs.eduu.com/images/home/add_btns.gif) 0px -249px no-repeat; border:none; cursor:pointer;}
+.tzTip{ width:280px; font-size:14px; color:#666; background:#FFF7E2; border:1px solid #F3E5B6; padding:20px 45px; z-index:1001; position:fixed; left:50%; top:50%;margin-left:-185px;margin-top:-29px;_position:absolute; _left:50%; _top: expression(documentElement.scrollTop + 300 + "px");} /*IE 6*/
+.shadowDiv{position:absolute;left:0;top:0;z-index:1000;width:100%;background:#000;background:#000;width:100%;opacity:0.5;filter:alpha(opacity=50);-moz-opacity:0.5;-khtml-opacity:0.5;_height:750px}

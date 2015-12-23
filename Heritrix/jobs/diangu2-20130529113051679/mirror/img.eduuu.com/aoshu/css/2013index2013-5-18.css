@@ -1,0 +1,54 @@
+/* 2013ÐÂ°æÊ×Ò³ÑùÊ½ [20130520 18:15:36] */
+@charset "gb2312";
+/* CSS Document */
+
+.ft12{ font-size:12px;}
+.ft14{ font-size:14px;}
+.ft16{ font-size:16px;}
+.bold{ font-weight:bold;}
+.columnTit{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/column_tit.jpg) no-repeat; height:39px; line-height:39px; font-weight:normal;}
+.columnTit span{ float:right; padding-right:15px;}
+.columnTit em{ width:136px; text-align:center; font-size:20px; font-family:"Î¢ÈíÑÅºÚ"; display:inline-block; color:#fff;}
+.columnTit em small{ font-size:16px;}
+.green,.green a,a.green{ color:#269906;}
+.col333,.col333 a,a.col333{ color:#333;}
+.green a:hover,a.green:hover,.col333 a:hover,a.col333:hover{ color:#C00;}
+.bobDot{ border-bottom:1px dotted #DDD;}
+.ml2{ margin-left:3em; display:inline;}
+.none{ display:none;}
+
+/*ËÑË÷*/
+.bkSearch{ height:26px; overflow:hidden; float:right; padding-top:28px;}
+.bkSearch input{ vertical-align:middle;}
+.bkSearch .inputbox{ background:url(http://img.eduuu.com/website/aoshu/images/mainsite/index/bg_search_index.gif) no-repeat #FFF; width:180px; padding-left:23px; height:23px; line-height:23px; border:1px solid #6DC348; border-right:none; color:#aaa;}
+
+.searchbox{ background:#FCFCFC; height:78px; padding:0 24px 0 28px; border:1px solid #E8E8E8; border-bottom:3px solid #E8E8E8;}
+.adress{ width:192px; font:15px/78px "Î¢ÈíÑÅºÚ"; color:#666;}
+.adress em{ font-size:20px;}
+.hotcity{ font:14px/78px "Î¢ÈíÑÅºÚ";}
+.hotcity a{ text-decoration:underline; margin-right:4px;}
+
+.cityArea{ width:944px; border:1px solid #DDD; padding:0 2px 2px;}
+.cityArea dl{ background:#FCFCFC; margin-top:2px; padding:9px 20px 9px 23px; width:428px; line-height:27px;}
+.cityArea dl dt{ float:left; background:#E7F4E1; width:70px; border:1px solid #C2E4B7; border-radius:3px; text-align:center; line-height:25px;}
+.cityArea dl dd{ float:left; width:342px; padding-left:14px;}
+.cityArea dl dd a{ margin:0 8px;}
+.height74{ height:74px;}
+
+.borderGreen{ border:1px solid #C0E4B1;}
+.widbox900{ width:913px; padding:0 10px 10px 25px; line-height:32px;}
+.school{ width:913px;}
+.school dt{ float:left;}
+.school dd{ float:left; display:inline-block;}
+.school dd a{ display:inline-block; margin:0 8px;}
+.tit900{ height:48px; font:20px/48px "Î¢ÈíÑÅºÚ";}
+.tit900 span{ font:15px/48px Arial; color:#CCF29F; padding-left:10px;}
+
+.stbox{ position:relative; width:913px;}
+.st{ position:absolute; top:-48px; left:192px; height:28px; line-height:28px;}
+.st li{ float:left; border:1px solid #C0E4B1; border-top:none; width:84px; text-align:center; cursor:pointer; margin-right:3px; _display:inline;}
+.st li.on{ border-color:#6CC14F; background:#6CC14F; color:#FFF; font-weight:bold;}
+.st li a{ color:#000;}
+.st li.on a,.st li.on a:hover,.st li a:hover{ color:#FFF;}
+.stlink span{ width:440px; word-spacing:2em; display:inline-block;}
+.stlink span em{ word-spacing:0;}

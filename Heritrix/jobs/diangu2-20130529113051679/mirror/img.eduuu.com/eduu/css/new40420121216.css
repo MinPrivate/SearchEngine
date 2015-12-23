@@ -1,0 +1,95 @@
+/* 新404页面样式 [20121214 14:55:58] */
+@charset "gb2312";
+/* CSS Document */
+
+/*-----------------------------------------初始化样式------------------------------------------*/
+body,html{ padding:0; margin:0 auto; background-color:#fff; line-height:24px; text-align:left; font-family:"宋体"}
+img{ border:none; display:block;}
+h1,h2,h3,h4,h5,h6,hr,blockquote,form,ul,ol,li,p,pre,dl,dt,dd,fieldset,legend,button,input,textarea,th,td{ padding:0; margin:0;}
+ul,ol,li{ list-style:none;}
+sup{ vertical-align:text-top;}
+sub{ vertical-align:text-bottom;}
+legend { color:#333;}
+fieldset{ border:0;} 
+em,i{ font-style:normal;}
+button,input,select,textarea { font-size:100%; vertical-align:middle;}
+table{ border-collapse:collapse; border-spacing:0;}
+.clear{ clear:both; line-height:0px; font-size:0px;}
+.clearfix:after{ content:".";display:block; height:0; clear:both; visibility:hidden;}
+.clearfix{display:inline-block;overflow:hidden;}
+.lt,.left{ float:left; _display:inline;}.rt,.right{ float:right;}
+.hr_10{ clear:both; height:10px; overflow:hidden; font-size:1px; line-height:1px;}
+
+/*------------------------------------------字体样式-------------------------------------------*/
+body,button,input,select,textarea{ font-family:"宋体"; color:#000; font-size:12px;}
+h1,h2,h3,h4,h5,h6{ font-size:100%;}
+address,cite,dfn,em,var{ font-style:normal }
+code,kbd,pre,samp{ font-family:courier new, courier, monospace;}
+small{ font-size:12px;}
+.bold{ font-weight:bold;}
+.ft12{ font-size:12px;}.ft14{ font-size:14px;}.ft16{ font-size:16px;}.ft18{ font-size:18px;}.ft120{ font-size:20px;}
+a{ color:#000; text-decoration:none;}
+a:hover{ color:#CC0000; text-decoration:underline;}
+.red,.red:hover{ color:#d80000!important;}
+
+ 
+/*-----------------------------------------全局元素布局----------------------------------------*/
+.tm5{ margin-top:5px;}.tm10{ margin-top:10px;}.tm15,.topMargin15 { margin-top:15px;}.tm20{ margin-top:20px;}
+.lm5{ margin-left:5px;}.lm10{ margin-left:10px;}.lm15{ margin-left:15px;}.lm20{ margin-left:20px;}
+.bm5{ margin-bottom:5px;}.bm10{ margin-bottom:10px;}.bm15{ margin-bottom:15px;}.bm20{ margin-bottom:20px;}
+.rm5{ margin-right:5px;}.rm7{ margin-right:7px;}.rm10{ margin-right:15px;}.rm15{ margin-right:15px;}.rm18{ margin-right:18px;}.rm20{ margin-right:20px;}
+.tp5{ padding-top:5px;}.tp10{ padding-top:10px;}.tp15{ padding-top:15px;}.tp20{ padding-top:20px;}
+.lp5{ padding-left:5px;}.lp10{ padding-left:10px;}.lp15{ padding-left:15px;}.lp20{ padding-left:20px;}
+.bp5{ padding-bottom:5px;}.bp10{ padding-bottom:10px;}.bp15{ padding-bottom:15px;}.bp20{ padding-bottom:20px;}
+.rp5{ padding-right:5px;}.rp10{ padding-right:10px;}.rp15{ padding-right:15px;}.rp20{ padding-right:20px;}
+.wrapper,.area{ width:950px;margin:0 auto;}
+.txtC{ text-align:center;}.txtR{ text-align:right;}
+.txt_idt{ text-indent:24px;}
+.fontYh{ font-family:"微软雅黑";}
+
+/*------------------------------------------404页面样式-----------------------------------------*/
+.logoArea{ padding:25px 0 0 76px;}
+.logoArea h1 a{ background:url(http://img.eduuu.com/edu/new404/logo.jpg) no-repeat; width:190px; height:50px; display:block; text-indent:-9999px;}
+.chSite{ width:50px; font-size:14px; position:relative; padding:35px 0 0 20px;}
+.chSite s{ border-width:5px; border-style:solid; border-color:#6A6A6A #fff #fff; width:0; height:0; line-height:0; font-size:0; position:absolute; right:5px; bottom:3px;}
+.srhSort a{ margin:0 9px; cursor:pointer;}
+.srhSort a.cur{ font-weight:bold; color:#cc0000;}
+.srhInput{ border:1px solid #C8C8C8; background:url(http://s.eduu.com/style/search/images/srhbg.gif) repeat-x; height:33px; line-height:33px; border-radius:5px 0 0 5px; padding-left:10px; width:475px;font-size:14px;}
+.srhBtn{ background:url(http://s.eduu.com/style/search/images/srhbtn.gif) no-repeat; width:88px; height:35px; border:none; color:#fff; font-size:14px; font-weight:700; cursor:pointer;}
+.srhBtn:hover{ filter:alpha(opacity=90); opacity:0.9;}
+.srhBtn:active{ filter:alpha(opacity=80); opacity:0.8;}
+.adSrh{ display:inline-block; line-height:16px; vertical-align:middle;}
+.intRadio input{ margin:0 5px 4px 0; vertical-align:middle;}
+.searbox a{ color:#0068ce;}
+.searbox a:hover{ }
+.hotkey{ line-height:34px;}
+.hotkey em{ margin-left:9px; font-weight:bold;}
+.hotkey a{ margin-right:13px;}
+
+/* -----404页面内容部分 */
+.errorCont{ padding:41px 0px 76px 76px; border-bottom:1px solid #dddddd; color:#333333;}
+.errorCont dl{ overflow:hidden; zoom:1;}
+.errorCont dl dt{ width:190px; height:181px; background:url(http://img.eduuu.com/edu/new404/errorIco.png) no-repeat;}
+.errorTips{ height:28px; padding:8px 0px 0px 103px; line-height:28px; font-family:"微软雅黑"; font-size:20px; color:#a6a5a5; background:url(http://img.eduuu.com/edu/new404/errorSor.jpg) left no-repeat;}
+.errorCont dl h2{ margin:8px 0px; font-size:14px; color:#333333;}
+.errorCont dl ul{ padding-left:27px; line-height:26px; background:url(http://img.eduuu.com/edu/new404/errorNum.jpg) 4px 0px no-repeat;}
+.errorCont dl ul li a,.errorCont dl ul li a:hover{ color:#0068ce;}
+
+/*各网站推广列表*/
+.itemBox{ width:288px; margin:0px 14px; color:#333333;}
+.itemBox a{ color:#333333;}
+.itemBox a:hover{ color:#cc0000;}
+.itemBox h2{ position:relative; height:24px; padding-right:3px; line-height:24px; font-weight:100; border-bottom:1px solid #e5e5e5;}
+.itemBox h2 i{ position:absolute; left:0px; bottom:-2px; display:block; padding-left:2px; border-bottom:3px solid #e5e5e5;}
+.itemBox h2 i a{ color:#999999;}
+.itemBox .color1,.itemBox .color1:hover{ color:#299001;}
+.itemBox .color2,.itemBox .color2:hover{ color:#fe6903;}
+.itemBox .color3,.itemBox .color3:hover{ color:#0068ce;}
+.itemBox .color4,.itemBox .color4:hover{ color:#0068ce;}
+.itemBox .color5,.itemBox .color5:hover{ color:#06a1a3;}
+.itemBox .color6,.itemBox .color6:hover{ color:#7e5287;}
+.itemBox ul{ padding:14px 0px;}
+.itemBox li{ padding-left:14px; background:url(http://img.eduuu.com/edu/new404/errorPoint.jpg) 1px 11px no-repeat;}
+
+/*底部样式*/
+.footer{ line-height:24px; text-align:center; color:#333; border-top:1px solid #E8E8E8; padding-top:10px;}

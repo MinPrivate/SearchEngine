@@ -1,0 +1,131 @@
+/* 首页样式 [20120223 11:16:14] */
+@charset "gb2312";
+/* CSS Document */
+.ft14{ font-size:14px;}
+.bold{ font-weight:bold;}
+a.orange:link,a.orange:visited{ color:#fe8100;}
+a.orange:hover{ color:#fe8100;}
+a.orange:active{ color:#fe8100;}
+.col666 a:link,.col666 a:visited{ color:#666;}
+.col666 a:active{ color:#666;}
+.green a:link,.green a:visited{ color:#709400;}
+.green a:hover{ color:#709400;}
+.green a:active{ color:#709400;}
+
+.mainL{ width:290px; float:left;}
+.mainR{ width:650px; float:right;}
+.orangeLine{ border-bottom:1px dashed #fcda76;}
+
+/*搜索*/
+.zyglColumn{ background:url(http://img.eduuu.com/website/yuer/images/second/zyjlTitNav.gif) no-repeat 20px 0; height:35px; overflow:hidden; text-align:right; padding-right:10px;}
+.zyglColumn em{ position:relative; top:2px;}
+.zyglColumn input{ vertical-align:middle;}
+.zyglColumn .inputbox{ width:175px; height:19px; line-height:19px; border:1px solid #edac6c; margin:0 10px; color:#666;}
+.indexColumn{ background:url(http://img.eduuu.com/website/yuer/images/indexNav.gif) no-repeat 20px 0;}
+/*焦点图*/
+.focusBox{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat left -409px; padding:7px 7px 0; height:238px; overflow:hidden; width:276px; position:relative;}
+.focusPhoto{ width:276px; height:200px;}
+.focusPhoto li{ position:absolute;display:none;}
+.focusPhoto li img{ display:block;}
+.focusTxt{ position:absolute; height:37px; line-height:37px; overflow:hidden;}
+.focusNum{ position:absolute; right:5px; bottom:10px;}
+.focusNum span{ background:url(http://img.eduuu.com/website/yuer/images/focusNum_ico2.png) no-repeat; width:21px; height:21px; line-height:21px; overflow:hidden; text-align:center; display:block; float:left; font-weight:bold; color:#fff; margin-right:5px; _display:inline;}
+.focusNum span.on{ background:url(http://img.eduuu.com/website/yuer/images/focusNum_ico.png) no-repeat;}
+/*论坛24小时热帖*/
+.bbs24{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat left -671px; height:260px; padding:8px 12px 12px;}
+.bbsTitle{ width:160px; text-align:center; height:26px; margin-bottom:10px;}
+.bbsCon{ line-height:24px; padding:8px 0 0 20px; background:url(http://img.eduuu.com/website/yuer/images/rank.gif) no-repeat 0 14px;}
+.bbsCon img{ border:1px solid #ddd; display:block; float:right;}
+
+.widbox380{ width:380px; float:left;}
+.newsTitle{ text-align:center; line-height:24px; background:#fff url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat left -198px; padding-top:20px;}
+.newsTitle h1,.newsTitle h2{ font-family:"黑体"; font-size:18px; color:#fe8100; font-weight:normal; margin-bottom:8px;}
+.newsTitle p{ color:#666;}
+.newsList{ padding:15px 12px 0; line-height:27px;}
+.newsList li{ background:url(http://img.eduuu.com/website/yuer/images/ico_yellow.png) no-repeat 0 8px; padding-left:15px; border-bottom:1px dashed #ddd;}
+.newsList li span{ float:right; color:#666; font-size:12px;}
+
+.widbox260{ width:260px; float:right;}
+.acTitle{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat right top; height:26px; overflow:hidden; padding:8px 0 0 17px;}
+.active{ background:url(http://img.eduuu.com/website/yuer/images/widbox260bg.gif) repeat-y; padding:15px 0 0;}
+.active dl{ padding:0 12px 15px 12px;}
+.active dt{ float:left; width:90px; background-color:#fff; margin-right:10px; _display:inline;}
+.active dt img{ display:block; border:1px solid #ddd; padding:2px;}
+.active dd{ width:136px; float:right;}
+.active dd p{ color:#666; line-height:23px;}
+.active .acMess{ word-spacing:20px; padding:0 12px; color:#fe8100;}
+.active .acMess a:hover{ text-decoration:none; cursor:default;}
+.active .acMess img{ cursor:pointer;}
+.acBottom{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat right -40px; height:17px;}
+.moderator{ padding-bottom:12px;}
+.moderator0{ padding:14px 0 0;}
+.moderator li{ width:66px; text-align:center; float:left; margin:0 10px; _display:inline;}
+.moderator li img{ display:block; border:1px solid #ddd; padding:2px; margin-bottom:7px; background-color:#fff;}
+/*首屏样式end*/
+/*幼儿园择园*/
+.zyTitle{ background:url(http://img.eduuu.com/website/yuer/images/big_bg.png) no-repeat left -48px; padding:17px 0 12px 18px;}
+.zyCon{ border-left:1px solid #fcda76; border-right:1px solid #fcda76; padding:0 12px; width:924px;}
+.zyBottom{ background:url(http://img.eduuu.com/website/yuer/images/big_bg.png) no-repeat left -120px; height:17px;}
+.widbox278{ width:278px; float:left; margin-right:10px; _display:inline;}
+.Title278{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat left top; padding:13px 0 0 17px;}
+.Title2780{ background:url(http://img.eduuu.com/website/yuer/images/line_gray.gif) no-repeat right bottom; margin-top:28px;}
+.mcCon{ border-left:1px solid #e9e9e9; border-right:1px solid #e9e9e9; padding:22px 17px 5px; width:242px; background:url(http://img.eduuu.com/website/yuer/images/graybg.gif) repeat-x;}
+.mcMess{ width:230px; height:113px; border:1px solid #fcda76; background:#fff7e1; padding:5px; overflow:hidden;}
+.mcMess span{ width:198px; height:67px; background:#fff; padding:23px 16px; display:block; word-spacing:4px; line-height:24px; overflow:hidden;}
+.mcCon ul{ padding-top:0; background-position:0 7px;}
+.mcBottom{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat 0 -164px; height:12px;}
+
+.Title380{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat left -43px; height:26px; font-size:16px; font-family:"微软雅黑"; padding:10px 0 0 13px; color:#fe8100;}
+.newsList0{ padding-top:10px; line-height:24px;}
+.newsList li.last{ border-bottom:none;}
+
+.widbox248{ width:248px; float:right;}
+.Title248{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat left -92px;}
+.Title2480{ background:url(http://img.eduuu.com/website/yuer/images/line_gray.gif) no-repeat right bottom; padding:15px 0 0 0; line-height:15px;}
+.con248{ width:212px; padding:12px 17px 0; line-height:26px;}
+.con248 span{ margin-right:8px; _display:inline; color:#fe8100;}
+.con248 span a:link,.con248 span a:visited{ color:#fe8100;}
+.con248 span a:hover{ color:#fe8100;}
+.con248 span a:active{ color:#fe8100;}
+.bottom248{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat left -134px; height:12px;}
+/*幼儿园择园end*/
+/*重点中学*/
+.zdTitle{ background:url(http://img.eduuu.com/website/yuer/images/big_bg.png) no-repeat left -144px;}
+.zdBottom{ background:url(http://img.eduuu.com/website/yuer/images/big_bg.png) no-repeat left -216px; height:17px;}
+.zdCon{ background:url(http://img.eduuu.com/website/yuer/images/big_bg.png) no-repeat 12px -525px; width:924px; height:275px; margin:0 auto; border-left:1px solid #c3e969; border-right:1px solid #c3e969; padding:0 12px;}
+
+.schoolL{ width:312px; border-right:1px solid #ddd; float:left; position:relative; height:275px; overflow:hidden;}
+.schooL_small{ width:102px; float:left; border-right:1px solid #ddd; height:275px;}
+.schooL_small dt{ background:url(http://img.eduuu.com/website/yuer/images/location.gif) no-repeat; width:101px; height:57px; overflow:hidden;  border-left:1px solid #ddd; border-top:1px solid #ddd;}
+.schooL_small dt .location{ color:#000; font-size:14px;}
+.schooL_small dd{ border-left:1px solid #ddd; height:212px; _overflow:hidden;}
+.rank dt{ background:url(http://img.eduuu.com/website/yuer/images/rank0.gif) no-repeat; border-top:0; border-left:0;}
+.rank dd{ height:100px;}
+.schooL_small dd li{ background:url(http://img.eduuu.com/website/yuer/images/btn_white.png) no-repeat; width:93px; height:49px; line-height:49px; text-align:center; color:#666; margin-bottom:7px; position:relative;}
+.schooL_small dd li.onSch{ background:url(http://img.eduuu.com/website/yuer/images/btn_gray.gif) no-repeat; width:100px;}
+.schooL_small dd li.onSch span{ background:#fff; display:block; position:absolute; right:-2px; height:47px; width:4px; top:1px;}
+.tabConSch{ width:185px; padding:12px; float:left; overflow:hidden;}
+.tabConSch p img{ display:block; border:1px solid #ddd; padding:2px; background-color:#fff;}
+.tabConSch ul{ background-color:#f7f7f8; width:166px; padding:9px 10px;}
+.tabConSch ul li{ float:left; width:70px; line-height:28px;}
+.listIcon2 li{ background:url(http://img.eduuu.com/website/yuer/images/listIcon2.gif) no-repeat 0 10px; padding-left:12px;}
+.divNone{ display:none;}
+
+.schoolM{ width:313px; margin-left:15px; _display:inline;}
+.schoolR{ width:230px; float:right; padding:0 12px; line-height:24px; border-left:1px dashed #ddd;}
+.schoolTitle{ background-position:45px bottom; margin-bottom:8px;}
+.schoolTitle span{ float:right; font-weight:normal; font-size:12px; margin-top:5px; color:#76af00}
+/*重点中学end*/
+/*家有宝贝*/
+.babyTitle{ background-position:left -240px; height:38px; padding:3px 0 8px 18px; overflow:hidden;}
+.babyCon{ background-color:#fdf0c4; border-left:1px solid #fcda76; border-right:1px solid #fcda76; width:924px; padding:0 12px; position:relative; overflow:hidden;}
+.v_show{ background:url(http://img.eduuu.com/website/yuer/images/big_bg.png) no-repeat left -326px; height:147px; width:902px; padding:18px 12px;}
+.v_content{ width:902px; height:147px; float:left; overflow:hidden;}
+.v_content_list{ height:147px; width:4900px;}
+.v_content_list li{ background:url(http://img.eduuu.com/website/yuer/images/big_bg2.png) no-repeat -407px -50px; width:126px; height:135px; padding:9px 9px 0; float:left; text-align:center; margin:0 18px; _display:inline;}
+.v_content_list li img{ display:block; margin-bottom:8px;}
+#demo1{float:left;}
+#demo2{float:left;}
+
+.babyBottom{ background:url(http://img.eduuu.com/website/yuer/images/big_bg.png) no-repeat 0 -296px; height:17px;}
+/*家有宝贝end*/

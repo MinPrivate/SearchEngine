@@ -1,0 +1,27 @@
+#
+# robots.txt for  xueersi
+# Version 1.0.0
+#
+
+User-agent: *
+Disallow: /comment/
+Disallow: /register/
+Disallow: /buy/
+Disallow: /shoppingcart/
+Disallow: /module/
+Disallow: /index/
+Disallow: /Rest/
+Disallow: /RestLogs/
+Sitemap:http://www.xueersi.com/sitemap/index/
+Sitemap:http://www.xueersi.com/rss/grade/2.xml
+Sitemap:http://www.xueersi.com/rss/grade/3.xml
+Sitemap:http://www.xueersi.com/rss/grade/4.xml
+Sitemap:http://www.xueersi.com/rss/grade/5.xml
+Sitemap:http://www.xueersi.com/rss/grade/6.xml
+Sitemap:http://www.xueersi.com/rss/grade/7.xml
+Sitemap:http://www.xueersi.com/rss/grade/8.xml
+Sitemap:http://www.xueersi.com/rss/grade/9.xml
+Sitemap:http://www.xueersi.com/rss/grade/10.xml
+Sitemap:http://www.xueersi.com/rss/grade/11.xml
+Sitemap:http://www.xueersi.com/rss/grade/12.xml
+Sitemap:http://www.xueersi.com/rss/grade/13.xml

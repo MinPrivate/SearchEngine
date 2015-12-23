@@ -1,0 +1,138 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="shortcut icon" href="images/favicon.ico" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>学而思培优-中国领先的培优辅导品牌</title>
+<link href="css/style.css" type="text/css" rel="stylesheet" /> 
+<script type="text/javascript">
+	//判断cookie
+
+	//截取空格
+	function trimString(s) {            
+		return s.replace(/(^[\s]+)|([\s]+$)/g, "");        
+	}
+		
+	//设置cookie
+	function setCookie(name, value, days) {
+        var exp = new Date();        
+        exp.setTime(exp.getTime() + days * 24 * 60 * 60 * 1000);        
+        document.cookie = name + "=" + escape(value) + ";expires=" + exp.toGMTString();    
+        }    
+ 	//获取cookie       
+	function getCookie(name) {        
+        
+	var cookieValue = null;        
+	if (document.cookie && document.cookie != '') {
+	            var cookies = document.cookie.split(';');
+	            for (var i = 0; i < cookies.length; i++) {                
+	            var cookie = trimString(cookies[i]);                
+	            if (cookie.substring(0, name.length + 1) == (name + '=')) {                    
+	            try {                        
+	            cookieValue = decodeURIComponent(cookie.substring(name.length + 1));                    
+	            } catch (e) {                        
+	            cookieValue = cookie.substring(name.length + 1);                    
+	            } break;                
+	            }            
+	            }        
+	            } return cookieValue;    
+} 
+	//判断cookie
+	function choseCity() {
+		var cityUrl = getCookie('speiyouCity');
+		if (cityUrl != null) {
+			location.href = 'http://'+cityUrl;
+		}
+	}	
+	
+</script>
+</head>
+
+<body>
+    <div class="wid980">
+    	<!--头部 开始-->
+    	<div class="banner clearfix">
+        	<div class="banner_left"></div>
+        	<div class="banner_center">
+            	<a href="http://bj.speiyou.com" target="_blank"><img src="images/pylogo.jpg"  width="279" height="62" border="0" alt="logo" /></a>
+            </div>
+        	<div class="banner_right"></div>
+        </div>
+    	<!--头部 结束-->
+    	<!--中间 开始-->
+    	<div class="center">
+        	<div class="contbg clearfix">
+            	<div class="right">
+                	<div class="over jycont" style="margin-left:360px;"><img src="images/jy.jpg" width="583" height="164" alt="欢迎"></div>
+                	<div class="fontlink" style="margin-left:400px;">
+                    	<div class="over"><img src="images/font.gif" width="135" height="14"  /></div>
+                        <div class="clearfix mt25">
+                        	<div class="over left mr17 mb"><a href="http://bj.speiyou.com" onclick="setCookie('speiyouCity','bj.speiyou.com',365)" class="proSite">北京站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://tj.speiyou.com"  onclick="setCookie('speiyouCity','tj.speiyou.com',365)" class="proSite">天津站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://sh.speiyou.com" onclick="setCookie('speiyouCity','sh.speiyou.com',365)" class="proSite">上海站</a></div>
+							<div class="over left mr17 mb"><a href="http://sz.speiyou.com" onclick="setCookie('speiyouCity','sz.speiyou.com',365)" class="proSite">深圳站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://cd.speiyou.com" onclick="setCookie('speiyouCity','cd.speiyou.com',365)" class="proSite">成都站</a></div>
+							<div class="over left mr17 mb"><a href="http://cq.speiyou.com"  onclick="setCookie('speiyouCity','cq.speiyou.com',365)" class="proSite">重庆站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://hz.speiyou.com" onclick="setCookie('speiyouCity','hz.speiyou.com',365)" class="proSite">杭州站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://nj.speiyou.com" onclick="setCookie('speiyouCity','nj.speiyou.com',365)" class="proSite">南京站</a></div>
+							<div class="over left mr17 mb"><a href="http://su.speiyou.com"  onclick="setCookie('speiyouCity','su.speiyou.com',365)" class="proSite">苏州站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://sy.speiyou.com" onclick="setCookie('speiyouCity','sy.speiyou.com',365)" class="proSite">沈阳站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://ty.speiyou.com" onclick="setCookie('speiyouCity','ty.speiyou.com',365)" class="proSite">太原站</a></div>
+							<div class="over left mr17 mb"><a href="http://wh.speiyou.com"  onclick="setCookie('speiyouCity','wh.speiyou.com',365)" class="proSite">武汉站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://xa.speiyou.com" onclick="setCookie('speiyouCity','xa.speiyou.com',365)" class="proSite">西安站</a></div>
+                        	<div class="over left mr17 mb"><a href="http://zz.speiyou.com" onclick="setCookie('speiyouCity','zz.speiyou.com',365)" class="proSite">郑州站</a></div>		
+                        	<div class="over left mb"><a href="http://gz.speiyou.com" onclick="setCookie('speiyouCity','gz.speiyou.com',365)" class="proSite">广州站</a></div>
+                        </div>
+                    </div>
+                
+                
+                </div>
+            
+            </div>
+  		</div>
+    	<!--中间 结束-->
+    	<!--版权 开始-->
+            <div id="foot" class="wid980">
+            <p>
+		    	<a href="http://www.xueersi.org/" target="_blank">学而思官方网站</a>&nbsp; | &nbsp;
+		    	<a href="http://www.aoshu.com/" target="_blank">奥数网</a>&nbsp; | &nbsp;
+		    	<a href="http://www.zhongkao.com/" target="_blank">中考网</a>&nbsp; |&nbsp;&nbsp;
+		    	<a href="http://www.gaokao.com/" target="_blank">高考网</a>&nbsp; | &nbsp;
+		    	<a href="http://www.zuowen.com/" target="_blank">作文网</a>&nbsp; | &nbsp;
+		    	<a href="http://www.yingyu.com/" target="_blank">英语网</a>&nbsp; |&nbsp;&nbsp;
+		    	<a href="http://www.youjiao.com/" target="_blank">幼教网</a>&nbsp; | &nbsp;
+		    	<a href="http://www.xueersi.com/" target="_blank">学而思网校</a>&nbsp; |&nbsp;&nbsp;
+		    	<a href="http://jiajiaoban.com/" target="_blank">智康1对1</a>&nbsp;&nbsp;</p>
+                <p>咨询电话：010-82618899 62164116&nbsp;&nbsp;  <a style="color:#555555" href="http://www.miibeian.gov.cn" target="_blank">京ICP备09032638号-4</a> &nbsp;&nbsp;</p>
+                <p>Copyright@2004 - 2011 Xueersi.All Rights Reserved.学而思教育（中国）版权所有</p>
+          </div> 
+                 
+    	<!--版权 结束-->
+    </div>
+<script type="text/javascript">
+choseCity();
+var PageType= 'first_page';
+var speiyou_GKEY = '学而思培优导航首页';
+if(typeof(UIN) == 'undefined') UIN = null;
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-38798161-1']);
+	_gaq.push(['_setDomainName', 'speiyou.com']);
+	_gaq.push(['_addOrganic', 'baidu', 'word']);
+	_gaq.push(['_addOrganic', 'google', 'q']);
+	_gaq.push(['_addOrganic', 'soso', 'w']);
+	_gaq.push(['_addOrganic', '3721', 'name']);
+	_gaq.push(['_addOrganic', 'youdao', 'q']);
+	_gaq.push(['_addOrganic', '118114', 'kw']);
+	_gaq.push(['_addOrganic', 'vnet', 'kw']);
+	_gaq.push(['_addOrganic', 'so.360', 'q']);
+	_gaq.push(['_addOrganic', 'sogou', 'query']);
+	if(typeof(UIN) != 'undefined' && UIN !=null && UIN != '') { _gaq.push(['_setCustomVar',4,'UserType',UIN,1]); }//UIN为变量
+	_gaq.push(['_trackPageview', (typeof speiyou_GKEY == 'undefined' ? '' :speiyou_GKEY+'_'+PageType)]);//speiyou_GKEY、PageType均为变量；
+	(function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>    
+</body>
+</html>

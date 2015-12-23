@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta property="qc:admins" content="27237626156055416375" />
+<meta property="wb:webmaster" content="d44ee3385b6f7a02" />
+<meta http-equiv="imagetoolbar" content="no">
+<title>404页面_雪地</title>
+<meta property="wb:webmaster" content="d44ee3385b6f7a02" />
+<script type="text/javascript">
+var version='3713160528x';
+var isMobile = '';
+var domainInfo={ cke:'.xuedi.com', img:'http://imgs.xuedi.com/', index:'http://www.xuedi.com/',my:'http://my.xuedi.com/',pass:'http://reg.xuedi.com/',atth:'http://atth.xuedi.com/',im:'http://im.xuedi.com/',api:'http://api.xuedi.com/',app:''};
+var user={ uid:0,sid:0,grade:0,im:'0',isedu:0,stage:0,iden:0
+	,city:'',date:''};
+</script>
+<link href="http://imgs.xuedi.com/images/favicon.ico" rel="shortcut icon" />
+<link href="http://imgs.xuedi.com/css/style.css?v=3713160528x" rel="stylesheet" type="text/css" />
+<link href="http://imgs.xuedi.com/css/dialogskin.css?v=3713160528x" rel="stylesheet" type="text/css" />
+<script src="http://imgs.xuedi.com/js/new/base_new.js?v=3713160528x" type="text/javascript"></script>
+<!--script src="http://imgs.xuedi.com/js/new/base.js?v=3713160528x" type="text/javascript"></script>
+<script src="http://imgs.xuedi.com/js/xd.js?v=3713160528x" type="text/javascript"></script>
+<script src="http://imgs.xuedi.com/js/new/com/dialogshare.js?v=3713160528x" type="text/javascript"></script>
+<script src="http://imgs.xuedi.com/js/new/base_init.js?v=3713160528x" type="text/javascript"></script>
+<script src="http://imgs.xuedi.com/js/mod/guider.js?v=3713160528x" type="text/javascript"></script-->
+
+<script src="http://imgs.xuedi.com/js/new/base_init.js?v=3713160528x" type="text/javascript"></script>
+<script src="http://imgs.xuedi.com/js/new/base_init_new.js?v=3713160528x" type="text/javascript"></script>
+<!--script src="http://imgs.xuedi.com/js/xd-mod.js?v=3713160528x" type="text/javascript"></script>
+<script src="http://imgs.xuedi.com/swfupload/swfupload.js?v=3713160528x" type="text/javascript"></script>
+<script src="http://imgs.xuedi.com/swfupload/xd_api.js?v=3713160528x" type="text/javascript"></script-->
+
+<!--[if IE 6]>
+<script src="http://imgs.xuedi.com/js/ui/DD_belatedPNG.js"></script>
+<script>DD_belatedPNG.fix('.nav-item-link b,.icos,.front-iphone,.front-andriod,.mainL-nav li a span,.side-nav h3 a span,.side-nav h3 a b,.appIco,.appt-android,.appt-iphone,.app-modal,.video-play,.user-sx a,.bgL,.bgR,.bgT,.bgB,.bgTL,.lunarbox .arrow_dot');</script>
+<![endif]-->
+</head>
+<body>
+        <p class="frontop"></p>
+    <div class="header">
+        <div class="head">
+                 <div class="wrap clearfix">
+          <a href="http://www.xuedi.com/" title="返回首页" class="fl logo">雪地网</a>
+        <div class="headR clearfix">
+          <ul class="navL fl mhide">
+           <li class="nav-item fl mhide"><a href="http://www.xuedi.com/home/" class="nav-item-link" title="返回首页">首页</a></li>
+           <li class="nav-item J-navaj fl mnavf" xd-id="guider_0">
+           		<a href="http://www.xuedi.com/bar/" class="nav-item-link nav-item-hover ">雪地吧<span class="icos"></span></a>
+                <dl class="nav-item-child navn nav-itemp" data-is="0" data-type="1">
+                    <dd style="padding:50px;">正在加载，请耐心等待</dd>
+                </dl>
+           </li>
+           <li class="nav-item J-navaj fl mnav">
+           		<a href="http://www.xuedi.com/peoplelist/" class="nav-item-link nav-item-hover ">专家<span class="icos"></span></a>
+                <dl class="nav-item-child navn nav-itemp" data-is="0" data-type="2">
+                     <dd style="padding:50px;">正在加载，请耐心等待</dd>
+                </dl>
+           </li>
+           <li class="nav-item J-nav fl mhide">
+           		<a href="javascript:;" class="nav-item-link nav-item-hover">应用<span class="icos"></span></a>
+                <dl class="nav-item-child navn navnp nav-itemp">
+                    <dd>
+                        <a href="http://www.xuedi.com/talklist/" class="nava"><span class="btns navn0"></span><span>雪地访谈</span></a>
+                        <a href="http://www.xuedi.com/parentdiary/" class="nava"><span class="btns navn1"></span><span>爸妈记事</span></a>
+                        <a href="http://www.xuedi.com/doc/" class="nava"><span class="btns navn2"></span><span>试题库</span></a>
+                        <a href="http://www.xuedi.com/eventlist/" class="nava"><span class="btns navn3"></span><span>雪地活动</span></a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.xuedi.com/topiclist/all/" class="nava"><span class="btns navn4"></span><span>雪地话题</span></a>
+                        <a href="http://www.xuedi.com/topiclist/" class="nava"><span class="btns navn5"></span><span>今日热帖</span></a>
+                        <a href="http://www.xuedi.com/schoollist/" class="nava"><span class="btns navn6"></span><span>雪地学校</span></a>
+                        <a href="http://www.xuedi.com/courses/" class="nava"><span class="btns navn7"></span><span>课程库</span></a>
+                    </dd>
+                    <dd>
+                        <a href="http://www.xuedi.com/guidelist/" class="nava"><span class="btns navn8"></span><span>升学攻略</span></a>
+                        <a href="http://www.xuedi.com/app/" class="nava"><span class="btns navn9"></span><span>雪地客户端</span></a>
+                    </dd>
+                </dl>
+           </li>
+           <li class="nav-item fl mnav"><a href="http://www.xuedi.com/hot/" class="nav-item-link"><font class="dib">大事件</font><em class="icos nav-hot"></em></a></li>
+          </ul>
+          <div class="fr navLog"><a href="http://reg.xuedi.com/register" class="fl btnBlue">注册新用户</a><a  href="javascript:void(0);" class="fl btnGray J-login">登录</a></div>          </div>
+        </div>
+      </div>
+    </div>
+    <!--header1 end-->
+<!--container starter-->
+<div class="container clearfix J-remove">
+	<div class="feed-error">
+        <table align="center"><tr><th class="feed-error-ico">&nbsp;</th><td><p class="rzText2">你访问的页面不存在哦！</p>
+        <p><span id='count'>5</span>秒后返回首页，你也可以点此<a href="http://www.xuedi.com/" class="setA">返回首页</a></p></td></tr></table>
+    </div>
+</div>
+
+<!--container end-->
+<script>var count = 5;
+timer = setInterval(function(){
+	  if (parseInt(count) == 1) {
+	    location.href = "http://www.xuedi.com/";
+		clearInterval(timer);
+	    return true;
+	  }
+	  count --;
+	  if (count) {
+		  $("#count").html(count);
+	  }
+	}, 1000);
+</script>
+
+<div class="footer">
+    <div class="wrap clearfix">
+    	<div class="footL fl">
+        	<ul class="clearfix">
+            	<li class="footL_btn fl cur"><a href="javascript:;">北京雪地吧</a><span>|</span></li>
+                <li class="footL_btn fl "><a href="javascript:;">上海雪地吧</a></li>
+            </ul>
+            <div class="footL_panel footLb ">
+                <dl class="clearfix">
+                    <dt class="fl">学校吧：</dt>
+                    <dd>
+                        <a href="http://www.xuedi.com/s112168/" class="fl" target="_blank">人大附中</a>
+                        <a href="http://www.xuedi.com/s112193/" class="fl" target="_blank">清华附中</a>
+                        <a href="http://www.xuedi.com/s112186/" class="fl" target="_blank">北大附中</a>
+                        <a href="http://www.xuedi.com/s223281/" class="fl" target="_blank">一零一中学</a>
+                        <a href="http://www.xuedi.com/s223279/" class="fl" target="_blank">首师大附中</a>
+                        <a href="http://www.xuedi.com/s223286/" class="fl" target="_blank">北达资源</a>
+                        <a href="http://www.xuedi.com/s112209/" class="fl" target="_blank">上地实验学校</a>
+                        <a href="http://www.xuedi.com/s223277/" class="fl" target="_blank">理工附中</a>
+                        <a href="http://www.xuedi.com/s112185/" class="fl" target="_blank">十一学校</a>
+                        <a href="http://www.xuedi.com/s112213/" class="fl" target="_blank">师达中学</a>
+                        <a href="http://www.xuedi.com/s112216/" class="fl" target="_blank">五十七中学</a>
+                        <a href="http://www.xuedi.com/s223339/" class="fl" target="_blank">海淀外国语</a>
+                        <a href="http://www.xuedi.com/s112179/" class="fl" target="_blank">八一中学</a>
+                        <a href="http://www.xuedi.com/s223283/" class="fl" target="_blank">人大附中分校</a>
+                        <a href="http://www.xuedi.com/s223299/" class="fl" target="_blank">北京四中</a>
+                        <a href="http://www.xuedi.com/s223379/" class="fl" target="_blank">实验中学</a>
+                        <a href="http://www.xuedi.com/s111928/" class="fl" target="_blank">北京八中</a>
+                        <a href="http://www.xuedi.com/s223301/" class="fl" target="_blank">十三中分校</a>
+                        <a href="http://www.xuedi.com/s223380/" class="fl" target="_blank">西城外国语</a>
+                        <a href="http://www.xuedi.com/s223300/" class="fl" target="_blank">三帆中学</a>
+                        <a href="http://www.xuedi.com/s111891/" class="fl" target="_blank">东直门中学</a>
+                        <a href="http://www.xuedi.com/s111897/" class="fl" target="_blank">二中分校</a>
+                        <a href="http://www.xuedi.com/s223302/" class="fl" target="_blank">五中分校</a>
+                        <a href="http://www.xuedi.com/s111974/" class="fl" target="_blank">汇文中学</a>
+                        <a href="http://www.xuedi.com/s111910/" class="fl" target="_blank">一七一中学</a>
+                        <a href="http://www.xuedi.com/s223294/" class="fl" target="_blank">陈经纶分校</a>
+                        <a href="http://www.xuedi.com/s223293/" class="fl" target="_blank">八十中学</a>
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt class="fl">升学吧：</dt>
+                    <dd>
+                        <a href="http://www.xuedi.com/t92/" class="fl" target="_blank">幼升小</a>
+                        <a href="http://www.xuedi.com/t333/" class="fl" target="_blank">小升初</a>
+                        <a href="http://www.xuedi.com/t127/" class="fl" target="_blank">中考</a>
+                        <a href="http://www.xuedi.com/t96/" class="fl" target="_blank">高考</a>
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt class="fl">杯赛吧：</dt>
+                    <dd>
+                        <a href="http://www.xuedi.com/t19/" class="fl" target="_blank">华杯赛</a>
+                        <a href="http://www.xuedi.com/t17/" class="fl" target="_blank">走美杯</a>
+                        <a href="http://www.xuedi.com/t418/" class="fl" target="_blank">学而思杯</a>
+                        <a href="http://www.xuedi.com/t9/" class="fl" target="_blank">杯赛竞赛</a>
+                        <a href="http://www.xuedi.com/t21/" class="fl" target="_blank">数学解题能力展示</a>
+                    </dd>
+                </dl>
+                <dl class="last clearfix">
+                    <dt class="fl">专家吧：</dt>
+                    <dd>
+                        <a href="http://www.xuedi.com/t459/" class="fl" target="_blank">响聊小升初</a>
+                        <a href="http://www.xuedi.com/t434/" class="fl" target="_blank">金老师话小升初</a>
+                        <a href="http://www.xuedi.com/t474/" class="fl" target="_blank">白超老师聊中考</a>
+                    </dd>
+                </dl>
+            </div>
+            <div class="footL_panel footLs none">
+                <dl class="clearfix">
+                    <dt class="fl">学校吧：</dt>
+                    <dd>
+                        <a href="http://www.xuedi.com/s112633/" class="fl" target="_blank">华育中学</a>
+                        <a href="http://www.xuedi.com/s112991/" class="fl" target="_blank">兰生复旦</a>
+                        <a href="http://www.xuedi.com/s112565/" class="fl" target="_blank">明珠中学</a>
+                        <a href="http://www.xuedi.com/s112930/" class="fl" target="_blank">讯行中学</a>
+                        <a href="http://www.xuedi.com/s113273/" class="fl" target="_blank">上海实验学校</a>
+                        <a href="http://www.xuedi.com/s112645/" class="fl" target="_blank">世界外国语中学</a>
+                        <a href="http://www.xuedi.com/s113234/" class="fl" target="_blank">民办华二初级中学</a>
+                        <a href="http://www.xuedi.com/s112647/" class="fl" target="_blank">西南位育</a>
+                        <a href="http://www.xuedi.com/s112733/" class="fl" target="_blank">市西初中</a>
+                        <a href="http://www.xuedi.com/s112656/" class="fl" target="_blank">西南模范</a>
+                        <a href="http://www.xuedi.com/s113024/" class="fl" target="_blank">上外双语</a>
+                        <a href="http://www.xuedi.com/s113368/" class="fl" target="_blank">上海中学东校</a>
+                        <a href="http://www.xuedi.com/s113367/" class="fl" target="_blank">民办新竹园中学</a>
+                        <a href="http://www.xuedi.com/s113366/" class="fl" target="_blank">上海张江集团学校</a>
+                        <a href="http://www.xuedi.com/s112745/" class="fl" target="_blank">进华中学</a>
+                        <a href="http://www.xuedi.com/s112815/" class="fl" target="_blank">市北初级</a>
+                        <a href="http://www.xuedi.com/s112933/" class="fl" target="_blank">上外附中</a>
+                        <a href="http://www.xuedi.com/s113062/" class="fl" target="_blank">上宝中学</a>
+                        <a href="http://www.xuedi.com/s112926/" class="fl" target="_blank">新华初级中学</a>
+                        <a href="http://www.xuedi.com/s112698/" class="fl" target="_blank">延安初级中学</a>
+                        <a href="http://www.xuedi.com/s112560/" class="fl" target="_blank">&nbsp;&nbsp;民办立达中学&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                        <a href="http://www.xuedi.com/s113116/" class="fl" target="_blank">文来中学</a>
+                        <a href="http://www.xuedi.com/s113440/" class="fl" target="_blank">九峰中学</a>
+                        <a href="http://www.xuedi.com/s112955/" class="fl" target="_blank">民办存志</a>
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt class="fl">升学吧：</dt>
+                    <dd>
+                        <a href="http://www.xuedi.com/t421/" class="fl" target="_blank">幼升小</a>
+                        <a href="http://www.xuedi.com/t335/" class="fl" target="_blank">小升初</a>
+                        <a href="http://www.xuedi.com/t336/" class="fl" target="_blank">中考</a>
+                        <a href="http://www.xuedi.com/u103609/" class="fl" target="_blank">高考</a>
+                    </dd>
+                </dl>
+                <dl class="clearfix">
+                    <dt class="fl">杯赛吧：</dt>
+                    <dd class="mar-sh">
+                        <a href="http://www.xuedi.com/t16/" class="fl" target="_blank">希望杯</a>
+                        <a href="http://www.xuedi.com/t412/" class="fl" target="_blank">亚太杯</a>
+                        <a href="http://www.xuedi.com/t391/" class="fl" target="_blank">中环杯</a>
+                        <a href="http://www.xuedi.com/t408/" class="fl" target="_blank">全能五星</a>
+                        <a href="http://www.xuedi.com/t458/" class="fl" target="_blank">数学大王</a>
+                        <a href="http://www.xuedi.com/t411/" class="fl" target="_blank">小机灵杯</a>
+                        <a href="http://www.xuedi.com/t432/" class="fl" target="_blank">春蕾杯_ 上海</a>
+                        <a href="http://www.xuedi.com/t476/" class="fl" target="_blank">走美杯_ 上海</a>
+                    </dd>
+                </dl>
+                <dl class="last clearfix">
+                    <dt class="fl">专家吧：</dt>
+                    <dd>
+                        <a href="http://www.xuedi.com/t655/" class="fl" target="_blank">dai你小升初</a>
+                        <a href="http://www.xuedi.com/t642/" class="fl" target="_blank">流年聊中考</a>
+                        <a href="http://www.xuedi.com/t387/" class="fl" target="_blank">门外汉看上海小升初</a>
+                        <a href="http://www.xuedi.com/t416/" class="fl" target="_blank">我知道的上海预录取</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="footR fr">
+        	<div class="clearfix">
+                <dl class="fl">
+                    <dt>关于雪地</dt>
+                    <dd><a href="http://www.xuedi.com/app" target="_blank">雪地客户端</a></dd>
+                    <dd><a href="http://www.xuedi.com/t472/" target="_blank">新手指南</a></dd>
+                    <dd><a id="suggest_bot" href="javascript:;" target="_blank">建议反馈</a></dd>
+                    <dd><a href="http://www.xuedi.com/blog/713" target="_blank">雪地协议</a></dd>
+                    <dd><a href="http://www.xuedi.com/t153/" target="_blank">#雪地#</a></dd>
+                </dl>
+                <dl class="fl">
+                    <dt>雪地官方账号</dt>
+                    <dd><span class="ico msina"></span><a href="http://weibo.com/xuedis" target="_blank">新浪微博</a></dd>
+                    <dd><span class="ico mq"></span><a href="http://t.qq.com/xuedis" target="_blank">腾讯微博</a></dd>
+                </dl>
+                <div class="footwx fl"><img src="http://imgs.xuedi.com/images/xdIco.jpg" /><span class="ico mwx"></span>微信：xuediedu</div>
+            </div>
+            <p class="footCopy">&copy;雪地网 京ICP备09042963号-22</p>
+        </div>
+    </div>
+</div>
+<div class="none mshow">
+<footer class="mfoot">
+	<p><a href="http://www.xuedi.com/bar/">雪地吧</a><a href="http://www.xuedi.com/app" target="_blank">雪地客户端</a><a id="backTopFoot" href="javascript:;">回顶部</a></p>
+    <span>&copy;雪地网 京ICP备09042963号-22</span>
+</footer>
+</div>
+<script src="http://imgs.xuedi.com/js/mod/gcc.js?v=12"></script>
+<!-- Begin: www.iperceptions.com -->
+<script type="text/javascript">
+;(function (w, d, s, l) { var r = 100, js, fjs = d.getElementsByTagName(s)[0], id = "IPerceptionsJS", a = "async", b = "defer",go = function() { if(d.getElementById(id)) { return; } js = d.createElement(s);js.src = w.location.protocol + "//ips-invite.iperceptions.com/webValidator.aspx?sdfc=b2893f15-112210-0db93fbb-178d-46b9-a381-f262f029167a&lID=6&source=91787"; js.id = id; js.type = "text/javascript"; js[a] = a; js[b] = b; fjs.parentNode.insertBefore(js, fjs); }; if(r < Math.floor(Math.random() * 100)) { d.cookie = "IPE_S_112210=0;Path=/;" } else if(!(/(^|;)\s*IPE(_S_)?112210=/.test(d.cookie))){ go(); } })(window, document, "script", "load");</script>
+<!-- End: www.iperceptions.com -->
+</body>
+</html><!-- 2013-05-28 16:13:37 -->

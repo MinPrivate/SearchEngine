@@ -1,0 +1,9 @@
+﻿.pictures1 {zoom:1;}
+.pictures1 H4 {float:left;}
+.pictures1 .pictures_more {float:right;}
+.pictures1 UL {float:left;margin:0 auto;}
+.pictures1 LI {display:inline;float:left;position:relative;}
+.pictures1 H5 {overflow:hidden;text-overflow:ellipsis;text-align:center;white-space:nowrap;}
+.pictures1 .pl_img {overflow:hidden;}
+.pictures1 .pl_img IMG {display:block;}
+.pictures1 .pagenum {clear:both;text-align:center;}

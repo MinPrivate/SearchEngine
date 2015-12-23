@@ -1,0 +1,575 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<meta name="keywords" content="高校录取分数线,各高校录取分数线,2013高校分数线,高校历年分数线,分数线查询预测,招生分数线,今年高考分数线,高考录取分数线,历年高考录取分数线,大学录取分数线,今年大学录取分数线,各大学录取分数线" /> 
+<meta name="description" content="高考院校库不仅为高考考生及家长提供大学录取分数线等高校分数线查询功能，院校库将考生及家长在录取阶段最为关注的高考分数线，大学录取分数线一并展现出来。" />
+<title>高考分数线查询_高校录取分数线查询_大学分数线查询_高考院校库</title>
+<link href="http://www.gaokao.com/favicon.ico" rel="shortcut icon"/>
+<link href="http://college.gaokao.com/style/college/css/base.css" rel="stylesheet" type="text/css" />
+<link href="http://college.gaokao.com/style/college/css/style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://college.gaokao.com/style/college/js/jquery.js"></script>
+<script type="text/javascript" src="http://college.gaokao.com/style/college/js/common.js"></script>
+<script type="text/javascript" src="http://cbjs.baidu.com/js/s.js"></script>
+<!--[if IE 6]>
+    <script type="text/javascript" src="http://img.eduuu.com/website/public_js/DD_belatedPNG.js" ></script>
+    <script type="text/javascript">
+    DD_belatedPNG.fix('..collegeName b,.collegeName .areaBox em,table em,.classColl .areaBox .arry, .f_foot_bg, .head p span a');
+    </script>
+<![endif]-->
+</head>
+<body>
+<div id="top_bg" class="top_bg">
+	<p>把高考院校库 <a href="javascript:void(0);" onclick="javascript:addfavorite('http://college.gaokao.com/','2013高考分数线查询_专业分数线查询_高考院校库');_gaq.push(['_trackEvent', 'College', 'shouchang', '高考网/院校库/高校分数线/主页']);"><img src="http://college.gaokao.com/style/college/images/fav_btn.png" /></a> , 挑大学选专业 ，一步到位！  <a href="javascript:void(0);" onclick="javascript:hide_top_bg();">不再提示</a><a class="down_app" href="http://www.gaokao.com/mobile/" target="_blank">手机版</a></p>
+    <span><a href="javascript:void(0);" onclick="javascript:hide_top_bg();"><img src="http://college.gaokao.com/style/college/images/xx.png" alt="XX" width="9" height="9" /></a></span>
+</div>
+<div id="header">
+<script src="http://img.eduuu.com/website/public_js/topMenu.js"></script>
+<div class="hd_bg">
+<div class="head">
+	<ul>
+    	<li><a href="http://college.gaokao.com/schlist/">高校搜索</a></li>
+    	<li><a href="http://college.gaokao.com/spelist/">专业搜索</a></li>
+    	<li><a class="on" href="http://college.gaokao.com/schpoint/">高校分数线</a></li>
+    	<li><a href="http://college.gaokao.com/spepoint/">专业分数线</a></li>
+    	<li><a href="http://college.gaokao.com/areapoint/">地区批次线</a></li>
+    </ul>
+    <p>
+    	<strong><a href="http://www.gaokao.com">高考网</a></strong>
+        <span><a class="phone_client" href="http://www.gaokao.com/mobile/" target="_blank">手机客户端</a><a class="return_home" href="http://college.gaokao.com/">返回院校库</a></span>
+    </p>
+</div>
+</div>
+    
+</div><div class="wrap">
+    <div class="bg_sez">
+    	<div class="hr_10"></div>
+            <div class="ss bk">
+                <dl class="clearfix">
+                	<dt>&gt;&nbsp;文理分科</dt>
+                    <dd>
+                    	<a class="red" href="http://college.gaokao.com/schpoint/">全部</a>
+                                                  <a href="http://college.gaokao.com/schpoint/s1/">理科</a>
+                                                  <a href="http://college.gaokao.com/schpoint/s2/">文科</a>
+                                                  <a href="http://college.gaokao.com/schpoint/s3/">综合</a>
+                                                  <a href="http://college.gaokao.com/schpoint/s4/">其他</a>
+                                            </dd>
+                </dl>
+                <dl class="clearfix">
+                	<dt>&gt;&nbsp;高校所在地</dt>
+                    <dd>
+                    	<a class="red" href="http://college.gaokao.com/schpoint/">全部</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b1/">北京</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b2/">天津</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b3/">辽宁</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b4/">吉林</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b5/">黑龙江</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b6/">上海</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b7/">江苏</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b8/">浙江</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b9/">安徽</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b10/">福建</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b11/">山东</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b12/">湖北</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b13/">湖南</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b14/">广东</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b15/">重庆</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b16/">四川</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b17/">陕西</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b18/">甘肃</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b19/">河北</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b20/">山西</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b21/">内蒙古</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b22/">河南</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b23/">海南</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b24/">广西</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b25/">贵州</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b26/">云南</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b27/">西藏</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b28/">青海</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b29/">宁夏</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b30/">新疆</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b31/">江西</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b33/">香港</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b38/">澳门</a>
+                                                  <a href="http://college.gaokao.com/schpoint/b39/">台湾</a>
+                                            </dd>
+                </dl>
+                <dl class="clearfix">
+                	<dt>&gt;&nbsp;录取批次</dt>
+                    <dd>
+                    	<a class="red" href="http://college.gaokao.com/schpoint/">全部</a>
+                                                  <a href="http://college.gaokao.com/schpoint/d1/">第一批</a>
+                                                  <a href="http://college.gaokao.com/schpoint/d2/">第二批</a>
+                                                  <a href="http://college.gaokao.com/schpoint/d3/">第三批</a>
+                                                  <a href="http://college.gaokao.com/schpoint/d4/">提前批</a>
+                                                  <a href="http://college.gaokao.com/schpoint/d5/">不详</a>
+                                            </dd>
+                </dl>
+                <dl class="clearfix">
+                	<dt>&gt;&nbsp;招生年份</dt>
+                    <dd>
+                    	<a class="red" href="http://college.gaokao.com/schpoint/">全部</a>
+
+                                                    <a href="http://college.gaokao.com/schpoint/y2012/">2012</a>
+                                                    <a href="http://college.gaokao.com/schpoint/y2011/">2011</a>
+                                                    <a href="http://college.gaokao.com/schpoint/y2010/">2010</a>
+                                                    <a href="http://college.gaokao.com/schpoint/y2009/">2009</a>
+                                                    <a href="http://college.gaokao.com/schpoint/y2008/">2008</a>
+                                                    <a href="http://college.gaokao.com/schpoint/y2007/">2007</a>
+                                                    <a href="http://college.gaokao.com/schpoint/y2006/">2006</a>
+                                                    <a href="http://college.gaokao.com/schpoint/y2005/">2005</a>
+                                            </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="hr_10"></div>
+</div>
+<div id="wrapper">
+    <div class="hr_10"></div>
+    <div class="cont_l zycx">
+    <div class="hr_10"></div>
+		<h3 class="zy_tit ss4">
+        	<span><em>高校分数线</em></span>
+            <p><select id="stuarea" name="stuarea">
+                <option value="">考生所在地</option>
+            </select></p>
+            <p><select id="subject" name="subject" style="width:50px;">
+                <option value="">科目</option>
+            </select></p>
+            <p><select id="scharea" name="scharea">
+                <option value="">高校所在地</option>
+            </select></p>
+            <p><select id="schid" name="schid" style="width:195px;">
+                <option value="">高校名称</option>
+            </select></p>
+            <p><input id="schpoint" type="image" src="http://college.gaokao.com/style/college/images/sous.png" width="64" height="20" /></p>
+        </h3>
+        <div class="hr_10"></div>
+                <table width="675" border="0" cellpadding="0" cellspacing="1" bgcolor="#E1E1E1">
+              <tr>
+                <th scope="col">高校名称</th>
+                <th scope="col">招生地区</th>
+                <th scope="col">考生类别</th>
+                <th scope="col">年份</th>
+                <th scope="col">录取批次</th>
+                <th scope="col">录取分数线</th>
+                <th scope="col">高校对比</th>
+            </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/52/" target="_blank">中央财经大学</a></td>
+                <td>------</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/52/result/0/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/52/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/52/" target="_blank">中央财经大学</a></td>
+                <td>------</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/52/result/0/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/52/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/1/" target="_blank">北京大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/1/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/1/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/1/" target="_blank">北京大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>提前批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/1/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/1/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/1/" target="_blank">北京大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/1/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/1/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/1/" target="_blank">北京大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>提前批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/1/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/1/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/2/" target="_blank">中国人民大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/2/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/2/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/2/" target="_blank">中国人民大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>提前批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/2/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/2/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/2/" target="_blank">中国人民大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/2/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/2/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/2/" target="_blank">中国人民大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>提前批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/2/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/2/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/3/" target="_blank">清华大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/3/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/3/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/3/" target="_blank">清华大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>提前批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/3/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/3/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/3/" target="_blank">清华大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/3/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/3/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/3/" target="_blank">清华大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>提前批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/3/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/3/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/4/" target="_blank">北京航空航天大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/4/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/4/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/4/" target="_blank">北京航空航天大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/4/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/4/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/5/" target="_blank">北京理工大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/5/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/5/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/5/" target="_blank">北京理工大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/5/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/5/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/6/" target="_blank">中国农业大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/6/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/6/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/6/" target="_blank">中国农业大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/6/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/6/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/7/" target="_blank">北京师范大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/7/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/7/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/7/" target="_blank">北京师范大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/7/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/7/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/7/" target="_blank">北京师范大学</a></td>
+                <td>北京</td>
+                <td>综合</td>
+                <td>2012</td>
+                <td>提前批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/7/result/1/3/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/7/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="sz">
+                <td><a href="http://college.gaokao.com/school/8/" target="_blank">中央民族大学</a></td>
+                <td>北京</td>
+                <td>理科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/8/result/1/1/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/8/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                          <tr class="szw">
+                <td><a href="http://college.gaokao.com/school/8/" target="_blank">中央民族大学</a></td>
+                <td>北京</td>
+                <td>文科</td>
+                <td>2012</td>
+                <td>第一批</td>
+                <td><a href="http://college.gaokao.com/school/tinfo/8/result/1/2/" target="_blank">查看</a></td>
+                <td><a href="http://college.gaokao.com/schoolvs/8/pk/" target="_blank">加入对比 </a></td>
+              </tr>
+                      </table>
+        <ul class="fany">
+            <li>首页</li>
+            <li><< 上一页</li>
+            <li><a href="http://college.gaokao.com/schpoint/p2/">下一页 >></a></li>
+            <li><a href="http://college.gaokao.com/schpoint/p11736/">末页</a></li>
+            <li id="qx">1/11736页 第<input id="pagenum" type="text" />页 <input id="pagego" type="image" src="http://college.gaokao.com/style/college/images/go.jpg" width="31" height="20" /></li>
+        </ul>
+              </div>
+    <div class="cont_r">
+    <div class="ct_t bk">
+        <h3 class="ct1"><span><a href="http://www.gaokao.com/baokao/lqcx/gdfsx/" target="_blank">更多>></a></span><p>各地录取分数线</p></h3>
+        <div class="hr_10"></div>
+        <ul>
+                            <li><a href="http://www.gaokao.com/e/20090616/4b8bcb3750f5a.shtml" target="_blank" title="青海省2007年高招录取最低控制分数线">青海省2007年高招录取最低控</a></li>
+                            <li><a href="http://www.gaokao.com/e/20090616/4b8bcb3744618.shtml" target="_blank" title="内蒙古2007年高招录取最低控制分数线">内蒙古2007年高招录取最低控</a></li>
+                            <li><a href="http://www.gaokao.com/e/20090616/4b8bcb3738a84.shtml" target="_blank" title="贵州省2007年高招录取最低控制分数线">贵州省2007年高招录取最低控</a></li>
+                            <li><a href="http://www.gaokao.com/e/20090616/4b8bcb3734fe5.shtml" target="_blank" title="海南省2007年高招录取最低控制分数线">海南省2007年高招录取最低控</a></li>
+                            <li><a href="http://www.gaokao.com/e/20090616/4b8bcb372f225.shtml" target="_blank" title="广西2007年各批次高考录取控制分数线">广西2007年各批次高考录取控</a></li>
+                            <li><a href="http://www.gaokao.com/e/20090616/4b8bcb371349b.shtml" target="_blank" title="云南省2007年高招录取最低控制分数线">云南省2007年高招录取最低控</a></li>
+                            <li><a href="http://www.gaokao.com/e/20090616/4b8bcb371116f.shtml" target="_blank" title="四川省2007年高招录取最低控制分数线">四川省2007年高招录取最低控</a></li>
+                            <li><a href="http://www.gaokao.com/e/20090616/4b8bcb370c172.shtml" target="_blank" title="甘肃省2007年高招录取最低控制分数线">甘肃省2007年高招录取最低控</a></li>
+                    </ul>
+    </div>
+
+    <div class="hr_10"></div>
+
+    <div class="ct_t bk">
+        <h3 class="ct2"><span><a href="http://www.gaokao.com/baokao/lqcx/dxfsx/" target="_blank">更多>></a></span><p>大学录取分数线</p></h3>
+        <div class="hr_10"></div>
+        <ul>
+                            <li><a href="http://www.gaokao.com/e/20120706/4ff6b3364dad5.shtml" target="_blank" title="2012成都医学院录取分数线">2012成都医学院录取分数线</a></li>
+                            <li><a href="http://www.gaokao.com/e/20120615/4fdaea92055ed.shtml" target="_blank" title="2012清华大学录取分数线">2012清华大学录取分数线</a></li>
+                            <li><a href="http://www.gaokao.com/e/20120706/4ff6b2325c68b.shtml" target="_blank" title="2012成都学院（成都大学）录取分数线">2012成都学院（成都大学）录</a></li>
+                            <li><a href="http://www.gaokao.com/e/20120706/4ff6aeb299084.shtml" target="_blank" title="2012湖北工业大学录取分数线">2012湖北工业大学录取分数线</a></li>
+                            <li><a href="http://www.gaokao.com/e/20120706/4ff6ae39c3918.shtml" target="_blank" title="2012三峡大学录取分数线">2012三峡大学录取分数线</a></li>
+                            <li><a href="http://www.gaokao.com/e/20120706/4ff6adbadd0e5.shtml" target="_blank" title="2012衡阳师范学院录取分数线">2012衡阳师范学院录取分数线</a></li>
+                            <li><a href="http://www.gaokao.com/e/20120623/4fe5bf56ee4a2.shtml" target="_blank" title="2012湖南农业大学录取分数线">2012湖南农业大学录取分数线</a></li>
+                            <li><a href="http://www.gaokao.com/e/20120706/4ff6a25ea48db.shtml" target="_blank" title="2012台州学院录取分数线">2012台州学院录取分数线</a></li>
+                    </ul>
+    </div>
+</div>    <div class="hr_10"></div>
+</div>
+
+<div style="display:none;">
+    <script type='text/javascript'>var EDUU_GKEY="高考网/院校库/高校分数线/主页";</script>
+    <script type="text/javascript" src="http://img.eduuu.com/edu/js/ggc.js?gx=2011_4"></script>
+    <script src=" http://s50.cnzz.com/stat.php?id=1997329&amp;web_id=1997329" type="text/javascript"></script>
+</div>
+<script type="text/javascript" language="javascript">
+    //按地区取得高校
+    function getschool(){
+        $.getJSON("http://college.gaokao.com/json/school?aid="+$('#scharea').val()+"&id=",function(data){ 
+            $("#schid").html(data.json);
+        });
+    }
+
+    //搜索分数线(下拉框)
+    function schpselect(stuarea,subject,schid,scharea){
+        if(stuarea!=''){
+            stuarea = '/a'+stuarea;
+        }
+        if(subject!=''){
+            subject = '/s'+subject;
+        }
+        if(schid!=''){
+            schid = '/c'+schid;
+        }
+        if(scharea!=''){
+            scharea = '/b'+scharea;
+        }
+
+        var page = $("#pagenum").val();
+        if(page!=''){
+            page = '/p'+page;
+        }
+
+        var url = "http://college.gaokao.com/schpoint"+stuarea+subject+schid+scharea+page+"/";
+        window.location.href=url;
+    }
+
+    //跳转到url
+    function gotourl(){
+        schpselect($("#stuarea").val(),$("#subject").val(),$("#schid").val(),$("#scharea").val())
+    }
+
+    $(document).ready(function(){
+
+        //取得select框内数据
+        $.getJSON("http://college.gaokao.com/json/area?str=1&id=",function(data){ 
+            $("#stuarea").html(data.json);
+        });
+        $.getJSON("http://college.gaokao.com/json/area?str=2&id=",function(data){ 
+            $("#scharea").html(data.json);
+            if('' > 0){
+                getschool();
+            }
+        });
+        $.getJSON("http://college.gaokao.com/json/subject?id=",function(data){ 
+            $("#subject").html(data.json);
+        });
+        $('#scharea').change(function(){
+            getschool();
+        });
+
+        //搜索分数线
+        $("#schpoint").click(function(){
+            _gaq.push(['_trackEvent', 'College', 'search', 'schpli']);
+            gotourl();
+        });
+
+        //跳转到X页
+        $("#pagego").click(function(){
+            gotourl();
+        });
+
+        //回车事件 回车触发
+        $('body').bind('keydown', function (e) {
+            var key = e.which;
+            if(key==13){
+                gotourl();
+            }
+        });
+
+    });
+
+</script>
+<div class="wrapper wj_bk">
+    <p>高考院校库分数线统计时包含了特长生分数，因此最低分和平均分可能与院校公布数据不一致，请以各高校正式公布数据为准。</p>
+    <p>如果您发现网页当中的任何错误，欢迎发送邮件（hezuo@eduu.com）与我们联系，我们会及时更正，谢谢! </p>
+</div>
+<div class="hr_10"></div>
+<div id="footer">
+    <div class="area footer">
+        <p><a href="http://www.eduu.com/edgw/" target="_blank" title="学而思简介">关于我们</a> - <a href="http://www.eduu.com/edgw/yxhz/" target="_blank">营销合作</a> - <a href="http://www.eduu.com/z/yqlj/index.html" target="_blank">友情链接</a> - <a href="http://www.eduu.com/include/site_map.html" target="_blank">网站地图</a> - <a href="http://www.eduu.com/include/fuwu.html" target="_blank">服务条款</a> - <a href="http://www.eduu.com/edgw/cpyc/shzp/" target="_blank" title="学而思招聘">诚聘英才</a> - <a href="http://help.eduu.com/help/suggesting/" target="_blank">问题反馈</a> - <a href="http://www.eduu.com/edgw/lxwm/" target="_blank">联系我们</a></p>
+
+        <p>京ICP备10033062号-1  北京市公安局海淀分局备案编号：1101081950号</p>
+        <p><a href="http://www.gaokao.com/" target="_blank">高考</a>网版权所有 Copyright &#169; 2005-2013 www.gaokao.com . All Rights Reserved</p>
+    </div>
+</div>
+
+<!-- 底部浮动层 -->
+<div class="f_foot_fixed" style="display:none;">
+	<div class="wrapper f_foot_box">
+    	<a class="f_close f_foot_bg" href="javascript:void(0);"></a>
+        <dl>
+        	<dt class="left f_foot_bg"></dt>
+            <dd class="left"><span>下载高考院校库手机客户端，助你随时随地掌握高校信息！</span><a class="f_foot_bg" href="http://www.gaokao.com/mobile/" target="_blank"></a></dd>
+        </dl>
+    </div>
+</div>
+<script>
+//关闭底部浮动层、微信关注
+var f_flag = getCookie('f_flag') ? 1 : 0;
+$(".f_close").click(function(){
+	$(this).parent().parent().hide();
+    f_flag=1;
+    setCookie('f_flag', 1, 86400000);
+})
+$(window).scroll(function(){ 
+	var win_top=$(document).scrollTop();
+	if(win_top>1 && f_flag==0)
+	{
+		$(".f_foot_fixed").fadeIn();
+	}
+	else
+	{
+		$(".f_foot_fixed").fadeOut();
+	}
+})
+
+//设置cookie
+function setCookie(cookieName, cookieValue, seconds, path, domain, secure) {
+	var expires = new Date();
+	expires.setTime(expires.getTime() + seconds);
+	document.cookie = escape(cookieName) + '=' + escape(cookieValue)
+		+ (expires ? '; expires=' + expires.toGMTString() : '')
+		+ (path ? '; path=' + path : '/')
+		+ (domain ? '; domain=' + domain : '')
+		+ (secure ? '; secure' : '');
+}
+
+//获取cookie
+function getCookie(name) {
+    var start = document.cookie.indexOf(name);
+    var end = document.cookie.indexOf(";",start);
+    return start==-1 ? null : unescape(document.cookie.substring(start+name.length+1,(end>start ? end : document.cookie.length)));
+}
+</script>
+<script type="text/javascript" src="http://college.gaokao.com/style/college/js/index_call.js"></script>
+</body>
+</html>

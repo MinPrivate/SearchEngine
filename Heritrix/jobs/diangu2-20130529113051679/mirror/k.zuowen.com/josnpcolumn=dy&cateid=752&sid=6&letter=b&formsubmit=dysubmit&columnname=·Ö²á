@@ -1,0 +1,6 @@
+document.writeln("<select name=\"bbigclass\" id=\"scharea\" class=\"select120\">");
+document.writeln("<option value=\"100\">·Ö²á</option>");
+document.writeln("<option value=\"b854\">上册</option>");
+document.writeln("<option value=\"b855\">下册</option>");
+document.writeln("</select>");
+document.writeln('<input name="column" type="hidden" value="dy" />');

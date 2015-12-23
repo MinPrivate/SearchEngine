@@ -1,0 +1,109 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>E度通行证</title>
+<link href="http://imgs.eduu.com/css/base.css" rel="stylesheet" type="text/css" />
+<link href="http://imgs.eduu.com/css/login_style.css" rel="stylesheet" type="text/css" />
+<link href="http://imgs.eduu.com/css/user_style.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript" src="http://imgs.eduu.com/js/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="http://imgs.eduu.com/js/jquery.fend.js"></script>
+<script type="text/javascript" src="http://imgs.eduu.com/dialog/jquery.artDialog.js?skin=default"></script>
+<!--[if IE 6]>
+    <script type="text/javascript" src="http://img.eduuu.com/website/public_js/DD_belatedPNG.js" ></script>
+    <script type="text/javascript">
+    DD_belatedPNG.fix('.cloud');
+    DD_belatedPNG.fix('.logo');
+    </script>
+<![endif]-->
+</head>
+<body>
+<div class="main cloud">
+    <div class="wrapper">
+        <h1 class="logo"><a href="http://www.eduu.com/" target="_blank"></a></h1>
+        <div class="content">
+            <!--<div class="corn"><img src="http://imgs.eduu.com/images/cornCon_t.gif" width="950" height="8" /></div>
+            <div class="conBox">-->
+<form method="post" >
+    <input name="url" type="hidden" value="http://my.eduu.com/blog/add/" />
+    <h2 class="titleZcDl">登录</h2>
+    <div class="homeRegL homeLoginL">
+    <ul class="loginInputBox" >
+        
+        <li class="ft14 loginInputBg2 loginInputChoose">
+            <dl class="loginfield">
+                <dd id="log_0" onclick="chgLogin('0')" style="width:60px;">用户名</dd>
+                <dd id="log_1" onclick="chgLogin('1')" style="width:60px;">UID</dd>
+                <dd id="log_2" onclick="chgLogin('2')" style="width:60px;">邮 箱</dd>
+            </dl>
+            <input name="uname" id="uname" type="text" value="" class="loginInputBorder"/>
+            <input type="hidden" id="logtype" value="0" name="logtype">
+        </li>
+        <li class="ft14 loginInputBg2 loginInputPass">密　码 ：<input name="passwd" value="" type="password" class="loginInputBorder" /></li>
+        
+        
+        <div class="clear"></div>
+        <li class="forget"><input name="islogin" type="checkbox" value="1" class="forgetInput" />&nbsp;下次自动登录&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://reg.eduu.com/getpwd" class="blue">无法登录？</a></li>
+        <li><button type="submit" class="btnLogin"></button></li>
+        <li class="hui topMargin20">您也可以用以下方式登录</li>
+        <li class="topMargin10">
+            <a class="qqlogin" href="#" onclick="javascript:apiLogin(4,'http://reg.eduu.com/');_gaq.push(['_trackEvent' ,'login', 'qq', 'step-1']);"></a> 
+            <a class="weibologin" href="#" onclick="javascript:apiLogin(1,'http://reg.eduu.com/');_gaq.push(['_trackEvent' ,'login', 'sina', 'step-1']);"></a> 
+        </li>
+        <li class="topMargin10"></li>
+    </ul>
+    </div>
+</form>
+<script type="text/javascript">
+//FD.fm.setInputDef('#uname','UID/用户名/邮箱');
+
+function chgLogin(A,B){
+    var obj=$('#log_'+A).parent();
+    if ($("#logtype").val()==A){
+        if(typeof B === 'undefined') obj.toggleClass("on_field");
+        return ;
+    }
+    $("#logtype").val(A);
+
+    var objHTML=$('#log_'+A).clone(true);
+    $('#log_'+A).remove();
+    objHTML.prependTo(obj);
+    obj.removeClass("on_field");
+
+}
+
+chgLogin('0',1);
+</script>
+<div class="homeRegR">
+<p>还没有E度通行证？立即注册</p>
+<p><a href="http://reg.eduu.com/register/" class="btnQuickReg"></a></p>
+</div>
+
+
+<!--            </div>
+            <div class="corn"><img src="http://imgs.eduu.com/images/cornCon_b.gif" width="950" height="9" /></div>-->
+        </div>
+        <div class="hr_10"></div>
+        <div class="clearfix" id="footer">
+            <div class="left"><p>e度空间 京ICP备09042963号</p><p>北京市公安局海淀分局备案编号 1101081950</p><p>客服邮箱---service@eduu.com</p></div>
+            <div class="right">
+            <a href="http://home.eduu.com/verify/" target="_blank" class="blue">认证合作</a>  |  
+            <a href="http://help.eduu.com/" target="_blank" class="blue">帮助中心</a>  |  
+            <a href="http://www.xueersi.org/" target="_blank" class="blue">关于我们</a>  |  
+            <a href="http://www.eduu.com/include/hezuo.html" target="_blank" class="blue">联系合作</a>  |  
+            <a href="http://www.eduu.com/z/yqlj/index.html" target="_blank" class="blue">友情链接</a>  |  
+            <a href="http://www.eduu.com/include/site_map.html" target="_blank" class="blue">网站地图</a>  |  
+            <a href="http://www.eduu.com/include/fuwu.html" target="_blank" class="blue">服务条款</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<div style="display:none;">
+<script src="http://img.eduuu.com/edu/js/ggc_test.js?v=20111226" type="text/javascript" type="text/javascript"></script> 
+<script src="http://s50.cnzz.com/stat.php?id=1997329&web_id=1997329" type="text/javascript" type="text/javascript"></script> 
+<script src="http://s14.cnzz.com/stat.php?id=2252450&web_id=2252450" type="text/javascript" language="JavaScript"></script> 
+</div>
+</body>
+</html>
